@@ -36,7 +36,8 @@ def _auth_header():
     if not key:
         sys.exit("INTERVALS_API_KEY is not set. Add it under Settings -> Secrets and variables -> Actions.")
     token = base64.b64encode(f"API_KEY:{key}".encode()).decode()
-    return {"Authorization": f"Basic {token}", "Accept": "application/json"}
+    return {"Authorization": f"Basic {token}", "Accept": "application/json",
+            "User-Agent": "team-training-dashboard/1.0 (GitHub Actions; python urllib)"}
 
 
 def get(path, **params):
@@ -53,7 +54,8 @@ def get(path, **params):
             if e.code in (401,):
                 sys.exit("intervals.icu rejected the API key (401). Check the INTERVALS_API_KEY secret.")
             if e.code in (403, 404):
-                print(f"  ! {e.code} on {path} (no access)")
+                body = e.read().decode("utf-8", "replace")[:200].replace("\n", " ")
+                print(f"  ! {e.code} on {path} (no access): {body}")
                 return None
             if e.code == 429 or e.code >= 500:
                 time.sleep(5 * (attempt + 1))
@@ -234,6 +236,8 @@ def rider_summary(aid, name, today):
 # ---------------------------------------------------------------- build
 
 def main():
+    key = os.environ.get("INTERVALS_API_KEY", "").strip()
+    print(f"API key loaded: {len(key)} characters (intervals.icu keys are usually about 24)")
     today = dt.datetime.now(TZ).date()
     settings = load_settings()
     riders = find_riders(settings)
