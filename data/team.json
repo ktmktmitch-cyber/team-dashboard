@@ -1,0 +1,395 @@
+{
+ "updated": "Tue Nov 10, 4:38 PM",
+ "today": "2026-11-10",
+ "riders": [
+  {
+   "id": "i285485",
+   "rider": "Kyle",
+   "state": "ok",
+   "hidden_strava": 20,
+   "hours_this_week": 1.5,
+   "hours_last_week": 12.9,
+   "hours_month": 14.5,
+   "hours_ytd": 350.5,
+   "miles_ytd": 5016,
+   "fitness": 52,
+   "form": -17,
+   "eftp_watts": 285,
+   "eftp_wkg": 3.53,
+   "prs": [
+    {
+     "rider": "Kyle",
+     "duration": "5 s",
+     "watts": 1329,
+     "wkg": 16.5,
+     "date": "2026-09-30",
+     "ride": "Final Official of the season :("
+    },
+    {
+     "rider": "Kyle",
+     "duration": "1 min",
+     "watts": 518,
+     "wkg": 6.4,
+     "date": "2026-09-30",
+     "ride": "Final Official of the season :("
+    },
+    {
+     "rider": "Kyle",
+     "duration": "3 min",
+     "watts": 425,
+     "wkg": 5.3,
+     "date": "2026-11-03",
+     "ride": "WAITER WAITER"
+    },
+    {
+     "rider": "Kyle",
+     "duration": "12 min",
+     "watts": 315,
+     "wkg": 3.9,
+     "date": "2026-11-03",
+     "ride": "WAITER WAITER"
+    }
+   ],
+   "p5s": 1329,
+   "p5s_pr": true,
+   "p1m": 518,
+   "p1m_pr": true,
+   "p3m": 425,
+   "p3m_pr": true,
+   "p12m": 315,
+   "p12m_pr": true,
+   "p20m": 269,
+   "p20m_pr": false
+  },
+  {
+   "id": "i793826",
+   "rider": "Carmelo",
+   "state": "ok",
+   "hidden_strava": 0,
+   "hours_this_week": 0.5,
+   "hours_last_week": 0.0,
+   "hours_month": 0.5,
+   "hours_ytd": 0.5,
+   "miles_ytd": 0,
+   "fitness": 0,
+   "form": 0,
+   "eftp_watts": null,
+   "eftp_wkg": null,
+   "prs": [
+    {
+     "rider": "Carmelo",
+     "duration": "5 s",
+     "watts": 110,
+     "wkg": 1.4,
+     "date": "2026-11-10",
+     "ride": "Bloomington Cycling"
+    },
+    {
+     "rider": "Carmelo",
+     "duration": "1 min",
+     "watts": 106,
+     "wkg": 1.4,
+     "date": "2026-11-10",
+     "ride": "Bloomington Cycling"
+    },
+    {
+     "rider": "Carmelo",
+     "duration": "3 min",
+     "watts": 103,
+     "wkg": 1.3,
+     "date": "2026-11-10",
+     "ride": "Bloomington Cycling"
+    },
+    {
+     "rider": "Carmelo",
+     "duration": "12 min",
+     "watts": 92,
+     "wkg": 1.2,
+     "date": "2026-11-10",
+     "ride": "Bloomington Cycling"
+    },
+    {
+     "rider": "Carmelo",
+     "duration": "20 min",
+     "watts": 88,
+     "wkg": 1.1,
+     "date": "2026-11-10",
+     "ride": "Bloomington Cycling"
+    }
+   ],
+   "p5s": 110,
+   "p5s_pr": true,
+   "p1m": 106,
+   "p1m_pr": true,
+   "p3m": 103,
+   "p3m_pr": true,
+   "p12m": 92,
+   "p12m_pr": true,
+   "p20m": 88,
+   "p20m_pr": true
+  },
+  {
+   "id": "i793832",
+   "rider": "Rishabh",
+   "state": "ok",
+   "hidden_strava": 0,
+   "hours_this_week": 0.0,
+   "hours_last_week": 0.0,
+   "hours_month": 0.0,
+   "hours_ytd": 179.6,
+   "miles_ytd": 2510,
+   "fitness": 5,
+   "form": 2,
+   "eftp_watts": null,
+   "eftp_wkg": null,
+   "prs": [],
+   "p5s": null,
+   "p5s_pr": false,
+   "p1m": null,
+   "p1m_pr": false,
+   "p3m": null,
+   "p3m_pr": false,
+   "p12m": null,
+   "p12m_pr": false,
+   "p20m": null,
+   "p20m_pr": false
+  },
+  {
+   "id": "i793870",
+   "rider": "Tin",
+   "state": "ok",
+   "hidden_strava": 0,
+   "hours_this_week": 0.0,
+   "hours_last_week": 2.1,
+   "hours_month": 2.1,
+   "hours_ytd": 170.8,
+   "miles_ytd": 2498,
+   "fitness": 40,
+   "form": 17,
+   "eftp_watts": 229,
+   "eftp_wkg": 3.37,
+   "prs": [
+    {
+     "rider": "Tin",
+     "duration": "5 s",
+     "watts": 841,
+     "wkg": 12.4,
+     "date": "2026-09-30",
+     "ride": "Bloomington Road Cycling"
+    }
+   ],
+   "p5s": 841,
+   "p5s_pr": true,
+   "p1m": 425,
+   "p1m_pr": false,
+   "p3m": 284,
+   "p3m_pr": false,
+   "p12m": 209,
+   "p12m_pr": false,
+   "p20m": 204,
+   "p20m_pr": false
+  }
+ ],
+ "feed": [
+  {
+   "rider": "Carmelo",
+   "start": "2026-11-10T15:49:05",
+   "date": "2026-11-10",
+   "name": "Bloomington Cycling",
+   "type": "Ride",
+   "hours": 0.5,
+   "miles": null,
+   "load": 6
+  },
+  {
+   "rider": "Kyle",
+   "start": "2026-11-10T12:05:11",
+   "date": "2026-11-10",
+   "name": "Bloomington - JOIN Cycling - Intensive endurance",
+   "type": "Ride",
+   "hours": 1.5,
+   "miles": 26.1,
+   "load": 61
+  },
+  {
+   "rider": "Kyle",
+   "start": "2026-11-08T10:42:53",
+   "date": "2026-11-08",
+   "name": "Paceline and Chill",
+   "type": "Ride",
+   "hours": 3.7,
+   "miles": 78.3,
+   "load": 226
+  },
+  {
+   "rider": "Kyle",
+   "start": "2026-11-08T10:16:42",
+   "date": "2026-11-08",
+   "name": "Bloomington Road Cycling",
+   "type": "Ride",
+   "hours": 0.2,
+   "miles": 3.7,
+   "load": 13
+  },
+  {
+   "rider": "Kyle",
+   "start": "2026-11-07T14:00:23",
+   "date": "2026-11-07",
+   "name": "Aknovus",
+   "type": "Ride",
+   "hours": 2.7,
+   "miles": 46.7,
+   "load": 129
+  },
+  {
+   "rider": "Tin",
+   "start": "2026-11-06T17:20:18",
+   "date": "2026-11-06",
+   "name": "Indoor Cycling",
+   "type": "VirtualRide",
+   "hours": 0.5,
+   "miles": null,
+   "load": 31
+  },
+  {
+   "rider": "Kyle",
+   "start": "2026-11-05T19:05:13",
+   "date": "2026-11-05",
+   "name": "Strength",
+   "type": "WeightTraining",
+   "hours": 1.2,
+   "miles": null,
+   "load": 26
+  },
+  {
+   "rider": "Kyle",
+   "start": "2026-11-05T11:30:26",
+   "date": "2026-11-05",
+   "name": "Flynn Knows Ball",
+   "type": "Ride",
+   "hours": 2.2,
+   "miles": 35.4,
+   "load": 95
+  },
+  {
+   "rider": "Kyle",
+   "start": "2026-11-03T12:31:59",
+   "date": "2026-11-03",
+   "name": "WAITER WAITER",
+   "type": "Ride",
+   "hours": 2.0,
+   "miles": 30.8,
+   "load": 102
+  },
+  {
+   "rider": "Kyle",
+   "start": "2026-11-02T13:30:21",
+   "date": "2026-11-02",
+   "name": "Bloomington Road Cycling",
+   "type": "Ride",
+   "hours": 2.1,
+   "miles": 32.6,
+   "load": 58
+  },
+  {
+   "rider": "Tin",
+   "start": "2026-11-02T13:22:03",
+   "date": "2026-11-02",
+   "name": "Bloomington Road Cycling",
+   "type": "Ride",
+   "hours": 1.6,
+   "miles": 22.5,
+   "load": 51
+  },
+  {
+   "rider": "Kyle",
+   "start": "2026-11-02T11:09:51",
+   "date": "2026-11-02",
+   "name": "Strength",
+   "type": "WeightTraining",
+   "hours": 0.8,
+   "miles": null,
+   "load": 14
+  },
+  {
+   "rider": "Tin",
+   "start": "2026-10-31T14:42:48",
+   "date": "2026-10-31",
+   "name": "Bloomington Road Cycling",
+   "type": "Ride",
+   "hours": 2.5,
+   "miles": 37.4,
+   "load": 90
+  },
+  {
+   "rider": "Kyle",
+   "start": "2026-10-30T18:34:23",
+   "date": "2026-10-30",
+   "name": "Bloomington - JOIN Cycling - 5x 8 min tempo",
+   "type": "Ride",
+   "hours": 1.3,
+   "miles": 22.2,
+   "load": 75
+  },
+  {
+   "rider": "Tin",
+   "start": "2026-10-30T16:41:12",
+   "date": "2026-10-30",
+   "name": "Bloomington Road Cycling",
+   "type": "Ride",
+   "hours": 2.0,
+   "miles": 30.0,
+   "load": 96
+  },
+  {
+   "rider": "Tin",
+   "start": "2026-10-29T19:09:58",
+   "date": "2026-10-29",
+   "name": "Bloomington Road Cycling",
+   "type": "Ride",
+   "hours": 0.2,
+   "miles": 2.4,
+   "load": 6
+  },
+  {
+   "rider": "Kyle",
+   "start": "2026-10-29T17:14:26",
+   "date": "2026-10-29",
+   "name": "Strength",
+   "type": "WeightTraining",
+   "hours": 0.6,
+   "miles": null,
+   "load": 11
+  },
+  {
+   "rider": "Tin",
+   "start": "2026-10-29T14:45:15",
+   "date": "2026-10-29",
+   "name": "Bloomington Road Cycling",
+   "type": "Ride",
+   "hours": 2.9,
+   "miles": 48.4,
+   "load": 139
+  },
+  {
+   "rider": "Kyle",
+   "start": "2026-10-28T21:18:10",
+   "date": "2026-10-28",
+   "name": "Bloomington Cycling",
+   "type": "Ride",
+   "hours": 0.3,
+   "miles": 5.8,
+   "load": 0
+  },
+  {
+   "rider": "Kyle",
+   "start": "2026-10-28T20:33:52",
+   "date": "2026-10-28",
+   "name": "Indoor Cycling",
+   "type": "VirtualRide",
+   "hours": 0.3,
+   "miles": null,
+   "load": 13
+  }
+ ]
+}
