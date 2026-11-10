@@ -1,0 +1,51 @@
+name: Update dashboard
+
+on:
+  schedule:
+    # Every 3 hours, starting 5:07 AM Eastern (times are UTC).
+    - cron: "7 1,10,13,16,19,22 * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Pull data from intervals.icu and build the page
+        env:
+          INTERVALS_API_KEY: ${{ secrets.INTERVALS_API_KEY }}
+        run: python fetch.py
+
+      - name: Save the team data file for the Claude dashboard
+        run: |
+          git config user.name "dashboard-bot"
+          git config user.email "dashboard-bot@users.noreply.github.com"
+          git add data/team.json
+          git diff --cached --quiet || git commit -m "Update team data"
+          git push
+
+      - uses: actions/configure-pages@v5
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+
+      - id: deploy
+        uses: actions/deploy-pages@v4
