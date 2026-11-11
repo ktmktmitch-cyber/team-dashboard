@@ -122,7 +122,7 @@ def find_riders(settings):
 # ---------------------------------------------------------------- per rider
 
 def best_power(curves_answer):
-    """{'42d': {secs: (watts, wkg, activity_id)}, '1y': {...}}, activity names by id."""
+    """{'56d': {secs: (watts, wkg, activity_id)}, '1y': {...}}, activity names by id."""
     out, names = {}, {}
     if not curves_answer:
         return out, names
@@ -153,14 +153,15 @@ def rider_summary(aid, name, today):
     last_monday = monday - dt.timedelta(days=7)
     month_start = today.replace(day=1)
     year_start = today.replace(month=1, day=1)
-    oldest = min(year_start, last_monday, today - dt.timedelta(days=14))
+    eight_weeks_start = monday - dt.timedelta(weeks=7)
+    oldest = min(year_start, eight_weeks_start, today - dt.timedelta(days=14))
 
     acts = get(f"/athlete/{aid}/activities", oldest=oldest.isoformat(), newest=today.isoformat())
     if acts is None:
         return {"id": aid, "rider": name, "state": "blocked"}, []
 
     hidden = 0
-    rides, feed = [], []
+    rides, feed, recent_rides = [], [], []
     for a in acts:
         if not a.get("type"):  # Strava-only activities come back as empty stubs
             hidden += 1
@@ -173,6 +174,16 @@ def rider_summary(aid, name, today):
             "meters": a.get("distance") or 0,
         }
         rides.append(rec)
+        if rec["is_ride"]:
+            recent_rides.append({
+                "start": a.get("start_date_local") or "", "date": day.isoformat(),
+                "name": a.get("name") or "", "type": a["type"],
+                "hours": round(rec["secs"] / 3600, 1),
+                "miles": round(rec["meters"] / 1609.344, 1) if rec["meters"] else None,
+                "avg_watts": round(a["icu_average_watts"]) if a.get("icu_average_watts") else None,
+                "np": round(a["icu_weighted_avg_watts"]) if a.get("icu_weighted_avg_watts") else None,
+                "load": a.get("icu_training_load"),
+            })
         if day >= today - dt.timedelta(days=13):
             feed.append({
                 "rider": name, "start": a.get("start_date_local") or "", "date": day.isoformat(),
@@ -188,14 +199,30 @@ def rider_summary(aid, name, today):
 
     year_rides = [r for r in rides if r["is_ride"] and r["day"] >= year_start]
 
-    # Fitness and form: today's wellness record, else the latest activity's values.
+    # Weekly ride hours and miles for the last 8 calendar weeks (oldest first).
+    weeks = []
+    for i in range(7, -1, -1):
+        start = monday - dt.timedelta(weeks=i)
+        end = start + dt.timedelta(days=7)
+        wk = [r for r in rides if r["is_ride"] and start <= r["day"] < end]
+        weeks.append({"week": start.isoformat(),
+                      "hours": round(sum(r["secs"] for r in wk) / 3600, 1),
+                      "miles": round(sum(r["meters"] for r in wk) / 1609.344),
+                      "rides": len(wk)})
+
+    # Fitness, fatigue and form for the last 8 weeks; today's values for the leaderboard.
     fitness = form = None
-    well = get(f"/athlete/{aid}/wellness", oldest=(today - dt.timedelta(days=3)).isoformat(), newest=today.isoformat())
+    trend = []
+    well = get(f"/athlete/{aid}/wellness", oldest=(today - dt.timedelta(days=55)).isoformat(), newest=today.isoformat())
     if well:
-        latest = sorted([w for w in well if w.get("ctl") is not None], key=lambda w: w.get("id", ""))
-        if latest:
-            fitness = round(latest[-1]["ctl"])
-            form = round(latest[-1]["ctl"] - (latest[-1].get("atl") or 0))
+        days = sorted([w for w in well if w.get("ctl") is not None], key=lambda w: w.get("id", ""))
+        for w in days:
+            atl = w.get("atl") or 0
+            trend.append({"date": w.get("id"), "fitness": round(w["ctl"], 1),
+                          "fatigue": round(atl, 1), "form": round(w["ctl"] - atl, 1)})
+        if days:
+            fitness = round(days[-1]["ctl"])
+            form = round(days[-1]["ctl"] - (days[-1].get("atl") or 0))
     newest_ride = next((a for a in sorted(acts, key=lambda a: a.get("start_date_local") or "", reverse=True)
                         if a.get("type") and "Ride" in a["type"] and a.get("icu_rolling_ftp")), None)
     if fitness is None and newest_ride and newest_ride.get("icu_ctl") is not None:
@@ -208,8 +235,8 @@ def rider_summary(aid, name, today):
         if newest_ride.get("icu_weight"):
             eftp_wkg = round(newest_ride["icu_rolling_ftp"] / newest_ride["icu_weight"], 2)
 
-    curves, act_names = best_power(get(f"/athlete/{aid}/power-curves.json", curves="42d,1y", type="Ride"))
-    recent, year = curves.get("42d", {}), curves.get("1y", {})
+    curves, act_names = best_power(get(f"/athlete/{aid}/power-curves.json", curves="56d,1y", type="Ride"))
+    recent, year = curves.get("56d", {}), curves.get("1y", {})
 
     row = {
         "id": aid, "rider": name, "state": "ok", "hidden_strava": hidden,
@@ -220,6 +247,9 @@ def rider_summary(aid, name, today):
         "miles_ytd": round(sum(r["meters"] for r in year_rides) / 1609.344),
         "fitness": fitness, "form": form, "eftp_watts": eftp, "eftp_wkg": eftp_wkg,
         "prs": [],
+        "weeks": weeks,
+        "trend": trend,
+        "recent_rides": sorted(recent_rides, key=lambda r: r["start"], reverse=True)[:10],
     }
     for secs, label, key in POWER_DURATIONS:
         best = recent.get(secs)
