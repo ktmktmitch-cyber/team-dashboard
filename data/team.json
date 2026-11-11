@@ -1,5 +1,5 @@
 {
- "updated": "Wed Nov 11, 9:32 AM",
+ "updated": "Wed Nov 11, 10:46 AM",
  "today": "2026-11-11",
  "riders": [
   {
@@ -10,8 +10,8 @@
    "hours_this_week": 1.5,
    "hours_last_week": 12.9,
    "hours_month": 14.5,
-   "hours_ytd": 350.5,
-   "miles_ytd": 5016,
+   "hours_ytd": 351.8,
+   "miles_ytd": 5024,
    "fitness": 51,
    "form": -9,
    "eftp_watts": 285,
@@ -566,11 +566,11 @@
    "rider": "Carmelo",
    "state": "ok",
    "hidden_strava": 0,
-   "hours_this_week": 0.5,
+   "hours_this_week": 0.9,
    "hours_last_week": 0.0,
-   "hours_month": 0.5,
-   "hours_ytd": 0.5,
-   "miles_ytd": 0,
+   "hours_month": 0.9,
+   "hours_ytd": 0.9,
+   "miles_ytd": 3,
    "fitness": 0,
    "form": 0,
    "eftp_watts": null,
@@ -662,9 +662,9 @@
     },
     {
      "week": "2026-11-09",
-     "hours": 0.5,
-     "miles": 0,
-     "rides": 1
+     "hours": 0.9,
+     "miles": 3,
+     "rides": 2
     }
    ],
    "trend": [
@@ -682,6 +682,17 @@
     }
    ],
    "recent_rides": [
+    {
+     "start": "2026-11-10T18:37:19",
+     "date": "2026-11-10",
+     "name": "Bloomington Running",
+     "type": "Run",
+     "hours": 0.4,
+     "miles": 2.5,
+     "avg_watts": null,
+     "np": null,
+     "load": 16
+    },
     {
      "start": "2026-11-10T15:49:05",
      "date": "2026-11-10",
@@ -707,7 +718,7 @@
   },
   {
    "id": "i793997",
-   "rider": "Luke Wachowiak",
+   "rider": "Luke",
    "state": "ok",
    "hidden_strava": 0,
    "hours_this_week": 0.0,
