@@ -22,6 +22,15 @@ from zoneinfo import ZoneInfo
 
 API = "https://intervals.icu/api/v1"
 TZ = ZoneInfo(os.environ.get("TEAM_TIMEZONE", "America/Indiana/Indianapolis"))
+# Activity types that count toward hours and miles: every kind of ride (road, gravel,
+# MTB, indoor/virtual, trainer, track, cyclocross, e-bike) and every kind of run.
+COUNTED_TYPES = ("Ride", "Run", "Cyclocross", "Velomobile", "Handcycle")
+
+
+def counts(activity_type):
+    return any(t in (activity_type or "") for t in COUNTED_TYPES)
+
+
 POWER_DURATIONS = [(5, "5 s", "p5s"), (60, "1 min", "p1m"), (180, "3 min", "p3m"),
                    (720, "12 min", "p12m"), (1200, "20 min", "p20m")]
 HERE = os.path.dirname(os.path.abspath(__file__))
@@ -113,6 +122,12 @@ def find_riders(settings):
         riders.setdefault(aid, aid)
     for aid in settings["hide"]:
         riders.pop(aid, None)
+    # Show first names only, so names stay short and line up; add a last initial if two match.
+    first = {aid: (n.split() or [n])[0] for aid, n in riders.items()}
+    for aid, n in riders.items():
+        parts = n.split()
+        clash = sum(1 for f in first.values() if f == first[aid]) > 1
+        riders[aid] = f"{parts[0]} {parts[-1][0]}." if clash and len(parts) > 1 else first[aid]
     for aid, name in settings["names"].items():
         if aid in riders:
             riders[aid] = name
@@ -169,7 +184,7 @@ def rider_summary(aid, name, today):
         day = dt.date.fromisoformat((a.get("start_date_local") or "")[:10])
         rec = {
             "day": day,
-            "is_ride": "Ride" in a["type"],
+            "is_ride": counts(a["type"]),
             "secs": a.get("moving_time") or 0,
             "meters": a.get("distance") or 0,
         }
