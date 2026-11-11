@@ -1,5 +1,5 @@
 {
- "updated": "Tue Nov 10, 5:44 PM",
+ "updated": "Tue Nov 10, 9:02 PM",
  "today": "2026-11-10",
  "riders": [
   {
@@ -19,22 +19,6 @@
    "prs": [
     {
      "rider": "Kyle",
-     "duration": "5 s",
-     "watts": 1329,
-     "wkg": 16.5,
-     "date": "2026-09-30",
-     "ride": "Final Official of the season :("
-    },
-    {
-     "rider": "Kyle",
-     "duration": "1 min",
-     "watts": 518,
-     "wkg": 6.4,
-     "date": "2026-09-30",
-     "ride": "Final Official of the season :("
-    },
-    {
-     "rider": "Kyle",
      "duration": "3 min",
      "watts": 425,
      "wkg": 5.3,
@@ -50,15 +34,15 @@
      "ride": "WAITER WAITER"
     }
    ],
-   "p5s": 1329,
-   "p5s_pr": true,
-   "p1m": 518,
-   "p1m_pr": true,
+   "p5s": 1249,
+   "p5s_pr": false,
+   "p1m": 482,
+   "p1m_pr": false,
    "p3m": 425,
    "p3m_pr": true,
    "p12m": 315,
    "p12m_pr": true,
-   "p20m": 269,
+   "p20m": 253,
    "p20m_pr": false
   },
   {
@@ -168,29 +152,30 @@
    "form": 17,
    "eftp_watts": 229,
    "eftp_wkg": 3.37,
-   "prs": [
-    {
-     "rider": "Tin",
-     "duration": "5 s",
-     "watts": 841,
-     "wkg": 12.4,
-     "date": "2026-09-30",
-     "ride": "Bloomington Road Cycling"
-    }
-   ],
-   "p5s": 841,
-   "p5s_pr": true,
-   "p1m": 425,
+   "prs": [],
+   "p5s": 729,
+   "p5s_pr": false,
+   "p1m": 412,
    "p1m_pr": false,
    "p3m": 284,
    "p3m_pr": false,
-   "p12m": 209,
+   "p12m": 198,
    "p12m_pr": false,
-   "p20m": 204,
+   "p20m": 192,
    "p20m_pr": false
   }
  ],
  "feed": [
+  {
+   "rider": "Carmelo",
+   "start": "2026-11-10T18:37:19",
+   "date": "2026-11-10",
+   "name": "Bloomington Running",
+   "type": "Run",
+   "hours": 0.4,
+   "miles": 2.5,
+   "load": 16
+  },
   {
    "rider": "Carmelo",
    "start": "2026-11-10T15:49:05",
