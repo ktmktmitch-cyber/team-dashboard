@@ -1,5 +1,5 @@
 {
- "updated": "Wed Nov 11, 6:00 AM",
+ "updated": "Wed Nov 11, 8:54 AM",
  "today": "2026-11-11",
  "riders": [
   {
@@ -111,6 +111,32 @@
    "p12m_pr": true,
    "p20m": 88,
    "p20m_pr": true
+  },
+  {
+   "id": "i793997",
+   "rider": "Luke Wachowiak",
+   "state": "ok",
+   "hidden_strava": 0,
+   "hours_this_week": 0.0,
+   "hours_last_week": 0.0,
+   "hours_month": 0.0,
+   "hours_ytd": 0.0,
+   "miles_ytd": 0,
+   "fitness": null,
+   "form": null,
+   "eftp_watts": null,
+   "eftp_wkg": null,
+   "prs": [],
+   "p5s": null,
+   "p5s_pr": false,
+   "p1m": null,
+   "p1m_pr": false,
+   "p3m": null,
+   "p3m_pr": false,
+   "p12m": null,
+   "p12m_pr": false,
+   "p20m": null,
+   "p20m_pr": false
   },
   {
    "id": "i793832",
