@@ -58,6 +58,17 @@
   .bar.last { background: var(--accent-soft); }
   .legend { display: flex; gap: 16px; font-size: 12px; color: var(--muted); margin: 0 0 10px; }
   .legend i { display: inline-block; width: 10px; height: 10px; border-radius: 2px; margin-right: 6px; vertical-align: -1px; }
+  .rider-btn { background: none; border: 0; padding: 0; font: inherit; color: var(--accent); cursor: pointer; text-decoration: underline; text-underline-offset: 3px; }
+  #detail[hidden] { display: none; }
+  .detail-head { display: flex; flex-wrap: wrap; align-items: baseline; gap: 12px; justify-content: space-between; }
+  .detail-head select { font: inherit; padding: 4px 8px; border-radius: 6px; border: 1px solid var(--line); background: var(--panel); color: var(--fg); }
+  .detail-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 12px; margin-top: 12px; }
+  .chart svg { width: 100%; height: auto; display: block; }
+  .chart text { font-family: var(--sans); font-size: 11px; fill: var(--muted); }
+  .chart .val { fill: var(--fg); font-weight: 600; }
+  .chart .grid { stroke: var(--line); }
+  .key { display: flex; gap: 14px; font-size: 12px; color: var(--muted); margin: 6px 0 0; flex-wrap: wrap; }
+  .key i { display: inline-block; width: 12px; height: 3px; border-radius: 2px; margin-right: 6px; vertical-align: 3px; }
   details summary { cursor: pointer; font-size: 13px; color: var(--muted); }
   dl { font-size: 13px; color: var(--muted); }
   dt { color: var(--fg); font-weight: 600; margin-top: 8px; }
@@ -71,7 +82,7 @@
     <p class="lede" id="lede"></p>
     <p class="stamp" id="stamp"></p>
   </header>
-
+ 
   <section class="tiles">
     <div class="card">
       <p class="label">Team ride hours · this week</p>
@@ -89,15 +100,15 @@
       <p class="sub">of <span id="t-riders"></span> on the roster · <span id="t-connected"></span> connected</p>
     </div>
     <div class="card">
-      <p class="label">Power PRs · last 42 days</p>
+      <p class="label">Power PRs · last 8 weeks</p>
       <div class="big" id="t-prs"></div>
       <p class="sub">Best of the past year at 5 s to 20 min</p>
     </div>
   </section>
-
+ 
   <section>
     <h2>Leaderboard</h2>
-    <p class="note">Tap a column to sort. Ride hours by calendar week (Mon–Sun), month and year. Power is each rider's best in watts over the last 42 days; ★ marks a best of the past year.</p>
+    <p class="note">Tap a column to sort, or a name to see that rider's weeks, fitness and rides. Ride hours by calendar week (Mon–Sun), month and year. Power is each rider's best in watts over the last 8 weeks; ★ marks a best of the past year.</p>
     <div class="scroll">
       <table class="sortable" id="board">
         <thead>
@@ -105,7 +116,7 @@
             <th class="sticky"></th>
             <th class="group" colspan="5">Ride volume</th>
             <th class="group" colspan="4">Fitness</th>
-            <th class="group" colspan="5">Best power, last 42 days (W)</th>
+            <th class="group" colspan="5">Best power, last 8 weeks (W)</th>
           </tr>
           <tr>
             <th class="l sticky" data-key="rider" data-text="1">Rider</th>
@@ -130,16 +141,42 @@
     </div>
     <p class="note" id="hidden-visible" style="margin-top:10px"></p>
   </section>
-
+ 
+  <section id="detail" hidden>
+    <div class="detail-head">
+      <h2 id="detail-name">Rider</h2>
+      <label class="note" style="margin:0">Rider <select id="detail-pick"></select></label>
+    </div>
+    <div class="detail-grid">
+      <div class="card chart">
+        <p class="label">Ride hours by week · last 8 weeks</p>
+        <div id="detail-weeks"></div>
+        <p class="key">Grey bar = this week so far</p>
+      </div>
+      <div class="card chart">
+        <p class="label">Fitness, fatigue and form · last 8 weeks</p>
+        <div id="detail-trend"></div>
+        <p class="key"><span><i style="background:var(--accent)"></i>Fitness</span><span><i style="background:#c46b2b"></i>Fatigue</span><span><i style="background:var(--ok)"></i>Form</span></p>
+      </div>
+    </div>
+    <h2 style="margin-top:20px">Latest rides</h2>
+    <div class="scroll">
+      <table id="detail-rides">
+        <thead><tr><th class="l">Date</th><th class="l">Ride</th><th class="l">Type</th><th>Hours</th><th>Miles</th><th>Avg W</th><th>NP</th><th>Load</th></tr></thead>
+        <tbody></tbody>
+      </table>
+    </div>
+  </section>
+ 
   <section>
     <h2>Ride hours by rider</h2>
     <p class="legend"><span><i style="background:var(--accent)"></i>This week</span><span><i style="background:var(--accent-soft)"></i>Last week</span></p>
     <div class="bars" id="bars"></div>
   </section>
-
+ 
   <section>
     <h2>Recent PRs</h2>
-    <p class="note">Efforts in the last 42 days that match or beat the rider's best of the past year.</p>
+    <p class="note">Efforts in the last 8 weeks that match or beat the rider's best of the past year.</p>
     <div class="scroll">
       <table id="prs">
         <thead><tr><th class="l">Rider</th><th class="l">Duration</th><th>Watts</th><th>W/kg</th><th class="l">Date</th><th class="l">Ride</th></tr></thead>
@@ -147,7 +184,7 @@
       </table>
     </div>
   </section>
-
+ 
   <section>
     <h2>Recent activity</h2>
     <p class="note">Everything the team has logged in the last 14 days, newest first.</p>
@@ -158,7 +195,7 @@
       </table>
     </div>
   </section>
-
+ 
   <details>
     <summary>What the numbers mean</summary>
     <dl>
@@ -167,20 +204,20 @@
       <dt>Fitness</dt><dd>intervals.icu's chronic training load (CTL): roughly a 6-week average of daily training load. Higher means more fit.</dd>
       <dt>Form</dt><dd>Fitness minus fatigue (TSB). About −10 to −30 is productive training (green); below −30 is high fatigue risk (red); above +5 is fresh.</dd>
       <dt>eFTP</dt><dd>intervals.icu's estimated functional threshold power from recent rides, in watts and per kg of body weight.</dd>
-      <dt>Power PR</dt><dd>A best effort in the last 42 days that matches or beats the rider's best for that duration over the past year. Only riders with a power meter or smart trainer have power numbers.</dd>
+      <dt>Power PR</dt><dd>A best effort in the last 8 weeks that matches or beats the rider's best for that duration over the past year. Only riders with a power meter or smart trainer have power numbers.</dd>
     </dl>
   </details>
 </main>
-
+ 
 <script>
   const DATA = /*DATA*/null;
-
+ 
   const $ = (sel) => document.querySelector(sel);
   const dash = '—';
   const h1 = (v) => (v == null ? dash : v.toFixed(1));
   const n0 = (v) => (v == null ? dash : Math.round(v).toLocaleString('en-US'));
   const day = (iso) => (iso ? new Date(iso + 'T12:00:00').toLocaleDateString('en-US', { weekday: 'short', month: 'short', day: 'numeric' }) : dash);
-
+ 
   function cell(tr, text, cls) {
     const td = document.createElement('td');
     if (cls) td.className = cls;
@@ -188,14 +225,14 @@
     tr.append(td);
     return td;
   }
-
+ 
   function emptyRow(tbody, cols, text) {
     const tr = document.createElement('tr');
     const td = cell(tr, text, 'empty');
     td.colSpan = cols;
     tbody.append(tr);
   }
-
+ 
   if (!DATA) {
     $('#lede').textContent = 'No data yet. Run the "Update dashboard" workflow on GitHub.';
   } else {
@@ -204,7 +241,7 @@
     const sum = (k) => ok.reduce((s, r) => s + (r[k] || 0), 0);
     const ranked = ok.filter((r) => r.hours_this_week > 0).sort((a, b) => b.hours_this_week - a.hours_this_week);
     const prs = ok.flatMap((r) => r.prs);
-
+ 
     $('#stamp').textContent = 'Updated ' + DATA.updated;
     $('#lede').innerHTML = '';
     if (ranked.length) {
@@ -214,7 +251,7 @@
     } else {
       $('#lede').textContent = 'No rides logged by the team yet this week (weeks start Monday).';
     }
-
+ 
     $('#t-week').textContent = h1(sum('hours_this_week'));
     $('#t-last').textContent = h1(sum('hours_last_week'));
     $('#t-month').textContent = h1(sum('hours_month'));
@@ -224,7 +261,7 @@
     $('#t-riders').textContent = all.length;
     $('#t-connected').textContent = ok.length;
     $('#t-prs').textContent = prs.length;
-
+ 
     // Leaderboard, sortable by any column.
     const sort = { key: 'hours_this_week', dir: -1 };
     function drawBoard() {
@@ -243,7 +280,12 @@
       });
       rows.forEach((r) => {
         const tr = document.createElement('tr');
-        cell(tr, r.rider, 'l sticky');
+        const nameTd = cell(tr, '', 'l sticky');
+        const btn = document.createElement('button');
+        btn.className = 'rider-btn';
+        btn.textContent = r.rider;
+        btn.addEventListener('click', () => showRider(r.id, true));
+        nameTd.append(btn);
         cell(tr, h1(r.hours_this_week));
         cell(tr, h1(r.hours_last_week));
         cell(tr, h1(r.hours_month));
@@ -276,7 +318,92 @@
       th.addEventListener('keydown', (e) => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); go(); } });
     });
     drawBoard();
-
+ 
+ 
+    // ---- Rider detail: weekly hours, fitness/form and latest rides ----
+    const NS = 'http://www.w3.org/2000/svg';
+    const svgEl = (tag, attrs, text) => {
+      const el = document.createElementNS(NS, tag);
+      Object.entries(attrs || {}).forEach(([k, v]) => el.setAttribute(k, v));
+      if (text != null) el.textContent = text;
+      return el;
+    };
+    const short = (iso) => new Date(iso + 'T12:00:00').toLocaleDateString('en-US', { month: 'short', day: 'numeric' });
+ 
+    function weeksChart(weeks) {
+      const W = 360, H = 190, m = { t: 20, r: 6, b: 34, l: 6 };
+      const svg = svgEl('svg', { viewBox: `0 0 ${W} ${H}`, role: 'img', 'aria-label': 'Ride hours for each of the last 8 weeks' });
+      const max = Math.max(1, ...weeks.map((w) => w.hours));
+      const bw = (W - m.l - m.r) / weeks.length;
+      weeks.forEach((w, i) => {
+        const h = (H - m.t - m.b) * (w.hours / max);
+        const x = m.l + i * bw + bw * 0.15;
+        const y = H - m.b - h;
+        const current = i === weeks.length - 1;
+        svg.append(svgEl('rect', { x, y, width: bw * 0.7, height: Math.max(h, 1), rx: 3, fill: current ? 'var(--accent-soft)' : 'var(--accent)' }));
+        svg.append(svgEl('text', { x: x + bw * 0.35, y: y - 5, 'text-anchor': 'middle', class: 'val' }, w.hours.toFixed(1)));
+        svg.append(svgEl('text', { x: x + bw * 0.35, y: H - m.b + 14, 'text-anchor': 'middle' }, short(w.week)));
+        svg.append(svgEl('text', { x: x + bw * 0.35, y: H - m.b + 27, 'text-anchor': 'middle' }, w.rides + (w.rides === 1 ? ' ride' : ' rides')));
+      });
+      return svg;
+    }
+ 
+    function trendChart(trend) {
+      const W = 360, H = 210, m = { t: 12, r: 34, b: 22, l: 28 };
+      const svg = svgEl('svg', { viewBox: `0 0 ${W} ${H}`, role: 'img', 'aria-label': 'Fitness, fatigue and form over the last 8 weeks' });
+      if (!trend.length) { svg.append(svgEl('text', { x: 10, y: 30 }, 'No fitness data yet')); return svg; }
+      const vals = trend.flatMap((d) => [d.fitness, d.fatigue, d.form]);
+      const lo = Math.min(0, Math.floor(Math.min(...vals) / 10) * 10);
+      const hi = Math.ceil(Math.max(...vals) / 10) * 10 || 10;
+      const x = (i) => m.l + (W - m.l - m.r) * (trend.length === 1 ? 0.5 : i / (trend.length - 1));
+      const y = (v) => m.t + (H - m.t - m.b) * (1 - (v - lo) / (hi - lo));
+      for (let v = lo; v <= hi; v += (hi - lo > 60 ? 20 : 10)) {
+        svg.append(svgEl('line', { x1: m.l, x2: W - m.r, y1: y(v), y2: y(v), class: 'grid', 'stroke-width': v === 0 ? 1.5 : 0.5 }));
+        svg.append(svgEl('text', { x: m.l - 4, y: y(v) + 4, 'text-anchor': 'end' }, String(v)));
+      }
+      [['fitness', 'var(--accent)'], ['fatigue', '#c46b2b'], ['form', 'var(--ok)']].forEach(([k, color]) => {
+        const d = trend.map((p, i) => (i ? 'L' : 'M') + x(i).toFixed(1) + ' ' + y(p[k]).toFixed(1)).join(' ');
+        svg.append(svgEl('path', { d, fill: 'none', stroke: color, 'stroke-width': k === 'form' ? 1.5 : 2.2, 'stroke-dasharray': k === 'form' ? '4 3' : 'none' }));
+        const last = trend[trend.length - 1];
+        svg.append(svgEl('text', { x: W - m.r + 3, y: y(last[k]) + 4, class: 'val', fill: color }, String(Math.round(last[k]))));
+      });
+      [0, Math.floor((trend.length - 1) / 2), trend.length - 1].forEach((i) => {
+        svg.append(svgEl('text', { x: x(i), y: H - 6, 'text-anchor': i === 0 ? 'start' : i === trend.length - 1 ? 'end' : 'middle' }, short(trend[i].date)));
+      });
+      return svg;
+    }
+ 
+    const pick = $('#detail-pick');
+    ok.slice().sort((a, b) => a.rider.localeCompare(b.rider)).forEach((r) => pick.append(new Option(r.rider, r.id)));
+    pick.addEventListener('change', () => showRider(pick.value, false));
+ 
+    function showRider(id, scroll) {
+      const r = ok.find((x) => x.id === id);
+      if (!r) return;
+      const box = $('#detail');
+      box.hidden = false;
+      pick.value = id;
+      $('#detail-name').textContent = r.rider;
+      $('#detail-weeks').replaceChildren(weeksChart(r.weeks || []));
+      $('#detail-trend').replaceChildren(trendChart(r.trend || []));
+      const tb = $('#detail-rides tbody');
+      tb.replaceChildren();
+      (r.recent_rides || []).forEach((a) => {
+        const tr = document.createElement('tr');
+        cell(tr, day(a.date), 'l');
+        cell(tr, a.name || dash, 'l name');
+        cell(tr, a.type || dash, 'l');
+        cell(tr, h1(a.hours));
+        cell(tr, a.miles == null ? dash : a.miles.toFixed(1));
+        cell(tr, a.avg_watts == null ? dash : String(a.avg_watts));
+        cell(tr, a.np == null ? dash : String(a.np));
+        cell(tr, a.load == null ? dash : String(a.load));
+        tb.append(tr);
+      });
+      if (!(r.recent_rides || []).length) emptyRow(tb, 8, 'No rides yet');
+      if (scroll) box.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }
+ 
     // Hours chart.
     const max = Math.max(1, ...ok.map((r) => Math.max(r.hours_this_week || 0, r.hours_last_week || 0)));
     const bars = $('#bars');
@@ -301,7 +428,7 @@
       bars.append(row);
     });
     if (!ok.length) bars.textContent = 'No rider data yet.';
-
+ 
     // Recent PRs.
     const prBody = $('#prs tbody');
     prs.sort((a, b) => ((a.date || '') < (b.date || '') ? 1 : -1)).forEach((p) => {
@@ -315,7 +442,7 @@
       prBody.append(tr);
     });
     if (!prs.length) emptyRow(prBody, 6, 'Nothing yet');
-
+ 
     // Activity feed.
     const feedBody = $('#feed tbody');
     DATA.feed.forEach((a) => {
@@ -330,7 +457,7 @@
       feedBody.append(tr);
     });
     if (!DATA.feed.length) emptyRow(feedBody, 7, 'Nothing yet');
-
+ 
     const hidden = ok.filter((r) => r.hidden_strava > 0).map((r) => `${r.rider} ${r.hidden_strava}`);
     if (hidden.length) {
       $('#hidden-note').textContent = 'Strava-only activities left out this year: ' + hidden.join(', ') + '.';
