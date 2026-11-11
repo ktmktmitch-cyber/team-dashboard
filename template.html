@@ -139,7 +139,7 @@
         <tbody></tbody>
       </table>
     </div>
-    <p class="note" id="hidden-visible" style="margin-top:10px"></p>
+    <p class="note" style="margin-top:10px">Only activities that reach intervals.icu directly count: from Garmin, Wahoo, Coros, Zwift or another direct connection, or uploaded or entered on intervals.icu. Activities recorded only in Strava or another app, like Peloton rides, won't show up.</p>
   </section>
 
   <section id="detail" hidden>
@@ -200,7 +200,7 @@
     <summary>What the numbers mean</summary>
     <dl>
       <dt>Hours and miles</dt><dd>Moving time and distance added up from every ride (road, gravel, mountain, indoor/trainer/virtual, track, cyclocross, e-bike) and every run (road, trail, treadmill/virtual), by calendar week (Monday to Sunday), month and year. Strength and other workouts are left out of hours, but fitness, fatigue and form include the training load from every activity.</dd>
-      <dt>Missing rides</dt><dd>Strava doesn't let intervals.icu pass on activities that reached it only through Strava. To count, a ride has to come into intervals.icu from Garmin, Wahoo, Coros, Zwift or another direct link, or be uploaded there. <span id="hidden-note"></span></dd>
+      <dt>Missing rides</dt><dd>Strava doesn't let intervals.icu pass on activities that reached it only through Strava. To count, a ride has to come into intervals.icu from Garmin, Wahoo, Coros, Zwift or another direct link, or be uploaded there.</dd>
       <dt>Fitness</dt><dd>intervals.icu's chronic training load (CTL): roughly a 6-week average of daily training load. Higher means more fit.</dd>
       <dt>Form</dt><dd>Fitness minus fatigue (TSB). About −10 to −30 is productive training (green); below −30 is high fatigue risk (red); above +5 is fresh.</dd>
       <dt>eFTP</dt><dd>intervals.icu's estimated functional threshold power from recent rides, in watts and per kg of body weight.</dd>
@@ -461,11 +461,7 @@
     });
     if (!DATA.feed.length) emptyRow(feedBody, 7, 'Nothing yet');
 
-    const hidden = ok.filter((r) => r.hidden_strava > 0).map((r) => `${r.rider} ${r.hidden_strava}`);
-    if (hidden.length) {
-      $('#hidden-note').textContent = 'Strava-only activities left out this year: ' + hidden.join(', ') + '.';
-      $('#hidden-visible').textContent = 'Not counted, because they reached intervals.icu only through Strava (Peloton rides usually do): ' + hidden.join(', ') + ' activities this year.';
-    }
+
   }
 </script>
 </body>
