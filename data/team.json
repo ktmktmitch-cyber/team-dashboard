@@ -1,6 +1,6 @@
 {
- "updated": "Tue Nov 10, 9:02 PM",
- "today": "2026-11-10",
+ "updated": "Wed Nov 11, 6:00 AM",
+ "today": "2026-11-11",
  "riders": [
   {
    "id": "i285485",
@@ -12,8 +12,8 @@
    "hours_month": 14.5,
    "hours_ytd": 350.5,
    "miles_ytd": 5016,
-   "fitness": 52,
-   "form": -17,
+   "fitness": 51,
+   "form": -9,
    "eftp_watts": 285,
    "eftp_wkg": 3.53,
    "prs": [
@@ -123,7 +123,7 @@
    "hours_ytd": 179.6,
    "miles_ytd": 2510,
    "fitness": 5,
-   "form": 2,
+   "form": 3,
    "eftp_watts": null,
    "eftp_wkg": null,
    "prs": [],
@@ -148,8 +148,8 @@
    "hours_month": 2.1,
    "hours_ytd": 170.8,
    "miles_ytd": 2498,
-   "fitness": 40,
-   "form": 17,
+   "fitness": 39,
+   "form": 19,
    "eftp_watts": 229,
    "eftp_wkg": 3.37,
    "prs": [],
@@ -355,26 +355,6 @@
    "hours": 2.9,
    "miles": 48.4,
    "load": 139
-  },
-  {
-   "rider": "Kyle",
-   "start": "2026-10-28T21:18:10",
-   "date": "2026-10-28",
-   "name": "Bloomington Cycling",
-   "type": "Ride",
-   "hours": 0.3,
-   "miles": 5.8,
-   "load": 0
-  },
-  {
-   "rider": "Kyle",
-   "start": "2026-10-28T20:33:52",
-   "date": "2026-10-28",
-   "name": "Indoor Cycling",
-   "type": "VirtualRide",
-   "hours": 0.3,
-   "miles": null,
-   "load": 13
   }
  ]
 }
