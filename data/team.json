@@ -1,5 +1,5 @@
 {
- "updated": "Thu Nov 12, 2:56 PM",
+ "updated": "Thu Nov 12, 5:47 PM",
  "today": "2026-11-12",
  "riders": [
   {
@@ -683,8 +683,8 @@
     {
      "date": "2026-11-12",
      "fitness": 0.0,
-     "fatigue": 0,
-     "form": 0.0
+     "fatigue": 0.3,
+     "form": -0.3
     }
    ],
    "recent_rides": [
@@ -1879,6 +1879,16 @@
   }
  ],
  "feed": [
+  {
+   "rider": "Carmelo",
+   "start": "2026-11-12T17:21:41",
+   "date": "2026-11-12",
+   "name": "Cardio",
+   "type": "Workout",
+   "hours": 0.2,
+   "miles": null,
+   "load": 2
+  },
   {
    "rider": "Tin",
    "start": "2026-11-11T23:27:39",
