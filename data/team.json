@@ -1,6 +1,6 @@
 {
- "updated": "Wed Nov 11, 9:14 PM",
- "today": "2026-11-11",
+ "updated": "Thu Nov 12, 6:03 AM",
+ "today": "2026-11-12",
  "riders": [
   {
    "id": "i285485",
@@ -12,8 +12,8 @@
    "hours_month": 14.5,
    "hours_ytd": 351.8,
    "miles_ytd": 5024,
-   "fitness": 51,
-   "form": -9,
+   "fitness": 50,
+   "form": -2,
    "eftp_watts": 285,
    "eftp_wkg": 3.53,
    "prs": [
@@ -101,12 +101,6 @@
     }
    ],
    "trend": [
-    {
-     "date": "2026-09-17",
-     "fitness": 57.5,
-     "fatigue": 58.9,
-     "form": -1.4
-    },
     {
      "date": "2026-09-18",
      "fitness": 56.1,
@@ -436,6 +430,12 @@
      "fitness": 50.9,
      "fatigue": 59.7,
      "form": -8.8
+    },
+    {
+     "date": "2026-11-12",
+     "fitness": 49.7,
+     "fatigue": 51.7,
+     "form": -2.0
     }
    ],
    "recent_rides": [
@@ -679,6 +679,12 @@
      "fitness": 0.0,
      "fatigue": 0,
      "form": 0.0
+    },
+    {
+     "date": "2026-11-12",
+     "fitness": 0.0,
+     "fatigue": 0,
+     "form": 0.0
     }
    ],
    "recent_rides": [
@@ -804,7 +810,7 @@
    "hours_month": 0.0,
    "hours_ytd": 179.6,
    "miles_ytd": 2510,
-   "fitness": 5,
+   "fitness": 4,
    "form": 3,
    "eftp_watts": null,
    "eftp_wkg": null,
@@ -860,12 +866,6 @@
     }
    ],
    "trend": [
-    {
-     "date": "2026-09-17",
-     "fitness": 1.2,
-     "fatigue": 0.0,
-     "form": 1.2
-    },
     {
      "date": "2026-09-18",
      "fitness": 1.2,
@@ -1195,6 +1195,12 @@
      "fitness": 4.6,
      "fatigue": 1.9,
      "form": 2.7
+    },
+    {
+     "date": "2026-11-12",
+     "fitness": 4.5,
+     "fatigue": 1.7,
+     "form": 2.8
     }
    ],
    "recent_rides": [
@@ -1325,15 +1331,15 @@
    "rider": "Tin",
    "state": "ok",
    "hidden_strava": 0,
-   "hours_this_week": 0.0,
+   "hours_this_week": 0.8,
    "hours_last_week": 2.1,
-   "hours_month": 2.1,
-   "hours_ytd": 170.8,
+   "hours_month": 2.9,
+   "hours_ytd": 171.5,
    "miles_ytd": 2498,
    "fitness": 39,
-   "form": 19,
-   "eftp_watts": 229,
-   "eftp_wkg": 3.37,
+   "form": 17,
+   "eftp_watts": 228,
+   "eftp_wkg": 3.35,
    "prs": [
     {
      "rider": "Tin",
@@ -1405,18 +1411,12 @@
     },
     {
      "week": "2026-11-09",
-     "hours": 0.0,
+     "hours": 0.8,
      "miles": 0,
-     "rides": 0
+     "rides": 1
     }
    ],
    "trend": [
-    {
-     "date": "2026-09-17",
-     "fitness": 35.7,
-     "fatigue": 60.5,
-     "form": -24.8
-    },
     {
      "date": "2026-09-18",
      "fitness": 34.9,
@@ -1743,12 +1743,29 @@
     },
     {
      "date": "2026-11-11",
+     "fitness": 39.6,
+     "fatigue": 24.6,
+     "form": 15.0
+    },
+    {
+     "date": "2026-11-12",
      "fitness": 38.7,
-     "fatigue": 19.3,
-     "form": 19.4
+     "fatigue": 21.3,
+     "form": 17.4
     }
    ],
    "recent_rides": [
+    {
+     "start": "2026-11-11T23:27:39",
+     "date": "2026-11-11",
+     "name": "Indoor Cycling",
+     "type": "VirtualRide",
+     "hours": 0.8,
+     "miles": null,
+     "avg_watts": null,
+     "np": null,
+     "load": 40
+    },
     {
      "start": "2026-11-06T17:20:18",
      "date": "2026-11-06",
@@ -1847,17 +1864,6 @@
      "avg_watts": 133,
      "np": 151,
      "load": 129
-    },
-    {
-     "start": "2026-10-22T19:34:39",
-     "date": "2026-10-22",
-     "name": "Bloomington Road Cycling",
-     "type": "Ride",
-     "hours": 0.8,
-     "miles": 12.5,
-     "avg_watts": 125,
-     "np": 144,
-     "load": 31
     }
    ],
    "p5s": 841,
@@ -1873,6 +1879,16 @@
   }
  ],
  "feed": [
+  {
+   "rider": "Tin",
+   "start": "2026-11-11T23:27:39",
+   "date": "2026-11-11",
+   "name": "Indoor Cycling",
+   "type": "VirtualRide",
+   "hours": 0.8,
+   "miles": null,
+   "load": 40
+  },
   {
    "rider": "Carmelo",
    "start": "2026-11-10T18:37:19",
@@ -2032,36 +2048,6 @@
    "hours": 2.0,
    "miles": 30.0,
    "load": 96
-  },
-  {
-   "rider": "Tin",
-   "start": "2026-10-29T19:09:58",
-   "date": "2026-10-29",
-   "name": "Bloomington Road Cycling",
-   "type": "Ride",
-   "hours": 0.2,
-   "miles": 2.4,
-   "load": 6
-  },
-  {
-   "rider": "Kyle",
-   "start": "2026-10-29T17:14:26",
-   "date": "2026-10-29",
-   "name": "Strength",
-   "type": "WeightTraining",
-   "hours": 0.6,
-   "miles": null,
-   "load": 11
-  },
-  {
-   "rider": "Tin",
-   "start": "2026-10-29T14:45:15",
-   "date": "2026-10-29",
-   "name": "Bloomington Road Cycling",
-   "type": "Ride",
-   "hours": 2.9,
-   "miles": 48.4,
-   "load": 139
   }
  ]
 }
