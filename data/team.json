@@ -1,5 +1,5 @@
 {
- "updated": "Thu Nov 12, 5:47 PM",
+ "updated": "Thu Nov 12, 9:06 PM",
  "today": "2026-11-12",
  "riders": [
   {
@@ -566,55 +566,55 @@
    "rider": "Carmelo",
    "state": "ok",
    "hidden_strava": 0,
-   "hours_this_week": 0.9,
+   "hours_this_week": 1.4,
    "hours_last_week": 0.0,
-   "hours_month": 0.9,
-   "hours_ytd": 0.9,
+   "hours_month": 1.4,
+   "hours_ytd": 1.4,
    "miles_ytd": 3,
-   "fitness": 0,
-   "form": 0,
+   "fitness": 1,
+   "form": -3,
    "eftp_watts": null,
    "eftp_wkg": null,
    "prs": [
     {
      "rider": "Carmelo",
      "duration": "5 s",
-     "watts": 110,
-     "wkg": 1.4,
-     "date": "2026-11-10",
-     "ride": "Bloomington Cycling"
+     "watts": 422,
+     "wkg": 5.5,
+     "date": "2026-11-12",
+     "ride": "Indoor Cycling"
     },
     {
      "rider": "Carmelo",
      "duration": "1 min",
-     "watts": 106,
-     "wkg": 1.4,
-     "date": "2026-11-10",
-     "ride": "Bloomington Cycling"
+     "watts": 303,
+     "wkg": 3.9,
+     "date": "2026-11-12",
+     "ride": "Indoor Cycling"
     },
     {
      "rider": "Carmelo",
      "duration": "3 min",
-     "watts": 103,
-     "wkg": 1.3,
-     "date": "2026-11-10",
-     "ride": "Bloomington Cycling"
+     "watts": 253,
+     "wkg": 3.3,
+     "date": "2026-11-12",
+     "ride": "Indoor Cycling"
     },
     {
      "rider": "Carmelo",
      "duration": "12 min",
-     "watts": 92,
-     "wkg": 1.2,
-     "date": "2026-11-10",
-     "ride": "Bloomington Cycling"
+     "watts": 179,
+     "wkg": 2.3,
+     "date": "2026-11-12",
+     "ride": "Indoor Cycling"
     },
     {
      "rider": "Carmelo",
      "duration": "20 min",
-     "watts": 88,
-     "wkg": 1.1,
-     "date": "2026-11-10",
-     "ride": "Bloomington Cycling"
+     "watts": 178,
+     "wkg": 2.3,
+     "date": "2026-11-12",
+     "ride": "Indoor Cycling"
     }
    ],
    "weeks": [
@@ -662,9 +662,9 @@
     },
     {
      "week": "2026-11-09",
-     "hours": 0.9,
+     "hours": 1.4,
      "miles": 3,
-     "rides": 2
+     "rides": 3
     }
    ],
    "trend": [
@@ -682,12 +682,23 @@
     },
     {
      "date": "2026-11-12",
-     "fitness": 0.0,
-     "fatigue": 0.3,
-     "form": -0.3
+     "fitness": 0.6,
+     "fatigue": 3.9,
+     "form": -3.2
     }
    ],
    "recent_rides": [
+    {
+     "start": "2026-11-12T18:16:43",
+     "date": "2026-11-12",
+     "name": "Indoor Cycling",
+     "type": "VirtualRide",
+     "hours": 0.5,
+     "miles": null,
+     "avg_watts": 158,
+     "np": 194,
+     "load": 27
+    },
     {
      "start": "2026-11-10T18:37:19",
      "date": "2026-11-10",
@@ -711,15 +722,15 @@
      "load": 6
     }
    ],
-   "p5s": 110,
+   "p5s": 422,
    "p5s_pr": true,
-   "p1m": 106,
+   "p1m": 303,
    "p1m_pr": true,
-   "p3m": 103,
+   "p3m": 253,
    "p3m_pr": true,
-   "p12m": 92,
+   "p12m": 179,
    "p12m_pr": true,
-   "p20m": 88,
+   "p20m": 178,
    "p20m_pr": true
   },
   {
@@ -1879,6 +1890,16 @@
   }
  ],
  "feed": [
+  {
+   "rider": "Carmelo",
+   "start": "2026-11-12T18:16:43",
+   "date": "2026-11-12",
+   "name": "Indoor Cycling",
+   "type": "VirtualRide",
+   "hours": 0.5,
+   "miles": null,
+   "load": 27
+  },
   {
    "rider": "Carmelo",
    "start": "2026-11-12T17:21:41",
