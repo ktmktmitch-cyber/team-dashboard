@@ -1,5 +1,5 @@
 {
- "updated": "Fri Nov 13, 2:55 PM",
+ "updated": "Fri Nov 13, 5:44 PM",
  "today": "2026-11-13",
  "riders": [
   {
@@ -1348,15 +1348,15 @@
    "rider": "Tin",
    "state": "ok",
    "hidden_strava": 0,
-   "hours_this_week": 0.8,
+   "hours_this_week": 1.5,
    "hours_last_week": 2.1,
-   "hours_month": 2.9,
-   "hours_ytd": 171.5,
+   "hours_month": 3.7,
+   "hours_ytd": 172.3,
    "miles_ytd": 2498,
-   "fitness": 38,
-   "form": 19,
-   "eftp_watts": 228,
-   "eftp_wkg": 3.35,
+   "fitness": 39,
+   "form": 15,
+   "eftp_watts": 227,
+   "eftp_wkg": 3.34,
    "prs": [
     {
      "rider": "Tin",
@@ -1428,9 +1428,9 @@
     },
     {
      "week": "2026-11-09",
-     "hours": 0.8,
+     "hours": 1.5,
      "miles": 0,
-     "rides": 1
+     "rides": 2
     }
    ],
    "trend": [
@@ -1766,12 +1766,23 @@
     },
     {
      "date": "2026-11-13",
-     "fitness": 37.8,
-     "fatigue": 18.5,
-     "form": 19.3
+     "fitness": 38.8,
+     "fatigue": 24.1,
+     "form": 14.7
     }
    ],
    "recent_rides": [
+    {
+     "start": "2026-11-13T14:36:39",
+     "date": "2026-11-13",
+     "name": "Indoor Cycling",
+     "type": "VirtualRide",
+     "hours": 0.8,
+     "miles": null,
+     "avg_watts": null,
+     "np": null,
+     "load": 42
+    },
     {
      "start": "2026-11-11T23:27:39",
      "date": "2026-11-11",
@@ -1870,17 +1881,6 @@
      "avg_watts": 129,
      "np": 171,
      "load": 149
-    },
-    {
-     "start": "2026-10-24T10:28:28",
-     "date": "2026-10-24",
-     "name": "Bloomington Road Cycling",
-     "type": "Ride",
-     "hours": 3.0,
-     "miles": 46.2,
-     "avg_watts": 133,
-     "np": 151,
-     "load": 129
     }
    ],
    "p5s": 841,
@@ -1896,6 +1896,16 @@
   }
  ],
  "feed": [
+  {
+   "rider": "Tin",
+   "start": "2026-11-13T14:36:39",
+   "date": "2026-11-13",
+   "name": "Indoor Cycling",
+   "type": "VirtualRide",
+   "hours": 0.8,
+   "miles": null,
+   "load": 42
+  },
   {
    "rider": "Carmelo",
    "start": "2026-11-12T18:16:43",
