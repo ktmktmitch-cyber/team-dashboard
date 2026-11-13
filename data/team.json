@@ -1,6 +1,6 @@
 {
- "updated": "Thu Nov 12, 9:06 PM",
- "today": "2026-11-12",
+ "updated": "Fri Nov 13, 5:59 AM",
+ "today": "2026-11-13",
  "riders": [
   {
    "id": "i285485",
@@ -12,8 +12,8 @@
    "hours_month": 14.5,
    "hours_ytd": 351.8,
    "miles_ytd": 5024,
-   "fitness": 50,
-   "form": -2,
+   "fitness": 49,
+   "form": 4,
    "eftp_watts": 285,
    "eftp_wkg": 3.53,
    "prs": [
@@ -101,12 +101,6 @@
     }
    ],
    "trend": [
-    {
-     "date": "2026-09-18",
-     "fitness": 56.1,
-     "fatigue": 51.0,
-     "form": 5.1
-    },
     {
      "date": "2026-09-19",
      "fitness": 54.8,
@@ -436,6 +430,12 @@
      "fitness": 49.7,
      "fatigue": 51.7,
      "form": -2.0
+    },
+    {
+     "date": "2026-11-13",
+     "fitness": 48.5,
+     "fatigue": 44.8,
+     "form": 3.7
     }
    ],
    "recent_rides": [
@@ -685,6 +685,12 @@
      "fitness": 0.6,
      "fatigue": 3.9,
      "form": -3.2
+    },
+    {
+     "date": "2026-11-13",
+     "fitness": 0.6,
+     "fatigue": 3.3,
+     "form": -2.7
     }
    ],
    "recent_rides": [
@@ -877,12 +883,6 @@
     }
    ],
    "trend": [
-    {
-     "date": "2026-09-18",
-     "fitness": 1.2,
-     "fatigue": 0.0,
-     "form": 1.2
-    },
     {
      "date": "2026-09-19",
      "fitness": 1.1,
@@ -1212,6 +1212,12 @@
      "fitness": 4.5,
      "fatigue": 1.7,
      "form": 2.8
+    },
+    {
+     "date": "2026-11-13",
+     "fitness": 4.4,
+     "fatigue": 1.4,
+     "form": 2.9
     }
    ],
    "recent_rides": [
@@ -1347,8 +1353,8 @@
    "hours_month": 2.9,
    "hours_ytd": 171.5,
    "miles_ytd": 2498,
-   "fitness": 39,
-   "form": 17,
+   "fitness": 38,
+   "form": 19,
    "eftp_watts": 228,
    "eftp_wkg": 3.35,
    "prs": [
@@ -1428,12 +1434,6 @@
     }
    ],
    "trend": [
-    {
-     "date": "2026-09-18",
-     "fitness": 34.9,
-     "fatigue": 52.5,
-     "form": -17.5
-    },
     {
      "date": "2026-09-19",
      "fitness": 36.0,
@@ -1763,6 +1763,12 @@
      "fitness": 38.7,
      "fatigue": 21.3,
      "form": 17.4
+    },
+    {
+     "date": "2026-11-13",
+     "fitness": 37.8,
+     "fatigue": 18.5,
+     "form": 19.3
     }
    ],
    "recent_rides": [
@@ -2059,26 +2065,6 @@
    "hours": 2.5,
    "miles": 37.4,
    "load": 90
-  },
-  {
-   "rider": "Kyle",
-   "start": "2026-10-30T18:34:23",
-   "date": "2026-10-30",
-   "name": "Bloomington - JOIN Cycling - 5x 8 min tempo",
-   "type": "Ride",
-   "hours": 1.3,
-   "miles": 22.2,
-   "load": 75
-  },
-  {
-   "rider": "Tin",
-   "start": "2026-10-30T16:41:12",
-   "date": "2026-10-30",
-   "name": "Bloomington Road Cycling",
-   "type": "Ride",
-   "hours": 2.0,
-   "miles": 30.0,
-   "load": 96
   }
  ]
 }
