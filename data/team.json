@@ -1,5 +1,5 @@
 {
- "updated": "Fri Nov 13, 5:44 PM",
+ "updated": "Fri Nov 13, 9:02 PM",
  "today": "2026-11-13",
  "riders": [
   {
@@ -7,13 +7,13 @@
    "rider": "Kyle",
    "state": "ok",
    "hidden_strava": 20,
-   "hours_this_week": 1.5,
+   "hours_this_week": 3.5,
    "hours_last_week": 12.9,
-   "hours_month": 14.5,
-   "hours_ytd": 351.8,
+   "hours_month": 16.5,
+   "hours_ytd": 353.8,
    "miles_ytd": 5024,
-   "fitness": 49,
-   "form": 4,
+   "fitness": 51,
+   "form": -9,
    "eftp_watts": 285,
    "eftp_wkg": 3.53,
    "prs": [
@@ -95,9 +95,9 @@
     },
     {
      "week": "2026-11-09",
-     "hours": 1.5,
+     "hours": 3.5,
      "miles": 26,
-     "rides": 1
+     "rides": 2
     }
    ],
    "trend": [
@@ -433,12 +433,23 @@
     },
     {
      "date": "2026-11-13",
-     "fitness": 48.5,
-     "fatigue": 44.8,
-     "form": 3.7
+     "fitness": 51.3,
+     "fatigue": 60.7,
+     "form": -9.4
     }
    ],
    "recent_rides": [
+    {
+     "start": "2026-11-13T16:56:35",
+     "date": "2026-11-13",
+     "name": "Indoor Cycling",
+     "type": "VirtualRide",
+     "hours": 2.0,
+     "miles": null,
+     "avg_watts": 180,
+     "np": 192,
+     "load": 119
+    },
     {
      "start": "2026-11-10T12:05:11",
      "date": "2026-11-10",
@@ -537,17 +548,6 @@
      "avg_watts": null,
      "np": null,
      "load": 0
-    },
-    {
-     "start": "2026-10-28T20:33:52",
-     "date": "2026-10-28",
-     "name": "Indoor Cycling",
-     "type": "VirtualRide",
-     "hours": 0.3,
-     "miles": null,
-     "avg_watts": null,
-     "np": null,
-     "load": 13
     }
    ],
    "p5s": 1329,
@@ -1896,6 +1896,16 @@
   }
  ],
  "feed": [
+  {
+   "rider": "Kyle",
+   "start": "2026-11-13T16:56:35",
+   "date": "2026-11-13",
+   "name": "Indoor Cycling",
+   "type": "VirtualRide",
+   "hours": 2.0,
+   "miles": null,
+   "load": 119
+  },
   {
    "rider": "Tin",
    "start": "2026-11-13T14:36:39",
