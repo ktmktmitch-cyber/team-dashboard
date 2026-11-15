@@ -1,5 +1,5 @@
 {
- "updated": "Sun Nov 15, 11:43 AM",
+ "updated": "Sun Nov 15, 2:44 PM",
  "today": "2026-11-15",
  "riders": [
   {
@@ -7,15 +7,15 @@
    "rider": "Kyle",
    "state": "ok",
    "hidden_strava": 20,
-   "hours_this_week": 3.8,
+   "hours_this_week": 6.9,
    "hours_last_week": 12.9,
-   "hours_month": 16.7,
-   "hours_ytd": 354.1,
-   "miles_ytd": 5028,
-   "fitness": 49,
-   "form": 2,
-   "eftp_watts": 285,
-   "eftp_wkg": 3.53,
+   "hours_month": 19.9,
+   "hours_ytd": 357.2,
+   "miles_ytd": 5090,
+   "fitness": 54,
+   "form": -19,
+   "eftp_watts": 293,
+   "eftp_wkg": 3.63,
    "prs": [
     {
      "rider": "Kyle",
@@ -95,9 +95,9 @@
     },
     {
      "week": "2026-11-09",
-     "hours": 3.8,
-     "miles": 30,
-     "rides": 3
+     "hours": 6.9,
+     "miles": 92,
+     "rides": 4
     }
    ],
    "trend": [
@@ -433,12 +433,23 @@
     },
     {
      "date": "2026-11-15",
-     "fitness": 49.2,
-     "fatigue": 46.9,
-     "form": 2.2
+     "fitness": 53.8,
+     "fatigue": 72.9,
+     "form": -19.1
     }
    ],
    "recent_rides": [
+    {
+     "start": "2026-11-15T10:42:44",
+     "date": "2026-11-15",
+     "name": "Bloomington Road Cycling",
+     "type": "Ride",
+     "hours": 3.2,
+     "miles": 62.0,
+     "avg_watts": 192,
+     "np": 242,
+     "load": 195
+    },
     {
      "start": "2026-11-15T10:19:47",
      "date": "2026-11-15",
@@ -537,17 +548,6 @@
      "avg_watts": 166,
      "np": 177,
      "load": 58
-    },
-    {
-     "start": "2026-10-30T18:34:23",
-     "date": "2026-10-30",
-     "name": "Bloomington - JOIN Cycling - 5x 8 min tempo",
-     "type": "Ride",
-     "hours": 1.3,
-     "miles": 22.2,
-     "avg_watts": 206,
-     "np": 219,
-     "load": 75
     }
    ],
    "p5s": 1329,
@@ -1908,6 +1908,16 @@
   }
  ],
  "feed": [
+  {
+   "rider": "Kyle",
+   "start": "2026-11-15T10:42:44",
+   "date": "2026-11-15",
+   "name": "Bloomington Road Cycling",
+   "type": "Ride",
+   "hours": 3.2,
+   "miles": 62.0,
+   "load": 195
+  },
   {
    "rider": "Kyle",
    "start": "2026-11-15T10:19:47",
