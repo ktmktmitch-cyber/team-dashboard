@@ -1,5 +1,5 @@
 {
- "updated": "Sun Nov 15, 2:44 PM",
+ "updated": "Sun Nov 15, 5:41 PM",
  "today": "2026-11-15",
  "riders": [
   {
@@ -442,7 +442,7 @@
     {
      "start": "2026-11-15T10:42:44",
      "date": "2026-11-15",
-     "name": "Bloomington Road Cycling",
+     "name": "Advanced Flat Repair 2",
      "type": "Ride",
      "hours": 3.2,
      "miles": 62.0,
@@ -1912,7 +1912,7 @@
    "rider": "Kyle",
    "start": "2026-11-15T10:42:44",
    "date": "2026-11-15",
-   "name": "Bloomington Road Cycling",
+   "name": "Advanced Flat Repair 2",
    "type": "Ride",
    "hours": 3.2,
    "miles": 62.0,
