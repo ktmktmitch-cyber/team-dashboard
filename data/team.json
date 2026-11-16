@@ -1,5 +1,5 @@
 {
- "updated": "Mon Nov 16, 2:58 PM",
+ "updated": "Mon Nov 16, 3:24 PM",
  "today": "2026-11-16",
  "riders": [
   {
@@ -2326,6 +2326,573 @@
    "p12m_pr": true,
    "p20m": 231,
    "p20m_pr": true
+  },
+  {
+   "id": "i803017",
+   "rider": "willchen31",
+   "state": "ok",
+   "hidden_strava": 0,
+   "hours_this_week": 0.0,
+   "hours_last_week": 0.0,
+   "hours_month": 5.5,
+   "hours_ytd": 77.4,
+   "miles_ytd": 992,
+   "fitness": 27,
+   "form": 14,
+   "eftp_watts": 222,
+   "eftp_wkg": 2.88,
+   "prs": [
+    {
+     "rider": "willchen31",
+     "duration": "5 s",
+     "watts": 726,
+     "wkg": 9.4,
+     "date": "2026-10-10",
+     "ride": "Bloomington Road Cycling"
+    },
+    {
+     "rider": "willchen31",
+     "duration": "1 min",
+     "watts": 359,
+     "wkg": 4.7,
+     "date": "2026-11-03",
+     "ride": "Dubai Virtual Cycling"
+    },
+    {
+     "rider": "willchen31",
+     "duration": "3 min",
+     "watts": 293,
+     "wkg": 3.8,
+     "date": "2026-11-03",
+     "ride": "Bloomington Indoor Cycling"
+    },
+    {
+     "rider": "willchen31",
+     "duration": "12 min",
+     "watts": 240,
+     "wkg": 3.1,
+     "date": "2026-09-23",
+     "ride": "Bloomington Road Cycling"
+    },
+    {
+     "rider": "willchen31",
+     "duration": "20 min",
+     "watts": 233,
+     "wkg": 3.0,
+     "date": "2026-09-30",
+     "ride": "Bloomington Road Cycling"
+    }
+   ],
+   "weeks": [
+    {
+     "week": "2026-09-28",
+     "hours": 2.0,
+     "miles": 38,
+     "rides": 1
+    },
+    {
+     "week": "2026-10-05",
+     "hours": 6.1,
+     "miles": 85,
+     "rides": 3
+    },
+    {
+     "week": "2026-10-12",
+     "hours": 2.1,
+     "miles": 33,
+     "rides": 3
+    },
+    {
+     "week": "2026-10-19",
+     "hours": 7.8,
+     "miles": 128,
+     "rides": 7
+    },
+    {
+     "week": "2026-10-26",
+     "hours": 1.5,
+     "miles": 24,
+     "rides": 2
+    },
+    {
+     "week": "2026-11-02",
+     "hours": 5.5,
+     "miles": 71,
+     "rides": 4
+    },
+    {
+     "week": "2026-11-09",
+     "hours": 0.0,
+     "miles": 0,
+     "rides": 0
+    },
+    {
+     "week": "2026-11-16",
+     "hours": 0.0,
+     "miles": 0,
+     "rides": 0
+    }
+   ],
+   "trend": [
+    {
+     "date": "2026-09-22",
+     "fitness": 13.5,
+     "fatigue": 16.5,
+     "form": -3.0
+    },
+    {
+     "date": "2026-09-23",
+     "fitness": 16.8,
+     "fatigue": 34.9,
+     "form": -18.1
+    },
+    {
+     "date": "2026-09-24",
+     "fitness": 16.4,
+     "fatigue": 30.3,
+     "form": -13.9
+    },
+    {
+     "date": "2026-09-25",
+     "fitness": 16.0,
+     "fatigue": 26.2,
+     "form": -10.2
+    },
+    {
+     "date": "2026-09-26",
+     "fitness": 16.7,
+     "fatigue": 29.0,
+     "form": -12.3
+    },
+    {
+     "date": "2026-09-27",
+     "fitness": 18.8,
+     "fatigue": 39.1,
+     "form": -20.3
+    },
+    {
+     "date": "2026-09-28",
+     "fitness": 18.4,
+     "fatigue": 33.9,
+     "form": -15.5
+    },
+    {
+     "date": "2026-09-29",
+     "fitness": 17.9,
+     "fatigue": 29.4,
+     "form": -11.5
+    },
+    {
+     "date": "2026-09-30",
+     "fitness": 22.1,
+     "fatigue": 51.6,
+     "form": -29.5
+    },
+    {
+     "date": "2026-10-01",
+     "fitness": 21.6,
+     "fatigue": 44.7,
+     "form": -23.1
+    },
+    {
+     "date": "2026-10-02",
+     "fitness": 21.1,
+     "fatigue": 38.8,
+     "form": -17.7
+    },
+    {
+     "date": "2026-10-03",
+     "fitness": 20.6,
+     "fatigue": 33.6,
+     "form": -13.0
+    },
+    {
+     "date": "2026-10-04",
+     "fitness": 20.1,
+     "fatigue": 29.1,
+     "form": -9.0
+    },
+    {
+     "date": "2026-10-05",
+     "fitness": 22.1,
+     "fatigue": 39.2,
+     "form": -17.1
+    },
+    {
+     "date": "2026-10-06",
+     "fitness": 22.0,
+     "fatigue": 36.1,
+     "form": -14.2
+    },
+    {
+     "date": "2026-10-07",
+     "fitness": 21.5,
+     "fatigue": 31.3,
+     "form": -9.9
+    },
+    {
+     "date": "2026-10-08",
+     "fitness": 20.9,
+     "fatigue": 27.2,
+     "form": -6.2
+    },
+    {
+     "date": "2026-10-09",
+     "fitness": 20.5,
+     "fatigue": 23.5,
+     "form": -3.1
+    },
+    {
+     "date": "2026-10-10",
+     "fitness": 25.0,
+     "fatigue": 48.8,
+     "form": -23.8
+    },
+    {
+     "date": "2026-10-11",
+     "fitness": 24.4,
+     "fatigue": 42.3,
+     "form": -17.9
+    },
+    {
+     "date": "2026-10-12",
+     "fitness": 23.8,
+     "fatigue": 36.6,
+     "form": -12.8
+    },
+    {
+     "date": "2026-10-13",
+     "fitness": 23.3,
+     "fatigue": 31.8,
+     "form": -8.5
+    },
+    {
+     "date": "2026-10-14",
+     "fitness": 22.9,
+     "fatigue": 28.5,
+     "form": -5.6
+    },
+    {
+     "date": "2026-10-15",
+     "fitness": 22.3,
+     "fatigue": 24.7,
+     "form": -2.3
+    },
+    {
+     "date": "2026-10-16",
+     "fitness": 25.1,
+     "fatigue": 39.9,
+     "form": -14.8
+    },
+    {
+     "date": "2026-10-17",
+     "fitness": 24.5,
+     "fatigue": 34.6,
+     "form": -10.1
+    },
+    {
+     "date": "2026-10-18",
+     "fitness": 23.9,
+     "fatigue": 30.0,
+     "form": -6.1
+    },
+    {
+     "date": "2026-10-19",
+     "fitness": 24.8,
+     "fatigue": 34.4,
+     "form": -9.5
+    },
+    {
+     "date": "2026-10-20",
+     "fitness": 26.1,
+     "fatigue": 40.3,
+     "form": -14.2
+    },
+    {
+     "date": "2026-10-21",
+     "fitness": 27.5,
+     "fatigue": 46.5,
+     "form": -19.0
+    },
+    {
+     "date": "2026-10-22",
+     "fitness": 28.9,
+     "fatigue": 51.9,
+     "form": -23.0
+    },
+    {
+     "date": "2026-10-23",
+     "fitness": 32.3,
+     "fatigue": 67.9,
+     "form": -35.6
+    },
+    {
+     "date": "2026-10-24",
+     "fitness": 31.8,
+     "fatigue": 60.2,
+     "form": -28.4
+    },
+    {
+     "date": "2026-10-25",
+     "fitness": 31.0,
+     "fatigue": 52.2,
+     "form": -21.1
+    },
+    {
+     "date": "2026-10-26",
+     "fitness": 30.3,
+     "fatigue": 45.2,
+     "form": -14.9
+    },
+    {
+     "date": "2026-10-27",
+     "fitness": 29.6,
+     "fatigue": 39.2,
+     "form": -9.6
+    },
+    {
+     "date": "2026-10-28",
+     "fitness": 28.9,
+     "fatigue": 34.0,
+     "form": -5.1
+    },
+    {
+     "date": "2026-10-29",
+     "fitness": 28.2,
+     "fatigue": 29.5,
+     "form": -1.3
+    },
+    {
+     "date": "2026-10-30",
+     "fitness": 29.8,
+     "fatigue": 38.5,
+     "form": -8.6
+    },
+    {
+     "date": "2026-10-31",
+     "fitness": 29.1,
+     "fatigue": 33.3,
+     "form": -4.2
+    },
+    {
+     "date": "2026-11-01",
+     "fitness": 28.4,
+     "fatigue": 28.9,
+     "form": -0.5
+    },
+    {
+     "date": "2026-11-02",
+     "fitness": 27.8,
+     "fatigue": 25.1,
+     "form": 2.7
+    },
+    {
+     "date": "2026-11-03",
+     "fitness": 31.5,
+     "fatigue": 46.7,
+     "form": -15.2
+    },
+    {
+     "date": "2026-11-04",
+     "fitness": 34.0,
+     "fatigue": 58.4,
+     "form": -24.4
+    },
+    {
+     "date": "2026-11-05",
+     "fitness": 33.2,
+     "fatigue": 50.6,
+     "form": -17.4
+    },
+    {
+     "date": "2026-11-06",
+     "fitness": 33.7,
+     "fatigue": 51.0,
+     "form": -17.4
+    },
+    {
+     "date": "2026-11-07",
+     "fitness": 32.9,
+     "fatigue": 44.3,
+     "form": -11.4
+    },
+    {
+     "date": "2026-11-08",
+     "fitness": 32.1,
+     "fatigue": 38.4,
+     "form": -6.3
+    },
+    {
+     "date": "2026-11-09",
+     "fitness": 31.3,
+     "fatigue": 33.3,
+     "form": -1.9
+    },
+    {
+     "date": "2026-11-10",
+     "fitness": 30.6,
+     "fatigue": 28.8,
+     "form": 1.8
+    },
+    {
+     "date": "2026-11-11",
+     "fitness": 29.9,
+     "fatigue": 25.8,
+     "form": 4.1
+    },
+    {
+     "date": "2026-11-12",
+     "fitness": 29.2,
+     "fatigue": 22.4,
+     "form": 6.8
+    },
+    {
+     "date": "2026-11-13",
+     "fitness": 28.5,
+     "fatigue": 19.4,
+     "form": 9.1
+    },
+    {
+     "date": "2026-11-14",
+     "fitness": 27.8,
+     "fatigue": 16.8,
+     "form": 11.0
+    },
+    {
+     "date": "2026-11-15",
+     "fitness": 27.2,
+     "fatigue": 14.6,
+     "form": 12.6
+    },
+    {
+     "date": "2026-11-16",
+     "fitness": 26.5,
+     "fatigue": 12.6,
+     "form": 13.9
+    }
+   ],
+   "recent_rides": [
+    {
+     "start": "2026-11-06T19:30:37",
+     "date": "2026-11-06",
+     "name": "Dubai Virtual Cycling",
+     "type": "VirtualRide",
+     "hours": 1.1,
+     "miles": 20.1,
+     "avg_watts": 142,
+     "np": 145,
+     "load": 54
+    },
+    {
+     "start": "2026-11-04T14:46:48",
+     "date": "2026-11-04",
+     "name": "Bloomington Road Cycling",
+     "type": "Ride",
+     "hours": 1.8,
+     "miles": 30.1,
+     "avg_watts": 156,
+     "np": 180,
+     "load": 134
+    },
+    {
+     "start": "2026-11-03T16:35:48",
+     "date": "2026-11-03",
+     "name": "Dubai Virtual Cycling",
+     "type": "VirtualRide",
+     "hours": 1.2,
+     "miles": 21.0,
+     "avg_watts": 131,
+     "np": 177,
+     "load": 90
+    },
+    {
+     "start": "2026-11-03T16:20:14",
+     "date": "2026-11-03",
+     "name": "Bloomington Indoor Cycling",
+     "type": "VirtualRide",
+     "hours": 1.4,
+     "miles": null,
+     "avg_watts": 119,
+     "np": 174,
+     "load": 98
+    },
+    {
+     "start": "2026-10-30T17:12:15",
+     "date": "2026-10-30",
+     "name": "Bloomington Road Cycling",
+     "type": "Ride",
+     "hours": 1.4,
+     "miles": 23.3,
+     "avg_watts": 160,
+     "np": 173,
+     "load": 97
+    },
+    {
+     "start": "2026-10-29T14:02:07",
+     "date": "2026-10-29",
+     "name": "Bloomington Road Cycling",
+     "type": "Ride",
+     "hours": 0.1,
+     "miles": 0.8,
+     "avg_watts": null,
+     "np": null,
+     "load": null
+    },
+    {
+     "start": "2026-10-24T04:46:49",
+     "date": "2026-10-24",
+     "name": "Ann Arbor Running",
+     "type": "Run",
+     "hours": 0.2,
+     "miles": 1.7,
+     "avg_watts": null,
+     "np": null,
+     "load": 10
+    },
+    {
+     "start": "2026-10-23T14:46:45",
+     "date": "2026-10-23",
+     "name": "Bloomington Road Cycling",
+     "type": "Ride",
+     "hours": 0.8,
+     "miles": 11.6,
+     "avg_watts": 115,
+     "np": 155,
+     "load": 43
+    },
+    {
+     "start": "2026-10-23T11:45:02",
+     "date": "2026-10-23",
+     "name": "Bloomington Road Cycling",
+     "type": "Ride",
+     "hours": 2.1,
+     "miles": 35.7,
+     "avg_watts": 147,
+     "np": 161,
+     "load": 129
+    },
+    {
+     "start": "2026-10-22T16:54:41",
+     "date": "2026-10-22",
+     "name": "Bloomington - 50m easy aerobic",
+     "type": "Ride",
+     "hours": 1.3,
+     "miles": 21.3,
+     "avg_watts": 152,
+     "np": 170,
+     "load": 87
+    }
+   ],
+   "p5s": 726,
+   "p5s_pr": true,
+   "p1m": 359,
+   "p1m_pr": true,
+   "p3m": 293,
+   "p3m_pr": true,
+   "p12m": 240,
+   "p12m_pr": true,
+   "p20m": 233,
+   "p20m_pr": true
   }
  ],
  "feed": [
@@ -2410,6 +2977,16 @@
    "load": 40
   },
   {
+   "rider": "willchen31",
+   "start": "2026-11-11T13:24:49",
+   "date": "2026-11-11",
+   "name": "Strength",
+   "type": "WeightTraining",
+   "hours": 1.7,
+   "miles": null,
+   "load": 6
+  },
+  {
    "rider": "Carmelo",
    "start": "2026-11-10T18:37:19",
    "date": "2026-11-10",
@@ -2470,6 +3047,16 @@
    "load": 129
   },
   {
+   "rider": "willchen31",
+   "start": "2026-11-06T19:30:37",
+   "date": "2026-11-06",
+   "name": "Dubai Virtual Cycling",
+   "type": "VirtualRide",
+   "hours": 1.1,
+   "miles": 20.1,
+   "load": 54
+  },
+  {
    "rider": "Tin",
    "start": "2026-11-06T17:20:18",
    "date": "2026-11-06",
@@ -2498,6 +3085,36 @@
    "hours": 2.2,
    "miles": 35.4,
    "load": 95
+  },
+  {
+   "rider": "willchen31",
+   "start": "2026-11-04T14:46:48",
+   "date": "2026-11-04",
+   "name": "Bloomington Road Cycling",
+   "type": "Ride",
+   "hours": 1.8,
+   "miles": 30.1,
+   "load": 134
+  },
+  {
+   "rider": "willchen31",
+   "start": "2026-11-03T16:35:48",
+   "date": "2026-11-03",
+   "name": "Dubai Virtual Cycling",
+   "type": "VirtualRide",
+   "hours": 1.2,
+   "miles": 21.0,
+   "load": 90
+  },
+  {
+   "rider": "willchen31",
+   "start": "2026-11-03T16:20:14",
+   "date": "2026-11-03",
+   "name": "Bloomington Indoor Cycling",
+   "type": "VirtualRide",
+   "hours": 1.4,
+   "miles": null,
+   "load": 98
   },
   {
    "rider": "Kyle",
