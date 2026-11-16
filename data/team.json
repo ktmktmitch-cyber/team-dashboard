@@ -1,19 +1,19 @@
 {
- "updated": "Mon Nov 16, 3:24 PM",
+ "updated": "Mon Nov 16, 5:49 PM",
  "today": "2026-11-16",
  "riders": [
   {
    "id": "i285485",
    "rider": "Kyle",
    "state": "ok",
-   "hidden_strava": 20,
-   "hours_this_week": 0.0,
+   "hidden_strava": 21,
+   "hours_this_week": 1.5,
    "hours_last_week": 6.9,
-   "hours_month": 19.9,
-   "hours_ytd": 357.2,
+   "hours_month": 21.4,
+   "hours_ytd": 358.8,
    "miles_ytd": 5090,
-   "fitness": 52,
-   "form": -11,
+   "fitness": 55,
+   "form": -20,
    "eftp_watts": 293,
    "eftp_wkg": 3.63,
    "prs": [
@@ -95,9 +95,9 @@
     },
     {
      "week": "2026-11-16",
-     "hours": 0.0,
+     "hours": 1.5,
      "miles": 0,
-     "rides": 0
+     "rides": 1
     }
    ],
    "trend": [
@@ -433,12 +433,23 @@
     },
     {
      "date": "2026-11-16",
-     "fitness": 52.5,
-     "fatigue": 63.2,
-     "form": -10.7
+     "fitness": 54.5,
+     "fatigue": 74.6,
+     "form": -20.1
     }
    ],
    "recent_rides": [
+    {
+     "start": "2026-11-16T15:19:57",
+     "date": "2026-11-16",
+     "name": "JOIN Cycling - Sweet spot tempo",
+     "type": "VirtualRide",
+     "hours": 1.5,
+     "miles": null,
+     "avg_watts": 202,
+     "np": 212,
+     "load": 86
+    },
     {
      "start": "2026-11-15T10:42:44",
      "date": "2026-11-15",
@@ -537,17 +548,6 @@
      "avg_watts": 157,
      "np": 220,
      "load": 102
-    },
-    {
-     "start": "2026-11-02T13:30:21",
-     "date": "2026-11-02",
-     "name": "Bloomington Road Cycling",
-     "type": "Ride",
-     "hours": 2.1,
-     "miles": 32.6,
-     "avg_watts": 166,
-     "np": 177,
-     "load": 58
     }
    ],
    "p5s": 1329,
@@ -2332,15 +2332,15 @@
    "rider": "willchen31",
    "state": "ok",
    "hidden_strava": 0,
-   "hours_this_week": 0.0,
+   "hours_this_week": 2.0,
    "hours_last_week": 0.0,
-   "hours_month": 5.5,
-   "hours_ytd": 77.4,
-   "miles_ytd": 992,
-   "fitness": 27,
-   "form": 14,
-   "eftp_watts": 222,
-   "eftp_wkg": 2.88,
+   "hours_month": 7.5,
+   "hours_ytd": 79.4,
+   "miles_ytd": 1027,
+   "fitness": 29,
+   "form": 4,
+   "eftp_watts": 220,
+   "eftp_wkg": 2.86,
    "prs": [
     {
      "rider": "willchen31",
@@ -2428,9 +2428,9 @@
     },
     {
      "week": "2026-11-16",
-     "hours": 0.0,
-     "miles": 0,
-     "rides": 0
+     "hours": 2.0,
+     "miles": 35,
+     "rides": 1
     }
    ],
    "trend": [
@@ -2766,12 +2766,23 @@
     },
     {
      "date": "2026-11-16",
-     "fitness": 26.5,
-     "fatigue": 12.6,
-     "form": 13.9
+     "fitness": 28.7,
+     "fatigue": 25.1,
+     "form": 3.6
     }
    ],
    "recent_rides": [
+    {
+     "start": "2026-11-16T14:57:37",
+     "date": "2026-11-16",
+     "name": "MyWhoosh - Lake Lucerne Loop",
+     "type": "VirtualRide",
+     "hours": 2.0,
+     "miles": 34.7,
+     "avg_watts": 134,
+     "np": 142,
+     "load": 94
+    },
     {
      "start": "2026-11-06T19:30:37",
      "date": "2026-11-06",
@@ -2870,17 +2881,6 @@
      "avg_watts": 147,
      "np": 161,
      "load": 129
-    },
-    {
-     "start": "2026-10-22T16:54:41",
-     "date": "2026-10-22",
-     "name": "Bloomington - 50m easy aerobic",
-     "type": "Ride",
-     "hours": 1.3,
-     "miles": 21.3,
-     "avg_watts": 152,
-     "np": 170,
-     "load": 87
     }
    ],
    "p5s": 726,
@@ -2896,6 +2896,26 @@
   }
  ],
  "feed": [
+  {
+   "rider": "Kyle",
+   "start": "2026-11-16T15:19:57",
+   "date": "2026-11-16",
+   "name": "JOIN Cycling - Sweet spot tempo",
+   "type": "VirtualRide",
+   "hours": 1.5,
+   "miles": null,
+   "load": 86
+  },
+  {
+   "rider": "willchen31",
+   "start": "2026-11-16T14:57:37",
+   "date": "2026-11-16",
+   "name": "MyWhoosh - Lake Lucerne Loop",
+   "type": "VirtualRide",
+   "hours": 2.0,
+   "miles": 34.7,
+   "load": 94
+  },
   {
    "rider": "Kyle",
    "start": "2026-11-15T10:42:44",
