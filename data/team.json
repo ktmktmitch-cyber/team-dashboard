@@ -1,5 +1,5 @@
 {
- "updated": "Sun Nov 15, 5:41 PM",
+ "updated": "Sun Nov 15, 9:23 PM",
  "today": "2026-11-15",
  "riders": [
   {
@@ -750,6 +750,421 @@
    "p12m_pr": true,
    "p20m": 178,
    "p20m_pr": true
+  },
+  {
+   "id": "i801718",
+   "rider": "Lilly",
+   "state": "ok",
+   "hidden_strava": 7,
+   "hours_this_week": 0.0,
+   "hours_last_week": 0.0,
+   "hours_month": 0.0,
+   "hours_ytd": 0.0,
+   "miles_ytd": 0,
+   "fitness": 0,
+   "form": 0,
+   "eftp_watts": null,
+   "eftp_wkg": null,
+   "prs": [],
+   "weeks": [
+    {
+     "week": "2026-09-21",
+     "hours": 0.0,
+     "miles": 0,
+     "rides": 0
+    },
+    {
+     "week": "2026-09-28",
+     "hours": 0.0,
+     "miles": 0,
+     "rides": 0
+    },
+    {
+     "week": "2026-10-05",
+     "hours": 0.0,
+     "miles": 0,
+     "rides": 0
+    },
+    {
+     "week": "2026-10-12",
+     "hours": 0.0,
+     "miles": 0,
+     "rides": 0
+    },
+    {
+     "week": "2026-10-19",
+     "hours": 0.0,
+     "miles": 0,
+     "rides": 0
+    },
+    {
+     "week": "2026-10-26",
+     "hours": 0.0,
+     "miles": 0,
+     "rides": 0
+    },
+    {
+     "week": "2026-11-02",
+     "hours": 0.0,
+     "miles": 0,
+     "rides": 0
+    },
+    {
+     "week": "2026-11-09",
+     "hours": 0.0,
+     "miles": 0,
+     "rides": 0
+    }
+   ],
+   "trend": [
+    {
+     "date": "2026-09-21",
+     "fitness": 0.0,
+     "fatigue": 0,
+     "form": 0.0
+    },
+    {
+     "date": "2026-09-22",
+     "fitness": 0.0,
+     "fatigue": 0,
+     "form": 0.0
+    },
+    {
+     "date": "2026-09-23",
+     "fitness": 0.0,
+     "fatigue": 0,
+     "form": 0.0
+    },
+    {
+     "date": "2026-09-24",
+     "fitness": 0.0,
+     "fatigue": 0,
+     "form": 0.0
+    },
+    {
+     "date": "2026-09-25",
+     "fitness": 0.0,
+     "fatigue": 0,
+     "form": 0.0
+    },
+    {
+     "date": "2026-09-26",
+     "fitness": 0.0,
+     "fatigue": 0,
+     "form": 0.0
+    },
+    {
+     "date": "2026-09-27",
+     "fitness": 0.0,
+     "fatigue": 0,
+     "form": 0.0
+    },
+    {
+     "date": "2026-09-28",
+     "fitness": 0.0,
+     "fatigue": 0,
+     "form": 0.0
+    },
+    {
+     "date": "2026-09-29",
+     "fitness": 0.0,
+     "fatigue": 0,
+     "form": 0.0
+    },
+    {
+     "date": "2026-09-30",
+     "fitness": 0.0,
+     "fatigue": 0,
+     "form": 0.0
+    },
+    {
+     "date": "2026-10-01",
+     "fitness": 0.0,
+     "fatigue": 0,
+     "form": 0.0
+    },
+    {
+     "date": "2026-10-02",
+     "fitness": 0.0,
+     "fatigue": 0,
+     "form": 0.0
+    },
+    {
+     "date": "2026-10-03",
+     "fitness": 0.0,
+     "fatigue": 0,
+     "form": 0.0
+    },
+    {
+     "date": "2026-10-04",
+     "fitness": 0.0,
+     "fatigue": 0,
+     "form": 0.0
+    },
+    {
+     "date": "2026-10-05",
+     "fitness": 0.0,
+     "fatigue": 0,
+     "form": 0.0
+    },
+    {
+     "date": "2026-10-06",
+     "fitness": 0.0,
+     "fatigue": 0,
+     "form": 0.0
+    },
+    {
+     "date": "2026-10-07",
+     "fitness": 0.0,
+     "fatigue": 0,
+     "form": 0.0
+    },
+    {
+     "date": "2026-10-08",
+     "fitness": 0.0,
+     "fatigue": 0,
+     "form": 0.0
+    },
+    {
+     "date": "2026-10-09",
+     "fitness": 0.0,
+     "fatigue": 0,
+     "form": 0.0
+    },
+    {
+     "date": "2026-10-10",
+     "fitness": 0.0,
+     "fatigue": 0,
+     "form": 0.0
+    },
+    {
+     "date": "2026-10-11",
+     "fitness": 0.0,
+     "fatigue": 0,
+     "form": 0.0
+    },
+    {
+     "date": "2026-10-12",
+     "fitness": 0.0,
+     "fatigue": 0,
+     "form": 0.0
+    },
+    {
+     "date": "2026-10-13",
+     "fitness": 0.0,
+     "fatigue": 0,
+     "form": 0.0
+    },
+    {
+     "date": "2026-10-14",
+     "fitness": 0.0,
+     "fatigue": 0,
+     "form": 0.0
+    },
+    {
+     "date": "2026-10-15",
+     "fitness": 0.0,
+     "fatigue": 0,
+     "form": 0.0
+    },
+    {
+     "date": "2026-10-16",
+     "fitness": 0.0,
+     "fatigue": 0,
+     "form": 0.0
+    },
+    {
+     "date": "2026-10-17",
+     "fitness": 0.0,
+     "fatigue": 0,
+     "form": 0.0
+    },
+    {
+     "date": "2026-10-18",
+     "fitness": 0.0,
+     "fatigue": 0,
+     "form": 0.0
+    },
+    {
+     "date": "2026-10-19",
+     "fitness": 0.0,
+     "fatigue": 0,
+     "form": 0.0
+    },
+    {
+     "date": "2026-10-20",
+     "fitness": 0.0,
+     "fatigue": 0,
+     "form": 0.0
+    },
+    {
+     "date": "2026-10-21",
+     "fitness": 0.0,
+     "fatigue": 0,
+     "form": 0.0
+    },
+    {
+     "date": "2026-10-22",
+     "fitness": 0.0,
+     "fatigue": 0,
+     "form": 0.0
+    },
+    {
+     "date": "2026-10-23",
+     "fitness": 0.0,
+     "fatigue": 0,
+     "form": 0.0
+    },
+    {
+     "date": "2026-10-24",
+     "fitness": 0.0,
+     "fatigue": 0,
+     "form": 0.0
+    },
+    {
+     "date": "2026-10-25",
+     "fitness": 0.0,
+     "fatigue": 0,
+     "form": 0.0
+    },
+    {
+     "date": "2026-10-26",
+     "fitness": 0.0,
+     "fatigue": 0,
+     "form": 0.0
+    },
+    {
+     "date": "2026-10-27",
+     "fitness": 0.0,
+     "fatigue": 0,
+     "form": 0.0
+    },
+    {
+     "date": "2026-10-28",
+     "fitness": 0.0,
+     "fatigue": 0,
+     "form": 0.0
+    },
+    {
+     "date": "2026-10-29",
+     "fitness": 0.0,
+     "fatigue": 0,
+     "form": 0.0
+    },
+    {
+     "date": "2026-10-30",
+     "fitness": 0.0,
+     "fatigue": 0,
+     "form": 0.0
+    },
+    {
+     "date": "2026-10-31",
+     "fitness": 0.0,
+     "fatigue": 0,
+     "form": 0.0
+    },
+    {
+     "date": "2026-11-01",
+     "fitness": 0.0,
+     "fatigue": 0,
+     "form": 0.0
+    },
+    {
+     "date": "2026-11-02",
+     "fitness": 0.0,
+     "fatigue": 0,
+     "form": 0.0
+    },
+    {
+     "date": "2026-11-03",
+     "fitness": 0.0,
+     "fatigue": 0,
+     "form": 0.0
+    },
+    {
+     "date": "2026-11-04",
+     "fitness": 0.0,
+     "fatigue": 0,
+     "form": 0.0
+    },
+    {
+     "date": "2026-11-05",
+     "fitness": 0.0,
+     "fatigue": 0,
+     "form": 0.0
+    },
+    {
+     "date": "2026-11-06",
+     "fitness": 0.0,
+     "fatigue": 0,
+     "form": 0.0
+    },
+    {
+     "date": "2026-11-07",
+     "fitness": 0.0,
+     "fatigue": 0,
+     "form": 0.0
+    },
+    {
+     "date": "2026-11-08",
+     "fitness": 0.0,
+     "fatigue": 0,
+     "form": 0.0
+    },
+    {
+     "date": "2026-11-09",
+     "fitness": 0.0,
+     "fatigue": 0,
+     "form": 0.0
+    },
+    {
+     "date": "2026-11-10",
+     "fitness": 0.0,
+     "fatigue": 0,
+     "form": 0.0
+    },
+    {
+     "date": "2026-11-11",
+     "fitness": 0.0,
+     "fatigue": 0,
+     "form": 0.0
+    },
+    {
+     "date": "2026-11-12",
+     "fitness": 0.0,
+     "fatigue": 0,
+     "form": 0.0
+    },
+    {
+     "date": "2026-11-13",
+     "fitness": 0.0,
+     "fatigue": 0,
+     "form": 0.0
+    },
+    {
+     "date": "2026-11-14",
+     "fitness": 0.0,
+     "fatigue": 0,
+     "form": 0.0
+    },
+    {
+     "date": "2026-11-15",
+     "fitness": 0.0,
+     "fatigue": 0,
+     "form": 0.0
+    }
+   ],
+   "recent_rides": [],
+   "p5s": null,
+   "p5s_pr": false,
+   "p1m": null,
+   "p1m_pr": false,
+   "p3m": null,
+   "p3m_pr": false,
+   "p12m": null,
+   "p12m_pr": false,
+   "p20m": null,
+   "p20m_pr": false
   },
   {
    "id": "i793997",
