@@ -1,12 +1,12 @@
 {
- "updated": "Mon Nov 16, 5:49 PM",
+ "updated": "Mon Nov 16, 9:15 PM",
  "today": "2026-11-16",
  "riders": [
   {
    "id": "i285485",
    "rider": "Kyle",
    "state": "ok",
-   "hidden_strava": 21,
+   "hidden_strava": 20,
    "hours_this_week": 1.5,
    "hours_last_week": 6.9,
    "hours_month": 21.4,
