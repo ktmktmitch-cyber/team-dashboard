@@ -1,6 +1,6 @@
 {
- "updated": "Mon Nov 16, 9:15 PM",
- "today": "2026-11-16",
+ "updated": "Tue Nov 17, 6:03 AM",
+ "today": "2026-11-17",
  "riders": [
   {
    "id": "i285485",
@@ -12,8 +12,8 @@
    "hours_month": 21.4,
    "hours_ytd": 358.8,
    "miles_ytd": 5090,
-   "fitness": 55,
-   "form": -20,
+   "fitness": 53,
+   "form": -11,
    "eftp_watts": 293,
    "eftp_wkg": 3.63,
    "prs": [
@@ -101,12 +101,6 @@
     }
    ],
    "trend": [
-    {
-     "date": "2026-09-22",
-     "fitness": 53.4,
-     "fatigue": 40.1,
-     "form": 13.3
-    },
     {
      "date": "2026-09-23",
      "fitness": 54.6,
@@ -436,6 +430,12 @@
      "fitness": 54.5,
      "fatigue": 74.6,
      "form": -20.1
+    },
+    {
+     "date": "2026-11-17",
+     "fitness": 53.2,
+     "fatigue": 64.7,
+     "form": -11.5
     }
    ],
    "recent_rides": [
@@ -566,15 +566,15 @@
    "rider": "Carmelo",
    "state": "ok",
    "hidden_strava": 0,
-   "hours_this_week": 0.0,
+   "hours_this_week": 0.3,
    "hours_last_week": 1.4,
-   "hours_month": 1.4,
-   "hours_ytd": 1.4,
+   "hours_month": 1.7,
+   "hours_ytd": 1.7,
    "miles_ytd": 3,
    "fitness": 1,
-   "form": -2,
-   "eftp_watts": null,
-   "eftp_wkg": null,
+   "form": -3,
+   "eftp_watts": 179,
+   "eftp_wkg": 2.32,
    "prs": [
     {
      "rider": "Carmelo",
@@ -662,9 +662,9 @@
     },
     {
      "week": "2026-11-16",
-     "hours": 0.0,
+     "hours": 0.3,
      "miles": 0,
-     "rides": 0
+     "rides": 1
     }
    ],
    "trend": [
@@ -706,12 +706,29 @@
     },
     {
      "date": "2026-11-16",
-     "fitness": 0.7,
-     "fatigue": 2.5,
-     "form": -1.9
+     "fitness": 1.1,
+     "fatigue": 5.2,
+     "form": -4.1
+    },
+    {
+     "date": "2026-11-17",
+     "fitness": 1.1,
+     "fatigue": 4.5,
+     "form": -3.4
     }
    ],
    "recent_rides": [
+    {
+     "start": "2026-11-16T21:34:43",
+     "date": "2026-11-16",
+     "name": "Bloomington Cycling",
+     "type": "Ride",
+     "hours": 0.3,
+     "miles": 0.0,
+     "avg_watts": null,
+     "np": null,
+     "load": 20
+    },
     {
      "start": "2026-11-12T18:16:43",
      "date": "2026-11-12",
@@ -823,12 +840,6 @@
     }
    ],
    "trend": [
-    {
-     "date": "2026-09-22",
-     "fitness": 0.0,
-     "fatigue": 0,
-     "form": 0.0
-    },
     {
      "date": "2026-09-23",
      "fitness": 0.0,
@@ -1158,6 +1169,12 @@
      "fitness": 0.0,
      "fatigue": 0,
      "form": 0.0
+    },
+    {
+     "date": "2026-11-17",
+     "fitness": 0.0,
+     "fatigue": 0,
+     "form": 0.0
     }
    ],
    "recent_rides": [],
@@ -1316,12 +1333,6 @@
     }
    ],
    "trend": [
-    {
-     "date": "2026-09-22",
-     "fitness": 1.0,
-     "fatigue": 0.0,
-     "form": 1.0
-    },
     {
      "date": "2026-09-23",
      "fitness": 1.0,
@@ -1651,6 +1662,12 @@
      "fitness": 4.1,
      "fatigue": 0.9,
      "form": 3.1
+    },
+    {
+     "date": "2026-11-17",
+     "fitness": 4.0,
+     "fatigue": 0.8,
+     "form": 3.2
     }
    ],
    "recent_rides": [
@@ -1786,8 +1803,8 @@
    "hours_month": 3.7,
    "hours_ytd": 172.3,
    "miles_ytd": 2498,
-   "fitness": 36,
-   "form": 20,
+   "fitness": 35,
+   "form": 22,
    "eftp_watts": 227,
    "eftp_wkg": 3.34,
    "prs": [
@@ -1867,12 +1884,6 @@
     }
    ],
    "trend": [
-    {
-     "date": "2026-09-22",
-     "fitness": 34.9,
-     "fatigue": 42.7,
-     "form": -7.9
-    },
     {
      "date": "2026-09-23",
      "fitness": 36.9,
@@ -2202,6 +2213,12 @@
      "fitness": 36.1,
      "fatigue": 15.7,
      "form": 20.4
+    },
+    {
+     "date": "2026-11-17",
+     "fitness": 35.3,
+     "fatigue": 13.6,
+     "form": 21.7
     }
    ],
    "recent_rides": [
@@ -2337,8 +2354,8 @@
    "hours_month": 7.5,
    "hours_ytd": 79.4,
    "miles_ytd": 1027,
-   "fitness": 29,
-   "form": 4,
+   "fitness": 28,
+   "form": 6,
    "eftp_watts": 220,
    "eftp_wkg": 2.86,
    "prs": [
@@ -2434,12 +2451,6 @@
     }
    ],
    "trend": [
-    {
-     "date": "2026-09-22",
-     "fitness": 13.5,
-     "fatigue": 16.5,
-     "form": -3.0
-    },
     {
      "date": "2026-09-23",
      "fitness": 16.8,
@@ -2769,6 +2780,12 @@
      "fitness": 28.7,
      "fatigue": 25.1,
      "form": 3.6
+    },
+    {
+     "date": "2026-11-17",
+     "fitness": 28.1,
+     "fatigue": 21.8,
+     "form": 6.3
     }
    ],
    "recent_rides": [
@@ -2896,6 +2913,16 @@
   }
  ],
  "feed": [
+  {
+   "rider": "Carmelo",
+   "start": "2026-11-16T21:34:43",
+   "date": "2026-11-16",
+   "name": "Bloomington Cycling",
+   "type": "Ride",
+   "hours": 0.3,
+   "miles": 0.0,
+   "load": 20
+  },
   {
    "rider": "Kyle",
    "start": "2026-11-16T15:19:57",
@@ -3115,36 +3142,6 @@
    "hours": 1.8,
    "miles": 30.1,
    "load": 134
-  },
-  {
-   "rider": "willchen31",
-   "start": "2026-11-03T16:35:48",
-   "date": "2026-11-03",
-   "name": "Dubai Virtual Cycling",
-   "type": "VirtualRide",
-   "hours": 1.2,
-   "miles": 21.0,
-   "load": 90
-  },
-  {
-   "rider": "willchen31",
-   "start": "2026-11-03T16:20:14",
-   "date": "2026-11-03",
-   "name": "Bloomington Indoor Cycling",
-   "type": "VirtualRide",
-   "hours": 1.4,
-   "miles": null,
-   "load": 98
-  },
-  {
-   "rider": "Kyle",
-   "start": "2026-11-03T12:31:59",
-   "date": "2026-11-03",
-   "name": "WAITER WAITER",
-   "type": "Ride",
-   "hours": 2.0,
-   "miles": 30.8,
-   "load": 102
   }
  ]
 }
