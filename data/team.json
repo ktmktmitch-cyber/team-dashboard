@@ -1,5 +1,5 @@
 {
- "updated": "Tue Nov 17, 5:56 PM",
+ "updated": "Tue Nov 17, 9:18 PM",
  "today": "2026-11-17",
  "riders": [
   {
@@ -566,13 +566,13 @@
    "rider": "Carmelo",
    "state": "ok",
    "hidden_strava": 0,
-   "hours_this_week": 0.3,
+   "hours_this_week": 0.6,
    "hours_last_week": 1.4,
-   "hours_month": 1.7,
-   "hours_ytd": 1.7,
-   "miles_ytd": 3,
+   "hours_month": 2.0,
+   "hours_ytd": 2.0,
+   "miles_ytd": 5,
    "fitness": 1,
-   "form": -3,
+   "form": -5,
    "eftp_watts": 179,
    "eftp_wkg": 2.32,
    "prs": [
@@ -662,9 +662,9 @@
     },
     {
      "week": "2026-11-16",
-     "hours": 0.3,
-     "miles": 0,
-     "rides": 1
+     "hours": 0.6,
+     "miles": 2,
+     "rides": 2
     }
    ],
    "trend": [
@@ -712,12 +712,23 @@
     },
     {
      "date": "2026-11-17",
-     "fitness": 1.1,
-     "fatigue": 4.5,
-     "form": -3.4
+     "fitness": 1.4,
+     "fatigue": 6.1,
+     "form": -4.7
     }
    ],
    "recent_rides": [
+    {
+     "start": "2026-11-17T19:17:12",
+     "date": "2026-11-17",
+     "name": "Bloomington Running",
+     "type": "Run",
+     "hours": 0.3,
+     "miles": 2.0,
+     "avg_watts": null,
+     "np": null,
+     "load": 12
+    },
     {
      "start": "2026-11-16T21:34:43",
      "date": "2026-11-16",
@@ -1815,22 +1826,6 @@
      "wkg": 12.4,
      "date": "2026-09-30",
      "ride": "Bloomington Road Cycling"
-    },
-    {
-     "rider": "Tin",
-     "duration": "12 min",
-     "watts": 238,
-     "wkg": 3.5,
-     "date": "2026-09-23",
-     "ride": "Bloomington Road Cycling"
-    },
-    {
-     "rider": "Tin",
-     "duration": "20 min",
-     "watts": 231,
-     "wkg": 3.4,
-     "date": "2026-09-23",
-     "ride": "Bloomington Road Cycling"
     }
    ],
    "weeks": [
@@ -2339,23 +2334,23 @@
    "p1m_pr": false,
    "p3m": 284,
    "p3m_pr": false,
-   "p12m": 238,
-   "p12m_pr": true,
-   "p20m": 231,
-   "p20m_pr": true
+   "p12m": 209,
+   "p12m_pr": false,
+   "p20m": 204,
+   "p20m_pr": false
   },
   {
    "id": "i803017",
    "rider": "willchen31",
    "state": "ok",
    "hidden_strava": 0,
-   "hours_this_week": 2.0,
+   "hours_this_week": 3.2,
    "hours_last_week": 0.0,
-   "hours_month": 7.5,
-   "hours_ytd": 79.4,
-   "miles_ytd": 1027,
-   "fitness": 28,
-   "form": 6,
+   "hours_month": 8.7,
+   "hours_ytd": 80.6,
+   "miles_ytd": 1045,
+   "fitness": 29,
+   "form": 0,
    "eftp_watts": 220,
    "eftp_wkg": 2.86,
    "prs": [
@@ -2382,14 +2377,6 @@
      "wkg": 3.8,
      "date": "2026-11-03",
      "ride": "Bloomington Indoor Cycling"
-    },
-    {
-     "rider": "willchen31",
-     "duration": "12 min",
-     "watts": 240,
-     "wkg": 3.1,
-     "date": "2026-09-23",
-     "ride": "Bloomington Road Cycling"
     },
     {
      "rider": "willchen31",
@@ -2445,9 +2432,9 @@
     },
     {
      "week": "2026-11-16",
-     "hours": 2.0,
-     "miles": 35,
-     "rides": 1
+     "hours": 3.2,
+     "miles": 53,
+     "rides": 2
     }
    ],
    "trend": [
@@ -2783,12 +2770,23 @@
     },
     {
      "date": "2026-11-17",
-     "fitness": 28.1,
-     "fatigue": 21.8,
-     "form": 6.3
+     "fitness": 29.3,
+     "fatigue": 29.0,
+     "form": 0.3
     }
    ],
    "recent_rides": [
+    {
+     "start": "2026-11-17T17:10:07",
+     "date": "2026-11-17",
+     "name": "MyWhoosh - 90 Minute Endurance",
+     "type": "VirtualRide",
+     "hours": 1.2,
+     "miles": 18.2,
+     "avg_watts": 131,
+     "np": 139,
+     "load": 54
+    },
     {
      "start": "2026-11-16T14:57:37",
      "date": "2026-11-16",
@@ -2887,17 +2885,6 @@
      "avg_watts": 115,
      "np": 155,
      "load": 43
-    },
-    {
-     "start": "2026-10-23T11:45:02",
-     "date": "2026-10-23",
-     "name": "Bloomington Road Cycling",
-     "type": "Ride",
-     "hours": 2.1,
-     "miles": 35.7,
-     "avg_watts": 147,
-     "np": 161,
-     "load": 129
     }
    ],
    "p5s": 726,
@@ -2906,13 +2893,33 @@
    "p1m_pr": true,
    "p3m": 293,
    "p3m_pr": true,
-   "p12m": 240,
-   "p12m_pr": true,
+   "p12m": 231,
+   "p12m_pr": false,
    "p20m": 233,
    "p20m_pr": true
   }
  ],
  "feed": [
+  {
+   "rider": "Carmelo",
+   "start": "2026-11-17T19:17:12",
+   "date": "2026-11-17",
+   "name": "Bloomington Running",
+   "type": "Run",
+   "hours": 0.3,
+   "miles": 2.0,
+   "load": 12
+  },
+  {
+   "rider": "willchen31",
+   "start": "2026-11-17T17:10:07",
+   "date": "2026-11-17",
+   "name": "MyWhoosh - 90 Minute Endurance",
+   "type": "VirtualRide",
+   "hours": 1.2,
+   "miles": 18.2,
+   "load": 54
+  },
   {
    "rider": "Carmelo",
    "start": "2026-11-16T21:34:43",
