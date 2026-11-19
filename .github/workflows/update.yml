@@ -2,7 +2,7 @@ name: Update dashboard
 
 on:
   schedule:
-    # Every 3 hours, starting 5:07 AM Eastern (times are UTC).
+    # Every 3 hours, starting 5:07 AM Eastern (times are UTC). Edit to taste.
     - cron: "7 1,10,13,16,19,22 * * *"
   workflow_dispatch: {}
 
@@ -13,14 +13,11 @@ permissions:
 
 concurrency:
   group: pages
-  cancel-in-progress: true
+  cancel-in-progress: false
 
 jobs:
   build:
     runs-on: ubuntu-latest
-    environment:
-      name: github-pages
-      url: ${{ steps.deploy.outputs.page_url }}
     steps:
       - uses: actions/checkout@v4
 
@@ -39,13 +36,21 @@ jobs:
           git config user.email "dashboard-bot@users.noreply.github.com"
           git add data/team.json
           git diff --cached --quiet || git commit -m "Update team data"
+          git pull --rebase
           git push
 
       - uses: actions/configure-pages@v5
 
-      - uses: actions/upload-pages-artifact@v3
+      - uses: actions/upload-pages-artifact@v4
         with:
           path: site
 
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    steps:
       - id: deploy
         uses: actions/deploy-pages@v4
