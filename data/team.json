@@ -1,6 +1,6 @@
 {
- "updated": "Wed Nov 18, 9:21 PM",
- "today": "2026-11-18",
+ "updated": "Thu Nov 19, 6:02 AM",
+ "today": "2026-11-19",
  "riders": [
   {
    "id": "i285485",
@@ -12,8 +12,8 @@
    "hours_month": 23.2,
    "hours_ytd": 360.6,
    "miles_ytd": 5118,
-   "fitness": 53,
-   "form": -10,
+   "fitness": 52,
+   "form": -3,
    "eftp_watts": 293,
    "eftp_wkg": 3.63,
    "prs": [
@@ -101,12 +101,6 @@
     }
    ],
    "trend": [
-    {
-     "date": "2026-09-24",
-     "fitness": 53.3,
-     "fatigue": 42.0,
-     "form": 11.3
-    },
     {
      "date": "2026-09-25",
      "fitness": 54.3,
@@ -436,6 +430,12 @@
      "fitness": 53.2,
      "fatigue": 63.0,
      "form": -9.8
+    },
+    {
+     "date": "2026-11-19",
+     "fitness": 52.0,
+     "fatigue": 54.6,
+     "form": -2.7
     }
    ],
    "recent_rides": [
@@ -572,7 +572,7 @@
    "hours_ytd": 2.0,
    "miles_ytd": 5,
    "fitness": 1,
-   "form": -4,
+   "form": -3,
    "eftp_watts": 179,
    "eftp_wkg": 2.32,
    "prs": [
@@ -721,6 +721,12 @@
      "fitness": 1.4,
      "fatigue": 5.3,
      "form": -3.9
+    },
+    {
+     "date": "2026-11-19",
+     "fitness": 1.3,
+     "fatigue": 4.6,
+     "form": -3.3
     }
    ],
    "recent_rides": [
@@ -857,12 +863,6 @@
     }
    ],
    "trend": [
-    {
-     "date": "2026-09-24",
-     "fitness": 0.0,
-     "fatigue": 0,
-     "form": 0.0
-    },
     {
      "date": "2026-09-25",
      "fitness": 0.0,
@@ -1192,6 +1192,12 @@
      "fitness": 0.0,
      "fatigue": 0,
      "form": 0.0
+    },
+    {
+     "date": "2026-11-19",
+     "fitness": 0.0,
+     "fatigue": 0,
+     "form": 0.0
     }
    ],
    "recent_rides": [],
@@ -1295,7 +1301,7 @@
    "hours_ytd": 82.3,
    "miles_ytd": 1074,
    "fitness": 31,
-   "form": -10,
+   "form": -5,
    "eftp_watts": 220,
    "eftp_wkg": 2.86,
    "prs": [
@@ -1383,12 +1389,6 @@
     }
    ],
    "trend": [
-    {
-     "date": "2026-09-24",
-     "fitness": 16.4,
-     "fatigue": 30.3,
-     "form": -13.9
-    },
     {
      "date": "2026-09-25",
      "fitness": 16.0,
@@ -1718,6 +1718,12 @@
      "fitness": 31.5,
      "fatigue": 41.1,
      "form": -9.6
+    },
+    {
+     "date": "2026-11-19",
+     "fitness": 30.7,
+     "fatigue": 35.6,
+     "form": -4.9
     }
    ],
    "recent_rides": [
@@ -1909,12 +1915,6 @@
     }
    ],
    "trend": [
-    {
-     "date": "2026-09-24",
-     "fitness": 1.0,
-     "fatigue": 0.0,
-     "form": 1.0
-    },
     {
      "date": "2026-09-25",
      "fitness": 1.0,
@@ -2244,6 +2244,12 @@
      "fitness": 3.6,
      "fatigue": 0.7,
      "form": 2.9
+    },
+    {
+     "date": "2026-11-19",
+     "fitness": 3.5,
+     "fatigue": 0.6,
+     "form": 2.9
     }
    ],
    "recent_rides": [
@@ -2444,12 +2450,6 @@
     }
    ],
    "trend": [
-    {
-     "date": "2026-09-24",
-     "fitness": 36.0,
-     "fatigue": 46.1,
-     "form": -10.0
-    },
     {
      "date": "2026-09-25",
      "fitness": 35.2,
@@ -2779,6 +2779,12 @@
      "fitness": 34.4,
      "fatigue": 11.8,
      "form": 22.6
+    },
+    {
+     "date": "2026-11-19",
+     "fitness": 33.6,
+     "fatigue": 10.2,
+     "form": 23.4
     }
    ],
    "recent_rides": [
@@ -3145,26 +3151,6 @@
    "hours": 0.5,
    "miles": null,
    "load": 31
-  },
-  {
-   "rider": "Kyle",
-   "start": "2026-11-05T19:05:13",
-   "date": "2026-11-05",
-   "name": "Strength",
-   "type": "WeightTraining",
-   "hours": 1.2,
-   "miles": null,
-   "load": 26
-  },
-  {
-   "rider": "Kyle",
-   "start": "2026-11-05T11:30:26",
-   "date": "2026-11-05",
-   "name": "Flynn Knows Ball",
-   "type": "Ride",
-   "hours": 2.2,
-   "miles": 35.4,
-   "load": 95
   }
  ]
 }
