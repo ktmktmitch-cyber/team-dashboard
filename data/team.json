@@ -1,5 +1,5 @@
 {
- "updated": "Thu Nov 19, 12:07 PM",
+ "updated": "Thu Nov 19, 3:05 PM",
  "today": "2026-11-19",
  "riders": [
   {
@@ -7,13 +7,13 @@
    "rider": "Kyle",
    "state": "ok",
    "hidden_strava": 20,
-   "hours_this_week": 3.3,
+   "hours_this_week": 4.3,
    "hours_last_week": 6.9,
-   "hours_month": 23.2,
-   "hours_ytd": 360.6,
+   "hours_month": 24.2,
+   "hours_ytd": 361.6,
    "miles_ytd": 5118,
-   "fitness": 52,
-   "form": -3,
+   "fitness": 53,
+   "form": -9,
    "eftp_watts": 293,
    "eftp_wkg": 3.63,
    "prs": [
@@ -95,9 +95,9 @@
     },
     {
      "week": "2026-11-16",
-     "hours": 3.3,
+     "hours": 4.3,
      "miles": 29,
-     "rides": 2
+     "rides": 3
     }
    ],
    "trend": [
@@ -433,12 +433,23 @@
     },
     {
      "date": "2026-11-19",
-     "fitness": 52.0,
-     "fatigue": 54.6,
-     "form": -2.7
+     "fitness": 53.3,
+     "fatigue": 62.5,
+     "form": -9.1
     }
    ],
    "recent_rides": [
+    {
+     "start": "2026-11-19T11:48:24",
+     "date": "2026-11-19",
+     "name": "Lunch Ride",
+     "type": "Ride",
+     "hours": 1.0,
+     "miles": null,
+     "avg_watts": 215,
+     "np": 251,
+     "load": 59
+    },
     {
      "start": "2026-11-18T14:40:31",
      "date": "2026-11-18",
@@ -537,17 +548,6 @@
      "avg_watts": 180,
      "np": 205,
      "load": 129
-    },
-    {
-     "start": "2026-11-05T11:30:26",
-     "date": "2026-11-05",
-     "name": "Flynn Knows Ball",
-     "type": "Ride",
-     "hours": 2.2,
-     "miles": 35.4,
-     "avg_watts": 175,
-     "np": 195,
-     "load": 95
     }
    ],
    "p5s": 1329,
@@ -2912,6 +2912,16 @@
   }
  ],
  "feed": [
+  {
+   "rider": "Kyle",
+   "start": "2026-11-19T11:48:24",
+   "date": "2026-11-19",
+   "name": "Lunch Ride",
+   "type": "Ride",
+   "hours": 1.0,
+   "miles": null,
+   "load": 59
+  },
   {
    "rider": "Will",
    "start": "2026-11-18T14:40:52",
