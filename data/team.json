@@ -1,5 +1,5 @@
 {
- "updated": "Fri Nov 20, 11:59 AM",
+ "updated": "Fri Nov 20, 3:00 PM",
  "today": "2026-11-20",
  "riders": [
   {
@@ -7,13 +7,13 @@
    "rider": "Kyle",
    "state": "ok",
    "hidden_strava": 20,
-   "hours_this_week": 4.3,
+   "hours_this_week": 5.3,
    "hours_last_week": 6.9,
-   "hours_month": 24.2,
-   "hours_ytd": 361.6,
-   "miles_ytd": 5118,
-   "fitness": 52,
-   "form": -2,
+   "hours_month": 25.2,
+   "hours_ytd": 362.6,
+   "miles_ytd": 5135,
+   "fitness": 53,
+   "form": -7,
    "eftp_watts": 293,
    "eftp_wkg": 3.63,
    "prs": [
@@ -28,10 +28,10 @@
     {
      "rider": "Kyle",
      "duration": "1 min",
-     "watts": 518,
-     "wkg": 6.4,
-     "date": "2026-09-30",
-     "ride": "Final Official of the season :("
+     "watts": 653,
+     "wkg": 8.1,
+     "date": "2026-11-20",
+     "ride": "You’ve Gotta Ask Yourself a Question: ‘Do I Feel Lucky?’"
     },
     {
      "rider": "Kyle",
@@ -95,9 +95,9 @@
     },
     {
      "week": "2026-11-16",
-     "hours": 4.3,
-     "miles": 29,
-     "rides": 3
+     "hours": 5.3,
+     "miles": 45,
+     "rides": 4
     }
    ],
    "trend": [
@@ -433,12 +433,23 @@
     },
     {
      "date": "2026-11-20",
-     "fitness": 52.1,
-     "fatigue": 54.2,
-     "form": -2.1
+     "fitness": 53.1,
+     "fatigue": 59.7,
+     "form": -6.7
     }
    ],
    "recent_rides": [
+    {
+     "start": "2026-11-20T12:33:23",
+     "date": "2026-11-20",
+     "name": "You’ve Gotta Ask Yourself a Question: ‘Do I Feel Lucky?’",
+     "type": "Ride",
+     "hours": 1.0,
+     "miles": 16.6,
+     "avg_watts": 182,
+     "np": 270,
+     "load": 42
+    },
     {
      "start": "2026-11-19T11:48:24",
      "date": "2026-11-19",
@@ -537,22 +548,11 @@
      "avg_watts": 161,
      "np": 197,
      "load": 13
-    },
-    {
-     "start": "2026-11-07T14:00:23",
-     "date": "2026-11-07",
-     "name": "Aknovus",
-     "type": "Ride",
-     "hours": 2.7,
-     "miles": 46.7,
-     "avg_watts": 180,
-     "np": 205,
-     "load": 129
     }
    ],
    "p5s": 1329,
    "p5s_pr": true,
-   "p1m": 518,
+   "p1m": 653,
    "p1m_pr": true,
    "p3m": 425,
    "p3m_pr": true,
@@ -2918,6 +2918,16 @@
   }
  ],
  "feed": [
+  {
+   "rider": "Kyle",
+   "start": "2026-11-20T12:33:23",
+   "date": "2026-11-20",
+   "name": "You’ve Gotta Ask Yourself a Question: ‘Do I Feel Lucky?’",
+   "type": "Ride",
+   "hours": 1.0,
+   "miles": 16.6,
+   "load": 42
+  },
   {
    "rider": "Tin",
    "start": "2026-11-19T15:06:14",
