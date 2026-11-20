@@ -1,5 +1,5 @@
 {
- "updated": "Thu Nov 19, 5:51 PM",
+ "updated": "Thu Nov 19, 9:12 PM",
  "today": "2026-11-19",
  "riders": [
   {
@@ -801,7 +801,7 @@
    "id": "i801718",
    "rider": "Lilly",
    "state": "ok",
-   "hidden_strava": 7,
+   "hidden_strava": 8,
    "hours_this_week": 0.0,
    "hours_last_week": 0.0,
    "hours_month": 0.0,
@@ -2380,15 +2380,15 @@
    "rider": "Tin",
    "state": "ok",
    "hidden_strava": 0,
-   "hours_this_week": 0.0,
+   "hours_this_week": 3.0,
    "hours_last_week": 1.5,
-   "hours_month": 3.7,
-   "hours_ytd": 172.3,
-   "miles_ytd": 2498,
-   "fitness": 34,
-   "form": 23,
-   "eftp_watts": 227,
-   "eftp_wkg": 3.34,
+   "hours_month": 6.7,
+   "hours_ytd": 175.3,
+   "miles_ytd": 2541,
+   "fitness": 36,
+   "form": 11,
+   "eftp_watts": 226,
+   "eftp_wkg": 3.32,
    "prs": [
     {
      "rider": "Tin",
@@ -2444,9 +2444,9 @@
     },
     {
      "week": "2026-11-16",
-     "hours": 0.0,
-     "miles": 0,
-     "rides": 0
+     "hours": 3.0,
+     "miles": 43,
+     "rides": 1
     }
    ],
    "trend": [
@@ -2782,12 +2782,23 @@
     },
     {
      "date": "2026-11-19",
-     "fitness": 33.6,
-     "fatigue": 10.2,
-     "form": 23.4
+     "fitness": 36.3,
+     "fatigue": 25.4,
+     "form": 10.9
     }
    ],
    "recent_rides": [
+    {
+     "start": "2026-11-19T15:06:14",
+     "date": "2026-11-19",
+     "name": "Bloomington Road Cycling",
+     "type": "Ride",
+     "hours": 3.0,
+     "miles": 42.9,
+     "avg_watts": null,
+     "np": null,
+     "load": 114
+    },
     {
      "start": "2026-11-13T14:36:39",
      "date": "2026-11-13",
@@ -2886,17 +2897,6 @@
      "avg_watts": 131,
      "np": 187,
      "load": 98
-    },
-    {
-     "start": "2026-10-25T14:54:14",
-     "date": "2026-10-25",
-     "name": "Bloomington Road Cycling",
-     "type": "Ride",
-     "hours": 2.7,
-     "miles": 43.0,
-     "avg_watts": 129,
-     "np": 171,
-     "load": 149
     }
    ],
    "p5s": 841,
@@ -2912,6 +2912,16 @@
   }
  ],
  "feed": [
+  {
+   "rider": "Tin",
+   "start": "2026-11-19T15:06:14",
+   "date": "2026-11-19",
+   "name": "Bloomington Road Cycling",
+   "type": "Ride",
+   "hours": 3.0,
+   "miles": 42.9,
+   "load": 114
+  },
   {
    "rider": "Kyle",
    "start": "2026-11-19T11:48:24",
