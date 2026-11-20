@@ -1,5 +1,5 @@
 {
- "updated": "Fri Nov 20, 3:00 PM",
+ "updated": "Fri Nov 20, 5:49 PM",
  "today": "2026-11-20",
  "riders": [
   {
@@ -2386,13 +2386,13 @@
    "rider": "Tin",
    "state": "ok",
    "hidden_strava": 0,
-   "hours_this_week": 3.0,
+   "hours_this_week": 4.8,
    "hours_last_week": 1.5,
-   "hours_month": 6.7,
-   "hours_ytd": 175.3,
-   "miles_ytd": 2541,
-   "fitness": 35,
-   "form": 13,
+   "hours_month": 8.5,
+   "hours_ytd": 177.1,
+   "miles_ytd": 2571,
+   "fitness": 37,
+   "form": 4,
    "eftp_watts": 226,
    "eftp_wkg": 3.32,
    "prs": [
@@ -2450,9 +2450,9 @@
     },
     {
      "week": "2026-11-16",
-     "hours": 3.0,
-     "miles": 43,
-     "rides": 1
+     "hours": 4.8,
+     "miles": 72,
+     "rides": 2
     }
    ],
    "trend": [
@@ -2788,12 +2788,23 @@
     },
     {
      "date": "2026-11-20",
-     "fitness": 35.5,
-     "fatigue": 22.0,
-     "form": 13.4
+     "fitness": 37.4,
+     "fatigue": 32.9,
+     "form": 4.5
     }
    ],
    "recent_rides": [
+    {
+     "start": "2026-11-20T14:57:55",
+     "date": "2026-11-20",
+     "name": "Bloomington Road Cycling",
+     "type": "Ride",
+     "hours": 1.8,
+     "miles": 29.3,
+     "avg_watts": null,
+     "np": null,
+     "load": 82
+    },
     {
      "start": "2026-11-19T15:06:14",
      "date": "2026-11-19",
@@ -2892,17 +2903,6 @@
      "avg_watts": 144,
      "np": 160,
      "load": 139
-    },
-    {
-     "start": "2026-10-26T17:30:22",
-     "date": "2026-10-26",
-     "name": "Bloomington Road Cycling",
-     "type": "Ride",
-     "hours": 1.5,
-     "miles": 23.4,
-     "avg_watts": 131,
-     "np": 187,
-     "load": 98
     }
    ],
    "p5s": 841,
@@ -2918,6 +2918,16 @@
   }
  ],
  "feed": [
+  {
+   "rider": "Tin",
+   "start": "2026-11-20T14:57:55",
+   "date": "2026-11-20",
+   "name": "Bloomington Road Cycling",
+   "type": "Ride",
+   "hours": 1.8,
+   "miles": 29.3,
+   "load": 82
+  },
   {
    "rider": "Kyle",
    "start": "2026-11-20T12:33:23",
