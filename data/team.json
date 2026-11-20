@@ -1,6 +1,6 @@
 {
- "updated": "Thu Nov 19, 9:12 PM",
- "today": "2026-11-19",
+ "updated": "Fri Nov 20, 6:03 AM",
+ "today": "2026-11-20",
  "riders": [
   {
    "id": "i285485",
@@ -12,8 +12,8 @@
    "hours_month": 24.2,
    "hours_ytd": 361.6,
    "miles_ytd": 5118,
-   "fitness": 53,
-   "form": -9,
+   "fitness": 52,
+   "form": -2,
    "eftp_watts": 293,
    "eftp_wkg": 3.63,
    "prs": [
@@ -101,12 +101,6 @@
     }
    ],
    "trend": [
-    {
-     "date": "2026-09-25",
-     "fitness": 54.3,
-     "fatigue": 49.1,
-     "form": 5.2
-    },
     {
      "date": "2026-09-26",
      "fitness": 53.0,
@@ -436,6 +430,12 @@
      "fitness": 53.3,
      "fatigue": 62.5,
      "form": -9.1
+    },
+    {
+     "date": "2026-11-20",
+     "fitness": 52.1,
+     "fatigue": 54.2,
+     "form": -2.1
     }
    ],
    "recent_rides": [
@@ -727,6 +727,12 @@
      "fitness": 1.3,
      "fatigue": 4.6,
      "form": -3.3
+    },
+    {
+     "date": "2026-11-20",
+     "fitness": 1.3,
+     "fatigue": 4.0,
+     "form": -2.7
     }
    ],
    "recent_rides": [
@@ -863,12 +869,6 @@
     }
    ],
    "trend": [
-    {
-     "date": "2026-09-25",
-     "fitness": 0.0,
-     "fatigue": 0,
-     "form": 0.0
-    },
     {
      "date": "2026-09-26",
      "fitness": 0.0,
@@ -1198,6 +1198,12 @@
      "fitness": 0.0,
      "fatigue": 0,
      "form": 0.0
+    },
+    {
+     "date": "2026-11-20",
+     "fitness": 0.0,
+     "fatigue": 0,
+     "form": 0.0
     }
    ],
    "recent_rides": [],
@@ -1300,8 +1306,8 @@
    "hours_month": 10.5,
    "hours_ytd": 82.3,
    "miles_ytd": 1074,
-   "fitness": 31,
-   "form": -5,
+   "fitness": 30,
+   "form": -1,
    "eftp_watts": 220,
    "eftp_wkg": 2.86,
    "prs": [
@@ -1389,12 +1395,6 @@
     }
    ],
    "trend": [
-    {
-     "date": "2026-09-25",
-     "fitness": 16.0,
-     "fatigue": 26.2,
-     "form": -10.2
-    },
     {
      "date": "2026-09-26",
      "fitness": 16.7,
@@ -1724,6 +1724,12 @@
      "fitness": 30.7,
      "fatigue": 35.6,
      "form": -4.9
+    },
+    {
+     "date": "2026-11-20",
+     "fitness": 30.0,
+     "fatigue": 30.9,
+     "form": -0.9
     }
    ],
    "recent_rides": [
@@ -1859,7 +1865,7 @@
    "hours_month": 0.0,
    "hours_ytd": 179.6,
    "miles_ytd": 2510,
-   "fitness": 4,
+   "fitness": 3,
    "form": 3,
    "eftp_watts": null,
    "eftp_wkg": null,
@@ -1915,12 +1921,6 @@
     }
    ],
    "trend": [
-    {
-     "date": "2026-09-25",
-     "fitness": 1.0,
-     "fatigue": 0.0,
-     "form": 1.0
-    },
     {
      "date": "2026-09-26",
      "fitness": 1.0,
@@ -2250,6 +2250,12 @@
      "fitness": 3.5,
      "fatigue": 0.6,
      "form": 2.9
+    },
+    {
+     "date": "2026-11-20",
+     "fitness": 3.4,
+     "fatigue": 0.5,
+     "form": 2.9
     }
    ],
    "recent_rides": [
@@ -2385,8 +2391,8 @@
    "hours_month": 6.7,
    "hours_ytd": 175.3,
    "miles_ytd": 2541,
-   "fitness": 36,
-   "form": 11,
+   "fitness": 35,
+   "form": 13,
    "eftp_watts": 226,
    "eftp_wkg": 3.32,
    "prs": [
@@ -2450,12 +2456,6 @@
     }
    ],
    "trend": [
-    {
-     "date": "2026-09-25",
-     "fitness": 35.2,
-     "fatigue": 39.9,
-     "form": -4.8
-    },
     {
      "date": "2026-09-26",
      "fitness": 35.7,
@@ -2785,6 +2785,12 @@
      "fitness": 36.3,
      "fatigue": 25.4,
      "form": 10.9
+    },
+    {
+     "date": "2026-11-20",
+     "fitness": 35.5,
+     "fatigue": 22.0,
+     "form": 13.4
     }
    ],
    "recent_rides": [
@@ -3151,26 +3157,6 @@
    "hours": 2.7,
    "miles": 46.7,
    "load": 129
-  },
-  {
-   "rider": "Will",
-   "start": "2026-11-06T19:30:37",
-   "date": "2026-11-06",
-   "name": "Dubai Virtual Cycling",
-   "type": "VirtualRide",
-   "hours": 1.1,
-   "miles": 20.1,
-   "load": 54
-  },
-  {
-   "rider": "Tin",
-   "start": "2026-11-06T17:20:18",
-   "date": "2026-11-06",
-   "name": "Indoor Cycling",
-   "type": "VirtualRide",
-   "hours": 0.5,
-   "miles": null,
-   "load": 31
   }
  ]
 }
