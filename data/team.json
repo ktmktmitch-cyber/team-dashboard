@@ -1,5 +1,5 @@
 {
- "updated": "Sun Nov 22, 11:47 AM",
+ "updated": "Sun Nov 22, 2:51 PM",
  "today": "2026-11-22",
  "riders": [
   {
@@ -819,7 +819,7 @@
    "id": "i801718",
    "rider": "Lilly",
    "state": "ok",
-   "hidden_strava": 8,
+   "hidden_strava": 9,
    "hours_this_week": 0.0,
    "hours_last_week": 0.0,
    "hours_month": 0.0,
