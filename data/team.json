@@ -1,19 +1,19 @@
 {
- "updated": "Sun Nov 22, 9:18 PM",
- "today": "2026-11-22",
+ "updated": "Mon Nov 23, 6:09 AM",
+ "today": "2026-11-23",
  "riders": [
   {
    "id": "i285485",
    "rider": "Kyle",
    "state": "ok",
    "hidden_strava": 20,
-   "hours_this_week": 7.7,
-   "hours_last_week": 6.9,
+   "hours_this_week": 0.0,
+   "hours_last_week": 7.7,
    "hours_month": 27.6,
    "hours_ytd": 365.0,
    "miles_ytd": 5172,
-   "fitness": 52,
-   "form": 1,
+   "fitness": 50,
+   "form": 7,
    "eftp_watts": 293,
    "eftp_wkg": 3.63,
    "prs": [
@@ -51,12 +51,6 @@
     }
    ],
    "weeks": [
-    {
-     "week": "2026-09-28",
-     "hours": 9.4,
-     "miles": 164,
-     "rides": 5
-    },
     {
      "week": "2026-10-05",
      "hours": 14.8,
@@ -98,15 +92,15 @@
      "hours": 7.7,
      "miles": 82,
      "rides": 5
+    },
+    {
+     "week": "2026-11-23",
+     "hours": 0.0,
+     "miles": 0,
+     "rides": 0
     }
    ],
    "trend": [
-    {
-     "date": "2026-09-28",
-     "fitness": 53.6,
-     "fatigue": 48.5,
-     "form": 5.2
-    },
     {
      "date": "2026-09-29",
      "fitness": 52.4,
@@ -436,6 +430,12 @@
      "fitness": 51.7,
      "fatigue": 50.4,
      "form": 1.3
+    },
+    {
+     "date": "2026-11-23",
+     "fitness": 50.5,
+     "fatigue": 43.7,
+     "form": 6.8
     }
    ],
    "recent_rides": [
@@ -566,13 +566,13 @@
    "rider": "Carmelo",
    "state": "ok",
    "hidden_strava": 0,
-   "hours_this_week": 0.6,
-   "hours_last_week": 1.4,
+   "hours_this_week": 0.0,
+   "hours_last_week": 0.6,
    "hours_month": 2.0,
    "hours_ytd": 2.0,
    "miles_ytd": 5,
    "fitness": 2,
-   "form": -4,
+   "form": -3,
    "eftp_watts": 179,
    "eftp_wkg": 2.32,
    "prs": [
@@ -619,12 +619,6 @@
    ],
    "weeks": [
     {
-     "week": "2026-09-28",
-     "hours": 0.0,
-     "miles": 0,
-     "rides": 0
-    },
-    {
      "week": "2026-10-05",
      "hours": 0.0,
      "miles": 0,
@@ -665,6 +659,12 @@
      "hours": 0.6,
      "miles": 2,
      "rides": 2
+    },
+    {
+     "week": "2026-11-23",
+     "hours": 0.0,
+     "miles": 0,
+     "rides": 0
     }
    ],
    "trend": [
@@ -745,6 +745,12 @@
      "fitness": 1.8,
      "fatigue": 5.8,
      "form": -4.0
+    },
+    {
+     "date": "2026-11-23",
+     "fitness": 1.7,
+     "fatigue": 5.0,
+     "form": -3.2
     }
    ],
    "recent_rides": [
@@ -832,12 +838,6 @@
    "prs": [],
    "weeks": [
     {
-     "week": "2026-09-28",
-     "hours": 0.0,
-     "miles": 0,
-     "rides": 0
-    },
-    {
      "week": "2026-10-05",
      "hours": 0.0,
      "miles": 0,
@@ -878,15 +878,15 @@
      "hours": 0.0,
      "miles": 0,
      "rides": 0
+    },
+    {
+     "week": "2026-11-23",
+     "hours": 0.0,
+     "miles": 0,
+     "rides": 0
     }
    ],
    "trend": [
-    {
-     "date": "2026-09-28",
-     "fitness": 0.0,
-     "fatigue": 0,
-     "form": 0.0
-    },
     {
      "date": "2026-09-29",
      "fitness": 0.0,
@@ -1216,6 +1216,12 @@
      "fitness": 0.0,
      "fatigue": 0,
      "form": 0.0
+    },
+    {
+     "date": "2026-11-23",
+     "fitness": 0.0,
+     "fatigue": 0,
+     "form": 0.0
     }
    ],
    "recent_rides": [],
@@ -1246,12 +1252,6 @@
    "eftp_wkg": null,
    "prs": [],
    "weeks": [
-    {
-     "week": "2026-09-28",
-     "hours": 0.0,
-     "miles": 0,
-     "rides": 0
-    },
     {
      "week": "2026-10-05",
      "hours": 0.0,
@@ -1293,6 +1293,12 @@
      "hours": 0.0,
      "miles": 0,
      "rides": 0
+    },
+    {
+     "week": "2026-11-23",
+     "hours": 0.0,
+     "miles": 0,
+     "rides": 0
     }
    ],
    "trend": [],
@@ -1313,13 +1319,13 @@
    "rider": "Will",
    "state": "ok",
    "hidden_strava": 0,
-   "hours_this_week": 5.0,
-   "hours_last_week": 0.0,
+   "hours_this_week": 0.0,
+   "hours_last_week": 5.0,
    "hours_month": 10.5,
    "hours_ytd": 82.3,
    "miles_ytd": 1074,
-   "fitness": 29,
-   "form": 5,
+   "fitness": 28,
+   "form": 8,
    "eftp_watts": 220,
    "eftp_wkg": 2.86,
    "prs": [
@@ -1357,12 +1363,6 @@
     }
    ],
    "weeks": [
-    {
-     "week": "2026-09-28",
-     "hours": 2.0,
-     "miles": 38,
-     "rides": 1
-    },
     {
      "week": "2026-10-05",
      "hours": 6.1,
@@ -1404,15 +1404,15 @@
      "hours": 5.0,
      "miles": 82,
      "rides": 3
+    },
+    {
+     "week": "2026-11-23",
+     "hours": 0.0,
+     "miles": 0,
+     "rides": 0
     }
    ],
    "trend": [
-    {
-     "date": "2026-09-28",
-     "fitness": 18.4,
-     "fatigue": 33.9,
-     "form": -15.5
-    },
     {
      "date": "2026-09-29",
      "fitness": 17.9,
@@ -1742,6 +1742,12 @@
      "fitness": 28.6,
      "fatigue": 23.2,
      "form": 5.4
+    },
+    {
+     "date": "2026-11-23",
+     "fitness": 27.9,
+     "fatigue": 20.1,
+     "form": 7.8
     }
    ],
    "recent_rides": [
@@ -1884,12 +1890,6 @@
    "prs": [],
    "weeks": [
     {
-     "week": "2026-09-28",
-     "hours": 2.8,
-     "miles": 53,
-     "rides": 2
-    },
-    {
      "week": "2026-10-05",
      "hours": 4.6,
      "miles": 77,
@@ -1930,15 +1930,15 @@
      "hours": 0.0,
      "miles": 0,
      "rides": 0
+    },
+    {
+     "week": "2026-11-23",
+     "hours": 0.0,
+     "miles": 0,
+     "rides": 0
     }
    ],
    "trend": [
-    {
-     "date": "2026-09-28",
-     "fitness": 0.9,
-     "fatigue": 0.0,
-     "form": 0.9
-    },
     {
      "date": "2026-09-29",
      "fitness": 0.9,
@@ -2268,6 +2268,12 @@
      "fitness": 3.3,
      "fatigue": 0.4,
      "form": 2.9
+    },
+    {
+     "date": "2026-11-23",
+     "fitness": 3.2,
+     "fatigue": 0.3,
+     "form": 2.9
     }
    ],
    "recent_rides": [
@@ -2398,13 +2404,13 @@
    "rider": "Tin",
    "state": "ok",
    "hidden_strava": 0,
-   "hours_this_week": 4.8,
-   "hours_last_week": 1.5,
+   "hours_this_week": 0.0,
+   "hours_last_week": 4.8,
    "hours_month": 8.5,
    "hours_ytd": 177.1,
    "miles_ytd": 2571,
-   "fitness": 36,
-   "form": 11,
+   "fitness": 35,
+   "form": 13,
    "eftp_watts": 226,
    "eftp_wkg": 3.32,
    "prs": [
@@ -2418,12 +2424,6 @@
     }
    ],
    "weeks": [
-    {
-     "week": "2026-09-28",
-     "hours": 4.9,
-     "miles": 81,
-     "rides": 3
-    },
     {
      "week": "2026-10-05",
      "hours": 5.2,
@@ -2465,15 +2465,15 @@
      "hours": 4.8,
      "miles": 72,
      "rides": 2
+    },
+    {
+     "week": "2026-11-23",
+     "hours": 0.0,
+     "miles": 0,
+     "rides": 0
     }
    ],
    "trend": [
-    {
-     "date": "2026-09-28",
-     "fitness": 34.1,
-     "fatigue": 31.9,
-     "form": 2.2
-    },
     {
      "date": "2026-09-29",
      "fitness": 33.3,
@@ -2803,6 +2803,12 @@
      "fitness": 35.6,
      "fatigue": 24.7,
      "form": 10.9
+    },
+    {
+     "date": "2026-11-23",
+     "fitness": 34.8,
+     "fatigue": 21.5,
+     "form": 13.4
     }
    ],
    "recent_rides": [
