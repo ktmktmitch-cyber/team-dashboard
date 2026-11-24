@@ -1,5 +1,5 @@
 {
- "updated": "Tue Nov 24, 9:23 AM",
+ "updated": "Tue Nov 24, 12:06 PM",
  "today": "2026-11-24",
  "riders": [
   {
@@ -13,7 +13,7 @@
    "hours_ytd": 365.0,
    "miles_ytd": 5172,
    "fitness": 49,
-   "form": 11,
+   "form": 10,
    "eftp_watts": 293,
    "eftp_wkg": 3.63,
    "prs": [
@@ -434,8 +434,8 @@
     {
      "date": "2026-11-24",
      "fitness": 49.3,
-     "fatigue": 37.9,
-     "form": 11.4
+     "fatigue": 39.5,
+     "form": 9.8
     }
    ],
    "recent_rides": [
@@ -2942,6 +2942,16 @@
   }
  ],
  "feed": [
+  {
+   "rider": "Kyle",
+   "start": "2026-11-24T10:04:52",
+   "date": "2026-11-24",
+   "name": "Sauna",
+   "type": "Workout",
+   "hours": 0.3,
+   "miles": null,
+   "load": 12
+  },
   {
    "rider": "Tin",
    "start": "2026-11-23T14:14:42",
