@@ -1,5 +1,5 @@
 {
- "updated": "Tue Nov 24, 3:04 PM",
+ "updated": "Tue Nov 24, 5:49 PM",
  "today": "2026-11-24",
  "riders": [
   {
@@ -7,15 +7,15 @@
    "rider": "Kyle",
    "state": "ok",
    "hidden_strava": 20,
-   "hours_this_week": 0.0,
+   "hours_this_week": 0.8,
    "hours_last_week": 7.7,
-   "hours_month": 27.6,
-   "hours_ytd": 365.0,
-   "miles_ytd": 5172,
-   "fitness": 51,
-   "form": 1,
-   "eftp_watts": 293,
-   "eftp_wkg": 3.63,
+   "hours_month": 28.4,
+   "hours_ytd": 365.8,
+   "miles_ytd": 5178,
+   "fitness": 52,
+   "form": -2,
+   "eftp_watts": 292,
+   "eftp_wkg": 3.62,
    "prs": [
     {
      "rider": "Kyle",
@@ -95,9 +95,9 @@
     },
     {
      "week": "2026-11-23",
-     "hours": 0.0,
-     "miles": 0,
-     "rides": 0
+     "hours": 0.8,
+     "miles": 6,
+     "rides": 1
     }
    ],
    "trend": [
@@ -433,12 +433,23 @@
     },
     {
      "date": "2026-11-24",
-     "fitness": 51.2,
-     "fatigue": 50.4,
-     "form": 0.8
+     "fitness": 51.9,
+     "fatigue": 54.1,
+     "form": -2.3
     }
    ],
    "recent_rides": [
+    {
+     "start": "2026-11-24T15:01:17",
+     "date": "2026-11-24",
+     "name": "Masabesic Rips",
+     "type": "MountainBikeRide",
+     "hours": 0.8,
+     "miles": 5.6,
+     "avg_watts": null,
+     "np": null,
+     "load": 28
+    },
     {
      "start": "2026-11-21T13:27:12",
      "date": "2026-11-21",
@@ -537,17 +548,32 @@
      "avg_watts": 179,
      "np": 188,
      "load": 61
+    }
+   ],
+   "planned": [
+    {
+     "date": "2026-11-24",
+     "category": "WORKOUT",
+     "name": "Threshold 4×8",
+     "type": "Ride",
+     "minutes": 73,
+     "load": 82
     },
     {
-     "start": "2026-11-08T10:42:53",
-     "date": "2026-11-08",
-     "name": "Paceline and Chill",
+     "date": "2026-11-26",
+     "category": "WORKOUT",
+     "name": "VO2max 4×4",
      "type": "Ride",
-     "hours": 3.7,
-     "miles": 78.3,
-     "avg_watts": 203,
-     "np": 239,
-     "load": 226
+     "minutes": 53,
+     "load": 68
+    },
+    {
+     "date": "2026-11-28",
+     "category": "WORKOUT",
+     "name": "Tempo 2×15",
+     "type": "Ride",
+     "minutes": 65,
+     "load": 58
     }
    ],
    "p5s": 1329,
@@ -814,6 +840,32 @@
      "avg_watts": 84,
      "np": 86,
      "load": 6
+    }
+   ],
+   "planned": [
+    {
+     "date": "2026-11-24",
+     "category": "WORKOUT",
+     "name": "Threshold 4×8",
+     "type": "Ride",
+     "minutes": 73,
+     "load": 82
+    },
+    {
+     "date": "2026-11-26",
+     "category": "WORKOUT",
+     "name": "VO2max 4×4",
+     "type": "Ride",
+     "minutes": 53,
+     "load": 68
+    },
+    {
+     "date": "2026-11-28",
+     "category": "WORKOUT",
+     "name": "Tempo 2×15",
+     "type": "Ride",
+     "minutes": 65,
+     "load": 58
     }
    ],
    "p5s": 422,
@@ -1231,6 +1283,32 @@
     }
    ],
    "recent_rides": [],
+   "planned": [
+    {
+     "date": "2026-11-24",
+     "category": "WORKOUT",
+     "name": "Threshold 4×8",
+     "type": "Ride",
+     "minutes": 73,
+     "load": 82
+    },
+    {
+     "date": "2026-11-26",
+     "category": "WORKOUT",
+     "name": "VO2max 4×4",
+     "type": "Ride",
+     "minutes": 53,
+     "load": 68
+    },
+    {
+     "date": "2026-11-28",
+     "category": "WORKOUT",
+     "name": "Tempo 2×15",
+     "type": "Ride",
+     "minutes": 65,
+     "load": 58
+    }
+   ],
    "p5s": null,
    "p5s_pr": false,
    "p1m": null,
@@ -1252,8 +1330,8 @@
    "hours_month": 0.0,
    "hours_ytd": 0.0,
    "miles_ytd": 0,
-   "fitness": null,
-   "form": null,
+   "fitness": 0,
+   "form": 0,
    "eftp_watts": null,
    "eftp_wkg": null,
    "prs": [],
@@ -1307,8 +1385,41 @@
      "rides": 0
     }
    ],
-   "trend": [],
+   "trend": [
+    {
+     "date": "2026-11-24",
+     "fitness": 0.0,
+     "fatigue": 0,
+     "form": 0.0
+    }
+   ],
    "recent_rides": [],
+   "planned": [
+    {
+     "date": "2026-11-24",
+     "category": "WORKOUT",
+     "name": "Threshold 4×8",
+     "type": "Ride",
+     "minutes": 73,
+     "load": 81
+    },
+    {
+     "date": "2026-11-26",
+     "category": "WORKOUT",
+     "name": "VO2max 4×4",
+     "type": "Ride",
+     "minutes": 53,
+     "load": 67
+    },
+    {
+     "date": "2026-11-28",
+     "category": "WORKOUT",
+     "name": "Tempo 2×15",
+     "type": "Ride",
+     "minutes": 65,
+     "load": 58
+    }
+   ],
    "p5s": null,
    "p5s_pr": false,
    "p1m": null,
@@ -1868,6 +1979,32 @@
      "load": 10
     }
    ],
+   "planned": [
+    {
+     "date": "2026-11-24",
+     "category": "WORKOUT",
+     "name": "Threshold 4×8",
+     "type": "Ride",
+     "minutes": 73,
+     "load": 81
+    },
+    {
+     "date": "2026-11-26",
+     "category": "WORKOUT",
+     "name": "VO2max 4×4",
+     "type": "Ride",
+     "minutes": 53,
+     "load": 68
+    },
+    {
+     "date": "2026-11-28",
+     "category": "WORKOUT",
+     "name": "Tempo 2×15",
+     "type": "Ride",
+     "minutes": 65,
+     "load": 58
+    }
+   ],
    "p5s": 726,
    "p5s_pr": true,
    "p1m": 359,
@@ -1889,8 +2026,8 @@
    "hours_month": 0.0,
    "hours_ytd": 179.6,
    "miles_ytd": 2510,
-   "fitness": 3,
-   "form": 3,
+   "fitness": 5,
+   "form": -6,
    "eftp_watts": null,
    "eftp_wkg": null,
    "prs": [],
@@ -2277,9 +2414,9 @@
     },
     {
      "date": "2026-11-24",
-     "fitness": 3.4,
-     "fatigue": 0.3,
-     "form": 3.1
+     "fitness": 5.3,
+     "fatigue": 11.2,
+     "form": -5.9
     }
    ],
    "recent_rides": [
@@ -2394,6 +2531,32 @@
      "load": null
     }
    ],
+   "planned": [
+    {
+     "date": "2026-11-24",
+     "category": "WORKOUT",
+     "name": "Threshold 4×8",
+     "type": "Ride",
+     "minutes": 73,
+     "load": 82
+    },
+    {
+     "date": "2026-11-26",
+     "category": "WORKOUT",
+     "name": "VO2max 4×4",
+     "type": "Ride",
+     "minutes": 53,
+     "load": 68
+    },
+    {
+     "date": "2026-11-28",
+     "category": "WORKOUT",
+     "name": "Tempo 2×15",
+     "type": "Ride",
+     "minutes": 65,
+     "load": 58
+    }
+   ],
    "p5s": null,
    "p5s_pr": false,
    "p1m": null,
@@ -2410,13 +2573,13 @@
    "rider": "Tin",
    "state": "ok",
    "hidden_strava": 0,
-   "hours_this_week": 1.0,
+   "hours_this_week": 3.8,
    "hours_last_week": 4.8,
-   "hours_month": 9.5,
-   "hours_ytd": 178.1,
-   "miles_ytd": 2571,
-   "fitness": 37,
-   "form": 3,
+   "hours_month": 12.4,
+   "hours_ytd": 181.0,
+   "miles_ytd": 2615,
+   "fitness": 41,
+   "form": -16,
    "eftp_watts": 225,
    "eftp_wkg": 3.31,
    "prs": [
@@ -2474,9 +2637,9 @@
     },
     {
      "week": "2026-11-23",
-     "hours": 1.0,
-     "miles": 0,
-     "rides": 1
+     "hours": 3.8,
+     "miles": 44,
+     "rides": 2
     }
    ],
    "trend": [
@@ -2812,12 +2975,23 @@
     },
     {
      "date": "2026-11-24",
-     "fitness": 36.7,
-     "fatigue": 33.2,
-     "form": 3.5
+     "fitness": 40.7,
+     "fatigue": 56.4,
+     "form": -15.6
     }
    ],
    "recent_rides": [
+    {
+     "start": "2026-11-24T11:32:15",
+     "date": "2026-11-24",
+     "name": "Peoria Road Cycling",
+     "type": "Ride",
+     "hours": 2.8,
+     "miles": 43.9,
+     "avg_watts": 146,
+     "np": 181,
+     "load": 174
+    },
     {
      "start": "2026-11-23T14:14:42",
      "date": "2026-11-23",
@@ -2916,17 +3090,32 @@
      "avg_watts": 135,
      "np": 162,
      "load": 96
+    }
+   ],
+   "planned": [
+    {
+     "date": "2026-11-24",
+     "category": "WORKOUT",
+     "name": "Threshold 4×8",
+     "type": "Ride",
+     "minutes": 73,
+     "load": 81
     },
     {
-     "start": "2026-10-29T19:09:58",
-     "date": "2026-10-29",
-     "name": "Bloomington Road Cycling",
+     "date": "2026-11-26",
+     "category": "WORKOUT",
+     "name": "VO2max 4×4",
      "type": "Ride",
-     "hours": 0.2,
-     "miles": 2.4,
-     "avg_watts": 101,
-     "np": 130,
-     "load": 6
+     "minutes": 53,
+     "load": 68
+    },
+    {
+     "date": "2026-11-28",
+     "category": "WORKOUT",
+     "name": "Tempo 2×15",
+     "type": "Ride",
+     "minutes": 65,
+     "load": 57
     }
    ],
    "p5s": 841,
@@ -2942,6 +3131,26 @@
   }
  ],
  "feed": [
+  {
+   "rider": "Kyle",
+   "start": "2026-11-24T15:01:17",
+   "date": "2026-11-24",
+   "name": "Masabesic Rips",
+   "type": "MountainBikeRide",
+   "hours": 0.8,
+   "miles": 5.6,
+   "load": 28
+  },
+  {
+   "rider": "Tin",
+   "start": "2026-11-24T11:32:15",
+   "date": "2026-11-24",
+   "name": "Peoria Road Cycling",
+   "type": "Ride",
+   "hours": 2.8,
+   "miles": 43.9,
+   "load": 174
+  },
   {
    "rider": "Kyle",
    "start": "2026-11-24T10:04:52",
