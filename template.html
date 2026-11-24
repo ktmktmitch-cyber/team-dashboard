@@ -108,13 +108,13 @@
 
   <section>
     <h2>Leaderboard</h2>
-    <p class="note">Tap a column to sort, or a name to see that rider's weeks, fitness and rides. Hours (rides and runs) by calendar week (Mon–Sun), month and year. Power is each rider's best in watts over the last 8 weeks; ★ marks a best of the past year.</p>
+    <p class="note">Tap a column to sort, or a name to see that rider's weeks, fitness and rides. Hours (rides, runs and swims) by calendar week (Mon–Sun), month and year. Power is each rider's best in watts over the last 8 weeks; ★ marks a best of the past year.</p>
     <div class="scroll">
       <table class="sortable" id="board">
         <thead>
           <tr>
             <th class="sticky"></th>
-            <th class="group" colspan="5">Volume (rides + runs)</th>
+            <th class="group" colspan="5">Volume (rides, runs, swims)</th>
             <th class="group" colspan="4">Fitness</th>
             <th class="group" colspan="5">Best power, last 8 weeks (W)</th>
           </tr>
@@ -149,9 +149,9 @@
     </div>
     <div class="detail-grid">
       <div class="card chart">
-        <p class="label">Hours by week (rides + runs) · last 8 weeks</p>
+        <p class="label">Hours by week (rides, runs, swims) · last 8 weeks</p>
         <div id="detail-weeks"></div>
-        <p class="key">(n) = rides and runs that week · grey bar = this week so far</p>
+        <p class="key">(n) = rides, runs and swims that week · grey bar = this week so far</p>
       </div>
       <div class="card chart">
         <p class="label">Fitness, fatigue and form · last 8 weeks</p>
@@ -159,7 +159,7 @@
         <p class="key"><span><i style="background:var(--accent)"></i>Fitness</span><span><i style="background:#c46b2b"></i>Fatigue</span><span><i style="background:var(--ok)"></i>Form</span></p>
       </div>
     </div>
-    <h2 style="margin-top:20px">Latest rides and runs</h2>
+    <h2 style="margin-top:20px">Latest rides, runs and swims</h2>
     <div class="scroll">
       <table id="detail-rides">
         <thead><tr><th class="l">Date</th><th class="l">Ride</th><th class="l">Type</th><th>Hours</th><th>Miles</th><th>Avg W</th><th>NP</th><th>Load</th></tr></thead>
@@ -249,7 +249,7 @@
       $('#lede').append('This week the team has ridden ', b(h1(sum('hours_this_week'))), ' hours, led by ',
         b(ranked[0].rider), ' with ', b(h1(ranked[0].hours_this_week)), ' h.');
     } else {
-      $('#lede').textContent = 'No rides or runs logged by the team yet this week (weeks start Monday).';
+      $('#lede').textContent = 'No rides, runs or swims logged by the team yet this week (weeks start Monday).';
     }
 
     $('#t-week').textContent = h1(sum('hours_this_week'));

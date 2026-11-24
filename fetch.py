@@ -23,12 +23,19 @@ from zoneinfo import ZoneInfo
 API = "https://intervals.icu/api/v1"
 TZ = ZoneInfo(os.environ.get("TEAM_TIMEZONE", "America/Indiana/Indianapolis"))
 # Activity types that count toward hours and miles: every kind of ride (road, gravel,
-# MTB, indoor/virtual, trainer, track, cyclocross, e-bike) and every kind of run.
-COUNTED_TYPES = ("Ride", "Run", "Cyclocross", "Velomobile", "Handcycle")
+# MTB, indoor/virtual, trainer, track, cyclocross, e-bike), every kind of run and every
+# kind of swim (pool and open water). Lifting and other workouts don't count toward
+# hours; their training load still shows in fitness/fatigue/form from intervals.icu.
+# Matched case-insensitively anywhere in the type, so Ride, VirtualRide (Zwift, Peloton,
+# MyWhoosh, Garmin "Indoor Cycling"), MountainBikeRide, GravelRide, EBikeRide,
+# EMountainBikeRide, TrackRide, Cyclocross, Velomobile, Handcycle, Run, TrailRun,
+# VirtualRun, Swim and OpenWaterSwim all count.
+COUNTED_TYPES = ("ride", "cycl", "velomobile", "handcycle", "peloton", "spin", "run", "swim")
 
 
 def counts(activity_type):
-    return any(t in (activity_type or "") for t in COUNTED_TYPES)
+    t = (activity_type or "").lower()
+    return any(k in t for k in COUNTED_TYPES)
 
 
 POWER_DURATIONS = [(5, "5 s", "p5s"), (60, "1 min", "p1m"), (180, "3 min", "p3m"),
@@ -162,6 +169,29 @@ def best_power(curves_answer):
     return out, names
 
 
+# Planned workouts and races published to the team (next 2 weeks). Only these categories:
+# notes, sick/injured/holiday days and anything else on the calendar stay private.
+PUBLISHED_CATEGORIES = ("WORKOUT", "RACE_A", "RACE_B", "RACE_C")
+
+
+def planned_workouts(aid, today):
+    events = get(f"/athlete/{aid}/events", oldest=today.isoformat(),
+                 newest=(today + dt.timedelta(days=14)).isoformat()) or []
+    out = []
+    for e in events:
+        if e.get("category") not in PUBLISHED_CATEGORIES:
+            continue
+        out.append({
+            "date": (e.get("start_date_local") or "")[:10],
+            "category": e["category"],
+            "name": (e.get("name") or "")[:80],
+            "type": e.get("type") or "",
+            "minutes": round((e.get("moving_time") or 0) / 60) or None,
+            "load": e.get("icu_training_load"),
+        })
+    return sorted(out, key=lambda x: x["date"])[:30]
+
+
 def rider_summary(aid, name, today):
     print(f"- {name} ({aid})")
     monday = today - dt.timedelta(days=today.weekday())
@@ -265,6 +295,7 @@ def rider_summary(aid, name, today):
         "weeks": weeks,
         "trend": trend,
         "recent_rides": sorted(recent_rides, key=lambda r: r["start"], reverse=True)[:10],
+        "planned": planned_workouts(aid, today),
     }
     for secs, label, key in POWER_DURATIONS:
         best = recent.get(secs)
