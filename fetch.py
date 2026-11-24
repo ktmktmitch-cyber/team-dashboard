@@ -26,11 +26,16 @@ TZ = ZoneInfo(os.environ.get("TEAM_TIMEZONE", "America/Indiana/Indianapolis"))
 # MTB, indoor/virtual, trainer, track, cyclocross, e-bike), every kind of run and every
 # kind of swim (pool and open water). Lifting and other workouts don't count toward
 # hours; their training load still shows in fitness/fatigue/form from intervals.icu.
-COUNTED_TYPES = ("Ride", "Run", "Swim", "Cyclocross", "Velomobile", "Handcycle")
+# Matched case-insensitively anywhere in the type, so Ride, VirtualRide (Zwift, Peloton,
+# MyWhoosh, Garmin "Indoor Cycling"), MountainBikeRide, GravelRide, EBikeRide,
+# EMountainBikeRide, TrackRide, Cyclocross, Velomobile, Handcycle, Run, TrailRun,
+# VirtualRun, Swim and OpenWaterSwim all count.
+COUNTED_TYPES = ("ride", "cycl", "velomobile", "handcycle", "peloton", "spin", "run", "swim")
 
 
 def counts(activity_type):
-    return any(t in (activity_type or "") for t in COUNTED_TYPES)
+    t = (activity_type or "").lower()
+    return any(k in t for k in COUNTED_TYPES)
 
 
 POWER_DURATIONS = [(5, "5 s", "p5s"), (60, "1 min", "p1m"), (180, "3 min", "p3m"),

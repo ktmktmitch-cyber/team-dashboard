@@ -2,8 +2,9 @@ name: Update dashboard
 
 on:
   schedule:
-    # Every 3 hours, starting 5:07 AM Eastern (times are UTC). Edit to taste.
-    - cron: "7 1,10,13,16,19,22 * * *"
+    # Every hour at :07 (GitHub may start scheduled runs a few minutes late).
+    # The training app also adds your own newest rides live, so you see them right away.
+    - cron: "7 * * * *"
   workflow_dispatch: {}
 
 permissions:
