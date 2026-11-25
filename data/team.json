@@ -1,5 +1,5 @@
 {
- "updated": "Tue Nov 24, 6:53 PM",
+ "updated": "Tue Nov 24, 8:16 PM",
  "today": "2026-11-24",
  "riders": [
   {
@@ -17,14 +17,6 @@
    "eftp_watts": 292,
    "eftp_wkg": 3.62,
    "prs": [
-    {
-     "rider": "Kyle",
-     "duration": "5 s",
-     "watts": 1329,
-     "wkg": 16.5,
-     "date": "2026-09-30",
-     "ride": "Final Official of the season :("
-    },
     {
      "rider": "Kyle",
      "duration": "1 min",
@@ -576,15 +568,15 @@
      "load": 58
     }
    ],
-   "p5s": 1329,
-   "p5s_pr": true,
+   "p5s": 1249,
+   "p5s_pr": false,
    "p1m": 653,
    "p1m_pr": true,
    "p3m": 425,
    "p3m_pr": true,
    "p12m": 315,
    "p12m_pr": true,
-   "p20m": 269,
+   "p20m": 264,
    "p20m_pr": false
   },
   {
@@ -1469,14 +1461,6 @@
      "wkg": 3.8,
      "date": "2026-11-03",
      "ride": "Bloomington Indoor Cycling"
-    },
-    {
-     "rider": "Will",
-     "duration": "20 min",
-     "watts": 233,
-     "wkg": 3.0,
-     "date": "2026-09-30",
-     "ride": "Bloomington Road Cycling"
     }
    ],
    "weeks": [
@@ -2011,10 +1995,10 @@
    "p1m_pr": true,
    "p3m": 293,
    "p3m_pr": true,
-   "p12m": 231,
+   "p12m": 228,
    "p12m_pr": false,
-   "p20m": 233,
-   "p20m_pr": true
+   "p20m": 190,
+   "p20m_pr": false
   },
   {
    "id": "i793832",
@@ -2582,16 +2566,7 @@
    "form": -16,
    "eftp_watts": 225,
    "eftp_wkg": 3.31,
-   "prs": [
-    {
-     "rider": "Tin",
-     "duration": "5 s",
-     "watts": 841,
-     "wkg": 12.4,
-     "date": "2026-09-30",
-     "ride": "Bloomington Road Cycling"
-    }
-   ],
+   "prs": [],
    "weeks": [
     {
      "week": "2026-10-05",
@@ -3118,15 +3093,15 @@
      "load": 57
     }
    ],
-   "p5s": 841,
-   "p5s_pr": true,
-   "p1m": 425,
+   "p5s": 729,
+   "p5s_pr": false,
+   "p1m": 412,
    "p1m_pr": false,
    "p3m": 284,
    "p3m_pr": false,
-   "p12m": 209,
+   "p12m": 198,
    "p12m_pr": false,
-   "p20m": 204,
+   "p20m": 192,
    "p20m_pr": false
   }
  ],
