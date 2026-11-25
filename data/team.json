@@ -1,6 +1,6 @@
 {
- "updated": "Tue Nov 24, 11:08 PM",
- "today": "2026-11-24",
+ "updated": "Wed Nov 25, 1:03 AM",
+ "today": "2026-11-25",
  "riders": [
   {
    "id": "i285485",
@@ -12,8 +12,8 @@
    "hours_month": 28.4,
    "hours_ytd": 365.8,
    "miles_ytd": 5178,
-   "fitness": 52,
-   "form": -2,
+   "fitness": 51,
+   "form": 4,
    "eftp_watts": 292,
    "eftp_wkg": 3.62,
    "prs": [
@@ -93,12 +93,6 @@
     }
    ],
    "trend": [
-    {
-     "date": "2026-09-30",
-     "fitness": 53.7,
-     "fatigue": 52.4,
-     "form": 1.3
-    },
     {
      "date": "2026-10-01",
      "fitness": 52.4,
@@ -428,6 +422,12 @@
      "fitness": 51.9,
      "fatigue": 54.1,
      "form": -2.3
+    },
+    {
+     "date": "2026-11-25",
+     "fitness": 50.7,
+     "fatigue": 46.9,
+     "form": 3.7
     }
    ],
    "recent_rides": [
@@ -544,14 +544,6 @@
    ],
    "planned": [
     {
-     "date": "2026-11-24",
-     "category": "WORKOUT",
-     "name": "Threshold 4×8",
-     "type": "Ride",
-     "minutes": 73,
-     "load": 82
-    },
-    {
      "date": "2026-11-26",
      "category": "WORKOUT",
      "name": "VO2max 4×4",
@@ -590,7 +582,7 @@
    "hours_ytd": 2.0,
    "miles_ytd": 5,
    "fitness": 4,
-   "form": -12,
+   "form": -10,
    "eftp_watts": 179,
    "eftp_wkg": 2.32,
    "prs": [
@@ -775,6 +767,12 @@
      "fitness": 3.6,
      "fatigue": 15.2,
      "form": -11.6
+    },
+    {
+     "date": "2026-11-25",
+     "fitness": 3.5,
+     "fatigue": 13.2,
+     "form": -9.7
     }
    ],
    "recent_rides": [
@@ -836,14 +834,6 @@
    ],
    "planned": [
     {
-     "date": "2026-11-24",
-     "category": "WORKOUT",
-     "name": "Threshold 4×8",
-     "type": "Ride",
-     "minutes": 73,
-     "load": 82
-    },
-    {
      "date": "2026-11-26",
      "category": "WORKOUT",
      "name": "VO2max 4×4",
@@ -882,7 +872,7 @@
    "hours_ytd": 0.0,
    "miles_ytd": 0,
    "fitness": 2,
-   "form": -9,
+   "form": -8,
    "eftp_watts": null,
    "eftp_wkg": null,
    "prs": [],
@@ -937,12 +927,6 @@
     }
    ],
    "trend": [
-    {
-     "date": "2026-09-30",
-     "fitness": 0.0,
-     "fatigue": 0,
-     "form": 0.0
-    },
     {
      "date": "2026-10-01",
      "fitness": 0.0,
@@ -1272,18 +1256,16 @@
      "fitness": 1.9,
      "fatigue": 10.9,
      "form": -9.0
+    },
+    {
+     "date": "2026-11-25",
+     "fitness": 1.9,
+     "fatigue": 9.5,
+     "form": -7.6
     }
    ],
    "recent_rides": [],
    "planned": [
-    {
-     "date": "2026-11-24",
-     "category": "WORKOUT",
-     "name": "Threshold 4×8",
-     "type": "Ride",
-     "minutes": 73,
-     "load": 82
-    },
     {
      "date": "2026-11-26",
      "category": "WORKOUT",
@@ -1383,18 +1365,16 @@
      "fitness": 0.0,
      "fatigue": 0,
      "form": 0.0
+    },
+    {
+     "date": "2026-11-25",
+     "fitness": 0.0,
+     "fatigue": 0,
+     "form": 0.0
     }
    ],
    "recent_rides": [],
    "planned": [
-    {
-     "date": "2026-11-24",
-     "category": "WORKOUT",
-     "name": "Threshold 4×8",
-     "type": "Ride",
-     "minutes": 73,
-     "load": 81
-    },
     {
      "date": "2026-11-26",
      "category": "WORKOUT",
@@ -1433,8 +1413,8 @@
    "hours_month": 10.5,
    "hours_ytd": 82.3,
    "miles_ytd": 1074,
-   "fitness": 29,
-   "form": 1,
+   "fitness": 28,
+   "form": 4,
    "eftp_watts": 220,
    "eftp_wkg": 2.86,
    "prs": [
@@ -1514,12 +1494,6 @@
     }
    ],
    "trend": [
-    {
-     "date": "2026-09-30",
-     "fitness": 22.1,
-     "fatigue": 51.6,
-     "form": -29.5
-    },
     {
      "date": "2026-10-01",
      "fitness": 21.6,
@@ -1849,6 +1823,12 @@
      "fitness": 29.2,
      "fatigue": 28.2,
      "form": 1.0
+    },
+    {
+     "date": "2026-11-25",
+     "fitness": 28.5,
+     "fatigue": 24.5,
+     "form": 4.0
     }
    ],
    "recent_rides": [
@@ -1965,14 +1945,6 @@
    ],
    "planned": [
     {
-     "date": "2026-11-24",
-     "category": "WORKOUT",
-     "name": "Threshold 4×8",
-     "type": "Ride",
-     "minutes": 73,
-     "load": 81
-    },
-    {
      "date": "2026-11-26",
      "category": "WORKOUT",
      "name": "VO2max 4×4",
@@ -2011,7 +1983,7 @@
    "hours_ytd": 179.6,
    "miles_ytd": 2510,
    "fitness": 5,
-   "form": -6,
+   "form": -5,
    "eftp_watts": null,
    "eftp_wkg": null,
    "prs": [],
@@ -2066,12 +2038,6 @@
     }
    ],
    "trend": [
-    {
-     "date": "2026-09-30",
-     "fitness": 0.9,
-     "fatigue": 0.0,
-     "form": 0.9
-    },
     {
      "date": "2026-10-01",
      "fitness": 0.8,
@@ -2401,6 +2367,12 @@
      "fitness": 5.3,
      "fatigue": 11.2,
      "form": -5.9
+    },
+    {
+     "date": "2026-11-25",
+     "fitness": 5.2,
+     "fatigue": 9.7,
+     "form": -4.6
     }
    ],
    "recent_rides": [
@@ -2517,14 +2489,6 @@
    ],
    "planned": [
     {
-     "date": "2026-11-24",
-     "category": "WORKOUT",
-     "name": "Threshold 4×8",
-     "type": "Ride",
-     "minutes": 73,
-     "load": 82
-    },
-    {
      "date": "2026-11-26",
      "category": "WORKOUT",
      "name": "VO2max 4×4",
@@ -2562,8 +2526,8 @@
    "hours_month": 12.4,
    "hours_ytd": 181.0,
    "miles_ytd": 2615,
-   "fitness": 41,
-   "form": -16,
+   "fitness": 40,
+   "form": -9,
    "eftp_watts": 225,
    "eftp_wkg": 3.31,
    "prs": [],
@@ -2618,12 +2582,6 @@
     }
    ],
    "trend": [
-    {
-     "date": "2026-09-30",
-     "fitness": 35.7,
-     "fatigue": 42.0,
-     "form": -6.3
-    },
     {
      "date": "2026-10-01",
      "fitness": 34.8,
@@ -2953,6 +2911,12 @@
      "fitness": 40.7,
      "fatigue": 56.4,
      "form": -15.6
+    },
+    {
+     "date": "2026-11-25",
+     "fitness": 39.8,
+     "fatigue": 48.9,
+     "form": -9.1
     }
    ],
    "recent_rides": [
@@ -3068,14 +3032,6 @@
     }
    ],
    "planned": [
-    {
-     "date": "2026-11-24",
-     "category": "WORKOUT",
-     "name": "Threshold 4×8",
-     "type": "Ride",
-     "minutes": 73,
-     "load": 81
-    },
     {
      "date": "2026-11-26",
      "category": "WORKOUT",
@@ -3355,26 +3311,6 @@
    "hours": 0.2,
    "miles": null,
    "load": 2
-  },
-  {
-   "rider": "Tin",
-   "start": "2026-11-11T23:27:39",
-   "date": "2026-11-11",
-   "name": "Indoor Cycling",
-   "type": "VirtualRide",
-   "hours": 0.8,
-   "miles": null,
-   "load": 40
-  },
-  {
-   "rider": "Will",
-   "start": "2026-11-11T13:24:49",
-   "date": "2026-11-11",
-   "name": "Strength",
-   "type": "WeightTraining",
-   "hours": 1.7,
-   "miles": null,
-   "load": 6
   }
  ]
 }
