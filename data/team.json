@@ -1,5 +1,5 @@
 {
- "updated": "Wed Nov 25, 1:55 PM",
+ "updated": "Wed Nov 25, 2:59 PM",
  "today": "2026-11-25",
  "riders": [
   {
@@ -7,10 +7,10 @@
    "rider": "Kyle",
    "state": "ok",
    "hidden_strava": 20,
-   "hours_this_week": 0.8,
+   "hours_this_week": 2.8,
    "hours_last_week": 7.7,
-   "hours_month": 28.4,
-   "hours_ytd": 365.8,
+   "hours_month": 30.4,
+   "hours_ytd": 367.8,
    "miles_ytd": 5178,
    "fitness": 52,
    "form": -2,
@@ -87,9 +87,9 @@
     },
     {
      "week": "2026-11-23",
-     "hours": 0.8,
+     "hours": 2.8,
      "miles": 6,
-     "rides": 1
+     "rides": 2
     }
    ],
    "trend": [
@@ -425,12 +425,23 @@
     },
     {
      "date": "2026-11-25",
-     "fitness": 51.5,
-     "fatigue": 53.0,
-     "form": -1.5
+     "fitness": 51.7,
+     "fatigue": 53.8,
+     "form": -2.2
     }
    ],
    "recent_rides": [
+    {
+     "start": "2026-11-25T12:04:08",
+     "date": "2026-11-25",
+     "name": "Sweet Spot 3×15",
+     "type": "VirtualRide",
+     "hours": 2.0,
+     "miles": null,
+     "avg_watts": 210,
+     "np": 223,
+     "load": 123
+    },
     {
      "start": "2026-11-24T15:01:17",
      "date": "2026-11-24",
@@ -529,17 +540,6 @@
      "avg_watts": 180,
      "np": 192,
      "load": 119
-    },
-    {
-     "start": "2026-11-10T12:05:11",
-     "date": "2026-11-10",
-     "name": "Flow State",
-     "type": "Ride",
-     "hours": 1.5,
-     "miles": 26.1,
-     "avg_watts": 179,
-     "np": 188,
-     "load": 61
     }
    ],
    "planned": [
@@ -3150,6 +3150,16 @@
   }
  ],
  "feed": [
+  {
+   "rider": "Kyle",
+   "start": "2026-11-25T12:04:08",
+   "date": "2026-11-25",
+   "name": "Sweet Spot 3×15",
+   "type": "VirtualRide",
+   "hours": 2.0,
+   "miles": null,
+   "load": 123
+  },
   {
    "rider": "Kyle",
    "start": "2026-11-24T15:01:17",
