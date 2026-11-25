@@ -1,5 +1,5 @@
 {
- "updated": "Wed Nov 25, 8:29 AM",
+ "updated": "Wed Nov 25, 10:10 AM",
  "today": "2026-11-25",
  "riders": [
   {
@@ -12,8 +12,8 @@
    "hours_month": 28.4,
    "hours_ytd": 365.8,
    "miles_ytd": 5178,
-   "fitness": 51,
-   "form": 4,
+   "fitness": 52,
+   "form": -2,
    "eftp_watts": 292,
    "eftp_wkg": 3.62,
    "prs": [
@@ -419,15 +419,15 @@
     },
     {
      "date": "2026-11-24",
-     "fitness": 51.9,
-     "fatigue": 54.1,
-     "form": -2.3
+     "fitness": 50.0,
+     "fatigue": 43.2,
+     "form": 6.7
     },
     {
      "date": "2026-11-25",
-     "fitness": 50.7,
-     "fatigue": 46.9,
-     "form": 3.7
+     "fitness": 51.6,
+     "fatigue": 53.3,
+     "form": -1.7
     }
    ],
    "recent_rides": [
@@ -543,6 +543,14 @@
     }
    ],
    "planned": [
+    {
+     "date": "2026-11-25",
+     "category": "WORKOUT",
+     "name": "Sweet Spot 3×15",
+     "type": "Ride",
+     "minutes": 120,
+     "load": 119
+    },
     {
      "date": "2026-11-26",
      "category": "WORKOUT",
