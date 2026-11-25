@@ -1,5 +1,5 @@
 {
- "updated": "Wed Nov 25, 3:59 PM",
+ "updated": "Wed Nov 25, 4:59 PM",
  "today": "2026-11-25",
  "riders": [
   {
@@ -2615,7 +2615,7 @@
    "hours_ytd": 181.0,
    "miles_ytd": 2615,
    "fitness": 40,
-   "form": -9,
+   "form": -12,
    "eftp_watts": 225,
    "eftp_wkg": 3.31,
    "prs": [],
@@ -2996,15 +2996,15 @@
     },
     {
      "date": "2026-11-24",
-     "fitness": 40.7,
-     "fatigue": 56.4,
-     "form": -15.6
+     "fitness": 38.8,
+     "fatigue": 45.6,
+     "form": -6.7
     },
     {
      "date": "2026-11-25",
-     "fitness": 39.8,
-     "fatigue": 48.9,
-     "form": -9.1
+     "fitness": 40.1,
+     "fatigue": 51.6,
+     "form": -11.6
     }
    ],
    "recent_rides": [
@@ -3121,20 +3121,108 @@
    ],
    "planned": [
     {
+     "date": "2026-11-25",
+     "category": "WORKOUT",
+     "name": "Trek Peoria",
+     "type": "Ride",
+     "minutes": 90,
+     "load": 91
+    },
+    {
      "date": "2026-11-26",
      "category": "WORKOUT",
-     "name": "VO2max 4×4",
+     "name": "Recovery Spin",
      "type": "Ride",
-     "minutes": 53,
-     "load": 68
+     "minutes": 75,
+     "load": 31
+    },
+    {
+     "date": "2026-11-26",
+     "category": "WORKOUT",
+     "name": "Mobility — 6 min",
+     "type": "Workout",
+     "minutes": 6,
+     "load": null
+    },
+    {
+     "date": "2026-11-27",
+     "category": "WORKOUT",
+     "name": "Endurance + 6 Sprints",
+     "type": "Ride",
+     "minutes": 119,
+     "load": 91
+    },
+    {
+     "date": "2026-11-27",
+     "category": "WORKOUT",
+     "name": "Mobility — 6 min",
+     "type": "Workout",
+     "minutes": 6,
+     "load": null
     },
     {
      "date": "2026-11-28",
      "category": "WORKOUT",
-     "name": "Tempo 2×15",
+     "name": "Long Endurance",
      "type": "Ride",
-     "minutes": 65,
-     "load": 57
+     "minutes": 180,
+     "load": 132
+    },
+    {
+     "date": "2026-11-28",
+     "category": "WORKOUT",
+     "name": "Mobility — 6 min",
+     "type": "Workout",
+     "minutes": 6,
+     "load": null
+    },
+    {
+     "date": "2026-11-29",
+     "category": "WORKOUT",
+     "name": "Long Endurance",
+     "type": "Ride",
+     "minutes": 150,
+     "load": 110
+    },
+    {
+     "date": "2026-11-29",
+     "category": "WORKOUT",
+     "name": "Strength — Anatomical Adaptation A",
+     "type": "WeightTraining",
+     "minutes": 45,
+     "load": null
+    },
+    {
+     "date": "2026-11-30",
+     "category": "WORKOUT",
+     "name": "Recovery Spin",
+     "type": "Ride",
+     "minutes": 75,
+     "load": 31
+    },
+    {
+     "date": "2026-11-30",
+     "category": "WORKOUT",
+     "name": "Mobility — 5 min",
+     "type": "Workout",
+     "minutes": 5,
+     "load": null
+    },
+    {
+     "date": "2026-12-01",
+     "category": "WORKOUT",
+     "name": "Endurance",
+     "type": "Ride",
+     "minutes": 90,
+     "load": 65
+    },
+    {
+     "date": "2026-12-01",
+     "category": "WORKOUT",
+     "name": "Strength — Anatomical Adaptation B",
+     "type": "WeightTraining",
+     "minutes": 45,
+     "load": null
     }
    ],
    "p5s": 729,
