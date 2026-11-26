@@ -1,5 +1,5 @@
 {
- "updated": "Wed Nov 25, 8:17 PM",
+ "updated": "Wed Nov 25, 9:58 PM",
  "today": "2026-11-25",
  "riders": [
   {
@@ -594,7 +594,7 @@
     {
      "date": "2026-11-28",
      "category": "WORKOUT",
-     "name": "Strength — Max Strength B",
+     "name": "Strength — Max Strength A",
      "type": "WeightTraining",
      "minutes": 50,
      "load": null
@@ -626,9 +626,17 @@
     {
      "date": "2026-11-30",
      "category": "WORKOUT",
-     "name": "Mobility — 6 min",
-     "type": "Workout",
-     "minutes": 6,
+     "name": "Strength — Max Strength B",
+     "type": "WeightTraining",
+     "minutes": 50,
+     "load": null
+    },
+    {
+     "date": "2026-11-30",
+     "category": "WORKOUT",
+     "name": "Strength — Max Strength B",
+     "type": "WeightTraining",
+     "minutes": 50,
      "load": null
     },
     {
