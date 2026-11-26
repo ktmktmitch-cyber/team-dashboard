@@ -1,5 +1,5 @@
 {
- "updated": "Thu Nov 26, 7:04 AM",
+ "updated": "Thu Nov 26, 8:26 AM",
  "today": "2026-11-26",
  "riders": [
   {
@@ -7,13 +7,13 @@
    "rider": "Kyle",
    "state": "ok",
    "hidden_strava": 20,
-   "hours_this_week": 2.8,
+   "hours_this_week": 3.6,
    "hours_last_week": 7.7,
-   "hours_month": 30.4,
-   "hours_ytd": 367.8,
-   "miles_ytd": 5178,
+   "hours_month": 31.2,
+   "hours_ytd": 368.6,
+   "miles_ytd": 5184,
    "fitness": 51,
-   "form": -1,
+   "form": 1,
    "eftp_watts": 292,
    "eftp_wkg": 3.62,
    "prs": [
@@ -87,9 +87,9 @@
     },
     {
      "week": "2026-11-23",
-     "hours": 2.8,
-     "miles": 6,
-     "rides": 2
+     "hours": 3.6,
+     "miles": 12,
+     "rides": 3
     }
    ],
    "trend": [
@@ -425,12 +425,23 @@
     },
     {
      "date": "2026-11-26",
-     "fitness": 51.5,
-     "fatigue": 52.3,
-     "form": -0.8
+     "fitness": 51.1,
+     "fatigue": 50.3,
+     "form": 0.8
     }
    ],
    "recent_rides": [
+    {
+     "start": "2026-11-26T07:29:42",
+     "date": "2026-11-26",
+     "name": "Thanksgiving Spaghetti",
+     "type": "MountainBikeRide",
+     "hours": 0.8,
+     "miles": 5.9,
+     "avg_watts": null,
+     "np": null,
+     "load": 27
+    },
     {
      "start": "2026-11-25T12:04:08",
      "date": "2026-11-25",
@@ -529,17 +540,6 @@
      "avg_watts": 176,
      "np": 196,
      "load": 10
-    },
-    {
-     "start": "2026-11-13T16:56:35",
-     "date": "2026-11-13",
-     "name": "Indoor Cycling",
-     "type": "VirtualRide",
-     "hours": 2.0,
-     "miles": null,
-     "avg_watts": 180,
-     "np": 192,
-     "load": 119
     }
    ],
    "planned": [
@@ -586,10 +586,10 @@
     {
      "date": "2026-11-29",
      "category": "WORKOUT",
-     "name": "Endurance",
+     "name": "Recovery Spin",
      "type": "Ride",
-     "minutes": 120,
-     "load": 87
+     "minutes": 60,
+     "load": 25
     },
     {
      "date": "2026-11-29",
@@ -626,10 +626,10 @@
     {
      "date": "2026-12-01",
      "category": "WORKOUT",
-     "name": "Endurance",
+     "name": "Sweet Spot 3×15",
      "type": "Ride",
      "minutes": 120,
-     "load": 87
+     "load": 117
     },
     {
      "date": "2026-12-01",
@@ -637,6 +637,14 @@
      "name": "Mobility — 6 min",
      "type": "Workout",
      "minutes": 6,
+     "load": null
+    },
+    {
+     "date": "2026-12-02",
+     "category": "WORKOUT",
+     "name": "Mobility — 9 min",
+     "type": "Workout",
+     "minutes": 9,
      "load": null
     }
    ],
@@ -3234,6 +3242,16 @@
   }
  ],
  "feed": [
+  {
+   "rider": "Kyle",
+   "start": "2026-11-26T07:29:42",
+   "date": "2026-11-26",
+   "name": "Thanksgiving Spaghetti",
+   "type": "MountainBikeRide",
+   "hours": 0.8,
+   "miles": 5.9,
+   "load": 27
+  },
   {
    "rider": "Tin",
    "start": "2026-11-25T15:22:39",
