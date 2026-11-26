@@ -1,6 +1,6 @@
 {
- "updated": "Wed Nov 25, 11:04 PM",
- "today": "2026-11-25",
+ "updated": "Thu Nov 26, 12:16 AM",
+ "today": "2026-11-26",
  "riders": [
   {
    "id": "i285485",
@@ -12,8 +12,8 @@
    "hours_month": 30.4,
    "hours_ytd": 367.8,
    "miles_ytd": 5178,
-   "fitness": 52,
-   "form": -2,
+   "fitness": 51,
+   "form": -1,
    "eftp_watts": 292,
    "eftp_wkg": 3.62,
    "prs": [
@@ -93,12 +93,6 @@
     }
    ],
    "trend": [
-    {
-     "date": "2026-10-01",
-     "fitness": 52.4,
-     "fatigue": 46.9,
-     "form": 5.5
-    },
     {
      "date": "2026-10-02",
      "fitness": 51.2,
@@ -428,6 +422,12 @@
      "fitness": 51.7,
      "fatigue": 53.8,
      "form": -2.2
+    },
+    {
+     "date": "2026-11-26",
+     "fitness": 51.5,
+     "fatigue": 52.3,
+     "form": -0.8
     }
    ],
    "recent_rides": [
@@ -543,22 +543,6 @@
     }
    ],
    "planned": [
-    {
-     "date": "2026-11-25",
-     "category": "WORKOUT",
-     "name": "Sweet Spot 3×15",
-     "type": "Ride",
-     "minutes": 120,
-     "load": 117
-    },
-    {
-     "date": "2026-11-25",
-     "category": "WORKOUT",
-     "name": "Strength — Max Strength A",
-     "type": "WeightTraining",
-     "minutes": 50,
-     "load": null
-    },
     {
      "date": "2026-11-26",
      "category": "WORKOUT",
@@ -677,8 +661,8 @@
    "hours_month": 2.0,
    "hours_ytd": 2.0,
    "miles_ytd": 5,
-   "fitness": 2,
-   "form": -2,
+   "fitness": 3,
+   "form": -9,
    "eftp_watts": 179,
    "eftp_wkg": 2.32,
    "prs": [
@@ -869,6 +853,12 @@
      "fitness": 1.7,
      "fatigue": 3.7,
      "form": -2.1
+    },
+    {
+     "date": "2026-11-26",
+     "fitness": 3.2,
+     "fatigue": 12.3,
+     "form": -9.1
     }
    ],
    "recent_rides": [
@@ -967,8 +957,8 @@
    "hours_month": 0.0,
    "hours_ytd": 0.0,
    "miles_ytd": 0,
-   "fitness": 0,
-   "form": 0,
+   "fitness": 2,
+   "form": -7,
    "eftp_watts": null,
    "eftp_wkg": null,
    "prs": [],
@@ -1023,12 +1013,6 @@
     }
    ],
    "trend": [
-    {
-     "date": "2026-10-01",
-     "fitness": 0.0,
-     "fatigue": 0,
-     "form": 0.0
-    },
     {
      "date": "2026-10-02",
      "fitness": 0.0,
@@ -1358,6 +1342,12 @@
      "fitness": 0.0,
      "fatigue": 0,
      "form": 0.0
+    },
+    {
+     "date": "2026-11-26",
+     "fitness": 1.6,
+     "fatigue": 9.1,
+     "form": -7.5
     }
    ],
    "recent_rides": [],
@@ -1400,8 +1390,8 @@
    "hours_month": 0.0,
    "hours_ytd": 0.0,
    "miles_ytd": 0,
-   "fitness": 0,
-   "form": 0,
+   "fitness": 2,
+   "form": -7,
    "eftp_watts": null,
    "eftp_wkg": null,
    "prs": [],
@@ -1467,6 +1457,12 @@
      "fitness": 0.0,
      "fatigue": 0,
      "form": 0.0
+    },
+    {
+     "date": "2026-11-26",
+     "fitness": 1.6,
+     "fatigue": 8.9,
+     "form": -7.3
     }
    ],
    "recent_rides": [],
@@ -1509,8 +1505,8 @@
    "hours_month": 10.5,
    "hours_ytd": 82.3,
    "miles_ytd": 1074,
-   "fitness": 27,
-   "form": 12,
+   "fitness": 28,
+   "form": 5,
    "eftp_watts": 220,
    "eftp_wkg": 2.86,
    "prs": [
@@ -1590,12 +1586,6 @@
     }
    ],
    "trend": [
-    {
-     "date": "2026-10-01",
-     "fitness": 21.6,
-     "fatigue": 44.7,
-     "form": -23.1
-    },
     {
      "date": "2026-10-02",
      "fitness": 21.1,
@@ -1925,6 +1915,12 @@
      "fitness": 26.6,
      "fatigue": 15.1,
      "form": 11.5
+    },
+    {
+     "date": "2026-11-26",
+     "fitness": 27.6,
+     "fatigue": 22.2,
+     "form": 5.4
     }
    ],
    "recent_rides": [
@@ -2078,8 +2074,8 @@
    "hours_month": 0.0,
    "hours_ytd": 179.6,
    "miles_ytd": 2510,
-   "fitness": 3,
-   "form": 3,
+   "fitness": 5,
+   "form": -4,
    "eftp_watts": null,
    "eftp_wkg": null,
    "prs": [],
@@ -2134,12 +2130,6 @@
     }
    ],
    "trend": [
-    {
-     "date": "2026-10-01",
-     "fitness": 0.8,
-     "fatigue": 0.0,
-     "form": 0.8
-    },
     {
      "date": "2026-10-02",
      "fitness": 0.8,
@@ -2469,6 +2459,12 @@
      "fitness": 3.3,
      "fatigue": 0.3,
      "form": 3.0
+    },
+    {
+     "date": "2026-11-26",
+     "fitness": 4.8,
+     "fatigue": 9.3,
+     "form": -4.5
     }
    ],
    "recent_rides": [
@@ -2622,8 +2618,8 @@
    "hours_month": 14.4,
    "hours_ytd": 183.0,
    "miles_ytd": 2615,
-   "fitness": 40,
-   "form": -10,
+   "fitness": 39,
+   "form": -8,
    "eftp_watts": 225,
    "eftp_wkg": 3.31,
    "prs": [],
@@ -2678,12 +2674,6 @@
     }
    ],
    "trend": [
-    {
-     "date": "2026-10-01",
-     "fitness": 34.8,
-     "fatigue": 36.4,
-     "form": -1.5
-    },
     {
      "date": "2026-10-02",
      "fitness": 36.7,
@@ -3013,6 +3003,12 @@
      "fitness": 39.7,
      "fatigue": 49.5,
      "form": -9.8
+    },
+    {
+     "date": "2026-11-26",
+     "fitness": 39.5,
+     "fatigue": 47.0,
+     "form": -7.5
     }
    ],
    "recent_rides": [
@@ -3129,14 +3125,6 @@
    ],
    "planned": [
     {
-     "date": "2026-11-25",
-     "category": "WORKOUT",
-     "name": "Trek Peoria",
-     "type": "Ride",
-     "minutes": 90,
-     "load": 91
-    },
-    {
      "date": "2026-11-26",
      "category": "WORKOUT",
      "name": "Recovery Spin",
@@ -3158,7 +3146,7 @@
      "name": "Endurance + 6 Sprints",
      "type": "Ride",
      "minutes": 119,
-     "load": 91
+     "load": 90
     },
     {
      "date": "2026-11-27",
@@ -3221,8 +3209,8 @@
      "category": "WORKOUT",
      "name": "Endurance",
      "type": "Ride",
-     "minutes": 90,
-     "load": 65
+     "minutes": 75,
+     "load": 54
     },
     {
      "date": "2026-12-01",
@@ -3495,26 +3483,6 @@
    "hours": 0.8,
    "miles": null,
    "load": 42
-  },
-  {
-   "rider": "Carmelo",
-   "start": "2026-11-12T18:16:43",
-   "date": "2026-11-12",
-   "name": "Indoor Cycling",
-   "type": "VirtualRide",
-   "hours": 0.5,
-   "miles": null,
-   "load": 27
-  },
-  {
-   "rider": "Carmelo",
-   "start": "2026-11-12T17:21:41",
-   "date": "2026-11-12",
-   "name": "Cardio",
-   "type": "Workout",
-   "hours": 0.2,
-   "miles": null,
-   "load": 2
   }
  ]
 }
