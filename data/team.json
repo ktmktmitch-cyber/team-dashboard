@@ -1,5 +1,5 @@
 {
- "updated": "Thu Nov 26, 2:02 PM",
+ "updated": "Thu Nov 26, 3:09 PM",
  "today": "2026-11-26",
  "riders": [
   {
@@ -2627,7 +2627,7 @@
    "hours_ytd": 183.0,
    "miles_ytd": 2615,
    "fitness": 39,
-   "form": -8,
+   "form": -4,
    "eftp_watts": 225,
    "eftp_wkg": 3.31,
    "prs": [],
@@ -3014,9 +3014,9 @@
     },
     {
      "date": "2026-11-26",
-     "fitness": 39.5,
-     "fatigue": 47.0,
-     "form": -7.5
+     "fitness": 38.8,
+     "fatigue": 42.9,
+     "form": -4.1
     }
    ],
    "recent_rides": [
@@ -3135,17 +3135,9 @@
     {
      "date": "2026-11-26",
      "category": "WORKOUT",
-     "name": "Recovery Spin",
-     "type": "Ride",
-     "minutes": 75,
-     "load": 31
-    },
-    {
-     "date": "2026-11-26",
-     "category": "WORKOUT",
-     "name": "Mobility — 6 min",
+     "name": "Mobility — 10 min",
      "type": "Workout",
-     "minutes": 6,
+     "minutes": 10,
      "load": null
     },
     {
@@ -3191,9 +3183,9 @@
     {
      "date": "2026-11-29",
      "category": "WORKOUT",
-     "name": "Strength — Anatomical Adaptation A",
-     "type": "WeightTraining",
-     "minutes": 45,
+     "name": "Mobility — 6 min",
+     "type": "Workout",
+     "minutes": 6,
      "load": null
     },
     {
@@ -3207,9 +3199,9 @@
     {
      "date": "2026-11-30",
      "category": "WORKOUT",
-     "name": "Mobility — 5 min",
-     "type": "Workout",
-     "minutes": 5,
+     "name": "Strength — Anatomical Adaptation A",
+     "type": "WeightTraining",
+     "minutes": 45,
      "load": null
     },
     {
@@ -3222,6 +3214,22 @@
     },
     {
      "date": "2026-12-01",
+     "category": "WORKOUT",
+     "name": "Mobility — 6 min",
+     "type": "Workout",
+     "minutes": 6,
+     "load": null
+    },
+    {
+     "date": "2026-12-02",
+     "category": "WORKOUT",
+     "name": "Sweet Spot 2×10",
+     "type": "Ride",
+     "minutes": 150,
+     "load": 117
+    },
+    {
+     "date": "2026-12-02",
      "category": "WORKOUT",
      "name": "Strength — Anatomical Adaptation B",
      "type": "WeightTraining",
