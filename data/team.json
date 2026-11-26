@@ -1,5 +1,5 @@
 {
- "updated": "Wed Nov 25, 6:53 PM",
+ "updated": "Wed Nov 25, 8:17 PM",
  "today": "2026-11-25",
  "riders": [
   {
@@ -669,8 +669,8 @@
    "hours_month": 2.0,
    "hours_ytd": 2.0,
    "miles_ytd": 5,
-   "fitness": 4,
-   "form": -10,
+   "fitness": 2,
+   "form": -2,
    "eftp_watts": 179,
    "eftp_wkg": 2.32,
    "prs": [
@@ -852,15 +852,15 @@
     },
     {
      "date": "2026-11-24",
-     "fitness": 3.6,
-     "fatigue": 15.2,
-     "form": -11.6
+     "fitness": 1.7,
+     "fatigue": 4.3,
+     "form": -2.6
     },
     {
      "date": "2026-11-25",
-     "fitness": 3.5,
-     "fatigue": 13.2,
-     "form": -9.7
+     "fitness": 1.7,
+     "fatigue": 3.7,
+     "form": -2.1
     }
    ],
    "recent_rides": [
@@ -959,8 +959,8 @@
    "hours_month": 0.0,
    "hours_ytd": 0.0,
    "miles_ytd": 0,
-   "fitness": 2,
-   "form": -8,
+   "fitness": 0,
+   "form": 0,
    "eftp_watts": null,
    "eftp_wkg": null,
    "prs": [],
@@ -1341,15 +1341,15 @@
     },
     {
      "date": "2026-11-24",
-     "fitness": 1.9,
-     "fatigue": 10.9,
-     "form": -9.0
+     "fitness": 0.0,
+     "fatigue": 0,
+     "form": 0.0
     },
     {
      "date": "2026-11-25",
-     "fitness": 1.9,
-     "fatigue": 9.5,
-     "form": -7.6
+     "fitness": 0.0,
+     "fatigue": 0,
+     "form": 0.0
     }
    ],
    "recent_rides": [],
@@ -1501,8 +1501,8 @@
    "hours_month": 10.5,
    "hours_ytd": 82.3,
    "miles_ytd": 1074,
-   "fitness": 28,
-   "form": 4,
+   "fitness": 27,
+   "form": 12,
    "eftp_watts": 220,
    "eftp_wkg": 2.86,
    "prs": [
@@ -1908,15 +1908,15 @@
     },
     {
      "date": "2026-11-24",
-     "fitness": 29.2,
-     "fatigue": 28.2,
-     "form": 1.0
+     "fitness": 27.3,
+     "fatigue": 17.4,
+     "form": 9.8
     },
     {
      "date": "2026-11-25",
-     "fitness": 28.5,
-     "fatigue": 24.5,
-     "form": 4.0
+     "fitness": 26.6,
+     "fatigue": 15.1,
+     "form": 11.5
     }
    ],
    "recent_rides": [
@@ -2070,8 +2070,8 @@
    "hours_month": 0.0,
    "hours_ytd": 179.6,
    "miles_ytd": 2510,
-   "fitness": 5,
-   "form": -5,
+   "fitness": 3,
+   "form": 3,
    "eftp_watts": null,
    "eftp_wkg": null,
    "prs": [],
@@ -2452,15 +2452,15 @@
     },
     {
      "date": "2026-11-24",
-     "fitness": 5.3,
-     "fatigue": 11.2,
-     "form": -5.9
+     "fitness": 3.4,
+     "fatigue": 0.3,
+     "form": 3.1
     },
     {
      "date": "2026-11-25",
-     "fitness": 5.2,
-     "fatigue": 9.7,
-     "form": -4.6
+     "fitness": 3.3,
+     "fatigue": 0.3,
+     "form": 3.0
     }
    ],
    "recent_rides": [
