@@ -1,5 +1,5 @@
 {
- "updated": "Fri Nov 27, 3:02 PM",
+ "updated": "Fri Nov 27, 3:59 PM",
  "today": "2026-11-27",
  "riders": [
   {
@@ -664,13 +664,13 @@
    "rider": "Carmelo",
    "state": "ok",
    "hidden_strava": 0,
-   "hours_this_week": 0.0,
+   "hours_this_week": 0.1,
    "hours_last_week": 0.6,
-   "hours_month": 2.0,
-   "hours_ytd": 2.0,
-   "miles_ytd": 5,
-   "fitness": 3,
-   "form": -8,
+   "hours_month": 2.2,
+   "hours_ytd": 2.2,
+   "miles_ytd": 6,
+   "fitness": 2,
+   "form": -2,
    "eftp_watts": 179,
    "eftp_wkg": 2.32,
    "prs": [
@@ -760,9 +760,9 @@
     },
     {
      "week": "2026-11-23",
-     "hours": 0.0,
-     "miles": 0,
-     "rides": 0
+     "hours": 0.1,
+     "miles": 1,
+     "rides": 1
     }
    ],
    "trend": [
@@ -864,18 +864,29 @@
     },
     {
      "date": "2026-11-26",
-     "fitness": 3.2,
-     "fatigue": 12.3,
-     "form": -9.1
+     "fitness": 1.6,
+     "fatigue": 3.2,
+     "form": -1.6
     },
     {
      "date": "2026-11-27",
-     "fitness": 3.1,
-     "fatigue": 10.7,
-     "form": -7.5
+     "fitness": 1.8,
+     "fatigue": 4.1,
+     "form": -2.3
     }
    ],
    "recent_rides": [
+    {
+     "start": "2026-11-27T13:44:25",
+     "date": "2026-11-27",
+     "name": "St Joseph County Running",
+     "type": "Run",
+     "hours": 0.1,
+     "miles": 1.1,
+     "avg_watts": null,
+     "np": null,
+     "load": 10
+    },
     {
      "start": "2026-11-17T19:17:12",
      "date": "2026-11-17",
@@ -3214,6 +3225,16 @@
   }
  ],
  "feed": [
+  {
+   "rider": "Carmelo",
+   "start": "2026-11-27T13:44:25",
+   "date": "2026-11-27",
+   "name": "St Joseph County Running",
+   "type": "Run",
+   "hours": 0.1,
+   "miles": 1.1,
+   "load": 10
+  },
   {
    "rider": "Kyle",
    "start": "2026-11-26T07:29:42",
