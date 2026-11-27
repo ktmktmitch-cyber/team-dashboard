@@ -1,5 +1,5 @@
 {
- "updated": "Fri Nov 27, 3:59 PM",
+ "updated": "Fri Nov 27, 4:58 PM",
  "today": "2026-11-27",
  "riders": [
   {
@@ -2073,7 +2073,7 @@
    "hours_month": 0.0,
    "hours_ytd": 179.6,
    "miles_ytd": 2510,
-   "fitness": 5,
+   "fitness": 4,
    "form": -3,
    "eftp_watts": null,
    "eftp_wkg": null,
@@ -2455,15 +2455,15 @@
     },
     {
      "date": "2026-11-26",
-     "fitness": 4.8,
-     "fatigue": 9.3,
-     "form": -4.5
+     "fitness": 3.2,
+     "fatigue": 0.2,
+     "form": 3.0
     },
     {
      "date": "2026-11-27",
-     "fitness": 4.7,
-     "fatigue": 8.0,
-     "form": -3.3
+     "fitness": 4.4,
+     "fatigue": 7.3,
+     "form": -2.9
     }
    ],
    "recent_rides": [
@@ -2580,12 +2580,100 @@
    ],
    "planned": [
     {
+     "date": "2026-11-27",
+     "category": "WORKOUT",
+     "name": "Mobility — 6 min",
+     "type": "Workout",
+     "minutes": 6,
+     "load": null
+    },
+    {
+     "date": "2026-11-27",
+     "category": "WORKOUT",
+     "name": "Endurance + 6 Sprints",
+     "type": "Ride",
+     "minutes": 69,
+     "load": 53
+    },
+    {
      "date": "2026-11-28",
      "category": "WORKOUT",
      "name": "Tempo 2×15",
      "type": "Ride",
      "minutes": 65,
      "load": 58
+    },
+    {
+     "date": "2026-11-28",
+     "category": "WORKOUT",
+     "name": "Strength — Anatomical Adaptation A",
+     "type": "WeightTraining",
+     "minutes": 45,
+     "load": null
+    },
+    {
+     "date": "2026-11-29",
+     "category": "WORKOUT",
+     "name": "Mobility — 6 min",
+     "type": "Workout",
+     "minutes": 6,
+     "load": null
+    },
+    {
+     "date": "2026-11-29",
+     "category": "WORKOUT",
+     "name": "Endurance",
+     "type": "Ride",
+     "minutes": 115,
+     "load": 85
+    },
+    {
+     "date": "2026-11-30",
+     "category": "WORKOUT",
+     "name": "Mobility — 9 min",
+     "type": "Workout",
+     "minutes": 9,
+     "load": null
+    },
+    {
+     "date": "2026-12-01",
+     "category": "WORKOUT",
+     "name": "Sweet Spot 2×10",
+     "type": "Ride",
+     "minutes": 75,
+     "load": 67
+    },
+    {
+     "date": "2026-12-01",
+     "category": "WORKOUT",
+     "name": "Strength — Anatomical Adaptation B",
+     "type": "WeightTraining",
+     "minutes": 45,
+     "load": null
+    },
+    {
+     "date": "2026-12-02",
+     "category": "WORKOUT",
+     "name": "Mobility — 10 min",
+     "type": "Workout",
+     "minutes": 10,
+     "load": null
+    },
+    {
+     "date": "2026-12-03",
+     "category": "WORKOUT",
+     "name": "Mobility — 6 min",
+     "type": "Workout",
+     "minutes": 6,
+     "load": null
+    },
+    {
+     "date": "2026-12-03",
+     "category": "WORKOUT",
+     "name": "Endurance",
+     "type": "Ride",
+     "minutes": 55,
+     "load": 39
     }
    ],
    "p5s": null,
