@@ -1,6 +1,6 @@
 {
- "updated": "Fri Nov 27, 10:59 PM",
- "today": "2026-11-27",
+ "updated": "Sat Nov 28, 12:04 AM",
+ "today": "2026-11-28",
  "riders": [
   {
    "id": "i285485",
@@ -12,8 +12,8 @@
    "hours_month": 31.2,
    "hours_ytd": 368.6,
    "miles_ytd": 5184,
-   "fitness": 50,
-   "form": 6,
+   "fitness": 51,
+   "form": 0,
    "eftp_watts": 292,
    "eftp_wkg": 3.62,
    "prs": [
@@ -93,12 +93,6 @@
     }
    ],
    "trend": [
-    {
-     "date": "2026-10-03",
-     "fitness": 54.0,
-     "fatigue": 57.6,
-     "form": -3.7
-    },
     {
      "date": "2026-10-04",
      "fitness": 55.3,
@@ -428,6 +422,12 @@
      "fitness": 49.9,
      "fatigue": 43.6,
      "form": 6.3
+    },
+    {
+     "date": "2026-11-28",
+     "fitness": 51.0,
+     "fatigue": 50.6,
+     "form": 0.4
     }
    ],
    "recent_rides": [
@@ -543,14 +543,6 @@
     }
    ],
    "planned": [
-    {
-     "date": "2026-11-27",
-     "category": "WORKOUT",
-     "name": "Mobility — 9 min",
-     "type": "Workout",
-     "minutes": 9,
-     "load": null
-    },
     {
      "date": "2026-11-28",
      "category": "WORKOUT",
@@ -669,8 +661,8 @@
    "hours_month": 2.2,
    "hours_ytd": 2.2,
    "miles_ytd": 6,
-   "fitness": 2,
-   "form": -2,
+   "fitness": 3,
+   "form": -8,
    "eftp_watts": 179,
    "eftp_wkg": 2.32,
    "prs": [
@@ -873,6 +865,12 @@
      "fitness": 1.8,
      "fatigue": 4.1,
      "form": -2.3
+    },
+    {
+     "date": "2026-11-28",
+     "fitness": 3.1,
+     "fatigue": 11.3,
+     "form": -8.2
     }
    ],
    "recent_rides": [
@@ -974,8 +972,8 @@
    "hours_month": 0.0,
    "hours_ytd": 0.0,
    "miles_ytd": 0,
-   "fitness": 0,
-   "form": 0,
+   "fitness": 1,
+   "form": -6,
    "eftp_watts": null,
    "eftp_wkg": null,
    "prs": [],
@@ -1030,12 +1028,6 @@
     }
    ],
    "trend": [
-    {
-     "date": "2026-10-03",
-     "fitness": 0.0,
-     "fatigue": 0,
-     "form": 0.0
-    },
     {
      "date": "2026-10-04",
      "fitness": 0.0,
@@ -1365,6 +1357,12 @@
      "fitness": 0.0,
      "fatigue": 0,
      "form": 0.0
+    },
+    {
+     "date": "2026-11-28",
+     "fitness": 1.4,
+     "fatigue": 7.7,
+     "form": -6.4
     }
    ],
    "recent_rides": [],
@@ -1399,8 +1397,8 @@
    "hours_month": 0.0,
    "hours_ytd": 0.0,
    "miles_ytd": 0,
-   "fitness": 0,
-   "form": 0,
+   "fitness": 1,
+   "form": -6,
    "eftp_watts": null,
    "eftp_wkg": null,
    "prs": [],
@@ -1478,6 +1476,12 @@
      "fitness": 0.0,
      "fatigue": 0,
      "form": 0.0
+    },
+    {
+     "date": "2026-11-28",
+     "fitness": 1.4,
+     "fatigue": 7.7,
+     "form": -6.4
     }
    ],
    "recent_rides": [],
@@ -1512,8 +1516,8 @@
    "hours_month": 10.5,
    "hours_ytd": 82.3,
    "miles_ytd": 1074,
-   "fitness": 25,
-   "form": 14,
+   "fitness": 26,
+   "form": 9,
    "eftp_watts": 220,
    "eftp_wkg": 2.86,
    "prs": [
@@ -1593,12 +1597,6 @@
     }
    ],
    "trend": [
-    {
-     "date": "2026-10-03",
-     "fitness": 20.6,
-     "fatigue": 33.6,
-     "form": -13.0
-    },
     {
      "date": "2026-10-04",
      "fitness": 20.1,
@@ -1928,6 +1926,12 @@
      "fitness": 25.4,
      "fatigue": 11.4,
      "form": 14.0
+    },
+    {
+     "date": "2026-11-28",
+     "fitness": 26.2,
+     "fatigue": 17.6,
+     "form": 8.6
     }
    ],
    "recent_rides": [
@@ -2073,8 +2077,8 @@
    "hours_month": 0.0,
    "hours_ytd": 179.6,
    "miles_ytd": 2510,
-   "fitness": 4,
-   "form": -3,
+   "fitness": 6,
+   "form": -8,
    "eftp_watts": null,
    "eftp_wkg": null,
    "prs": [],
@@ -2129,12 +2133,6 @@
     }
    ],
    "trend": [
-    {
-     "date": "2026-10-03",
-     "fitness": 0.8,
-     "fatigue": 0.0,
-     "form": 0.8
-    },
     {
      "date": "2026-10-04",
      "fitness": 0.8,
@@ -2464,6 +2462,12 @@
      "fitness": 4.4,
      "fatigue": 7.3,
      "form": -2.9
+    },
+    {
+     "date": "2026-11-28",
+     "fitness": 5.6,
+     "fatigue": 14.0,
+     "form": -8.4
     }
    ],
    "recent_rides": [
@@ -2580,22 +2584,6 @@
    ],
    "planned": [
     {
-     "date": "2026-11-27",
-     "category": "WORKOUT",
-     "name": "Mobility — 6 min",
-     "type": "Workout",
-     "minutes": 6,
-     "load": null
-    },
-    {
-     "date": "2026-11-27",
-     "category": "WORKOUT",
-     "name": "Endurance + 6 Sprints",
-     "type": "Ride",
-     "minutes": 69,
-     "load": 53
-    },
-    {
      "date": "2026-11-28",
      "category": "WORKOUT",
      "name": "Tempo 2×15",
@@ -2697,8 +2685,8 @@
    "hours_month": 14.4,
    "hours_ytd": 183.0,
    "miles_ytd": 2615,
-   "fitness": 38,
-   "form": 1,
+   "fitness": 43,
+   "form": -22,
    "eftp_watts": 225,
    "eftp_wkg": 3.31,
    "prs": [],
@@ -2753,12 +2741,6 @@
     }
    ],
    "trend": [
-    {
-     "date": "2026-10-03",
-     "fitness": 35.9,
-     "fatigue": 40.7,
-     "form": -4.8
-    },
     {
      "date": "2026-10-04",
      "fitness": 35.0,
@@ -3088,6 +3070,12 @@
      "fitness": 37.8,
      "fatigue": 37.2,
      "form": 0.7
+    },
+    {
+     "date": "2026-11-28",
+     "fitness": 42.7,
+     "fatigue": 64.7,
+     "form": -22.0
     }
    ],
    "recent_rides": [
@@ -3203,14 +3191,6 @@
     }
    ],
    "planned": [
-    {
-     "date": "2026-11-27",
-     "category": "WORKOUT",
-     "name": "Mobility — 9 min",
-     "type": "Workout",
-     "minutes": 9,
-     "load": null
-    },
     {
      "date": "2026-11-28",
      "category": "WORKOUT",
