@@ -1,5 +1,5 @@
 {
- "updated": "Fri Nov 27, 6:55 PM",
+ "updated": "Fri Nov 27, 8:16 PM",
  "today": "2026-11-27",
  "riders": [
   {
@@ -974,8 +974,8 @@
    "hours_month": 0.0,
    "hours_ytd": 0.0,
    "miles_ytd": 0,
-   "fitness": 2,
-   "form": -6,
+   "fitness": 0,
+   "form": 0,
    "eftp_watts": null,
    "eftp_wkg": null,
    "prs": [],
@@ -1356,15 +1356,15 @@
     },
     {
      "date": "2026-11-26",
-     "fitness": 1.6,
-     "fatigue": 9.1,
-     "form": -7.5
+     "fitness": 0.0,
+     "fatigue": 0,
+     "form": 0.0
     },
     {
      "date": "2026-11-27",
-     "fitness": 1.6,
-     "fatigue": 7.8,
-     "form": -6.3
+     "fitness": 0.0,
+     "fatigue": 0,
+     "form": 0.0
     }
    ],
    "recent_rides": [],
@@ -1399,8 +1399,8 @@
    "hours_month": 0.0,
    "hours_ytd": 0.0,
    "miles_ytd": 0,
-   "fitness": 2,
-   "form": -6,
+   "fitness": 0,
+   "form": 0,
    "eftp_watts": null,
    "eftp_wkg": null,
    "prs": [],
@@ -1469,15 +1469,15 @@
     },
     {
      "date": "2026-11-26",
-     "fitness": 1.6,
-     "fatigue": 8.9,
-     "form": -7.3
+     "fitness": 0.0,
+     "fatigue": 0,
+     "form": 0.0
     },
     {
      "date": "2026-11-27",
-     "fitness": 1.5,
-     "fatigue": 7.7,
-     "form": -6.2
+     "fitness": 0.0,
+     "fatigue": 0,
+     "form": 0.0
     }
    ],
    "recent_rides": [],
@@ -1512,8 +1512,8 @@
    "hours_month": 10.5,
    "hours_ytd": 82.3,
    "miles_ytd": 1074,
-   "fitness": 27,
-   "form": 8,
+   "fitness": 25,
+   "form": 14,
    "eftp_watts": 220,
    "eftp_wkg": 2.86,
    "prs": [
@@ -1919,15 +1919,15 @@
     },
     {
      "date": "2026-11-26",
-     "fitness": 27.6,
-     "fatigue": 22.2,
-     "form": 5.4
+     "fitness": 26.0,
+     "fatigue": 13.1,
+     "form": 12.9
     },
     {
      "date": "2026-11-27",
-     "fitness": 27.0,
-     "fatigue": 19.2,
-     "form": 7.7
+     "fitness": 25.4,
+     "fatigue": 11.4,
+     "form": 14.0
     }
    ],
    "recent_rides": [
