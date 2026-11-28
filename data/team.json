@@ -1,5 +1,5 @@
 {
- "updated": "Sat Nov 28, 10:51 AM",
+ "updated": "Sat Nov 28, 11:52 AM",
  "today": "2026-11-28",
  "riders": [
   {
@@ -13,7 +13,7 @@
    "hours_ytd": 368.6,
    "miles_ytd": 5184,
    "fitness": 51,
-   "form": 0,
+   "form": 1,
    "eftp_watts": 292,
    "eftp_wkg": 3.62,
    "prs": [
@@ -425,9 +425,9 @@
     },
     {
      "date": "2026-11-28",
-     "fitness": 51.0,
-     "fatigue": 50.6,
-     "form": 0.4
+     "fitness": 50.9,
+     "fatigue": 49.9,
+     "form": 1.0
     }
    ],
    "recent_rides": [
@@ -549,7 +549,7 @@
      "name": "Tempo 3×20",
      "type": "Ride",
      "minutes": 100,
-     "load": 96
+     "load": 91
     },
     {
      "date": "2026-11-28",
@@ -633,6 +633,22 @@
     },
     {
      "date": "2026-12-03",
+     "category": "WORKOUT",
+     "name": "Mobility — 6 min",
+     "type": "Workout",
+     "minutes": 6,
+     "load": null
+    },
+    {
+     "date": "2026-12-04",
+     "category": "WORKOUT",
+     "name": "Long Endurance",
+     "type": "Ride",
+     "minutes": 150,
+     "load": 110
+    },
+    {
+     "date": "2026-12-04",
      "category": "WORKOUT",
      "name": "Mobility — 6 min",
      "type": "Workout",
